@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+<data>
+	<template name="About Us" id="website.about-us" page="True">
+	   <t t-call="website.layout">
+		   <div class="page-wrapper oe_structure">
+				<div class="banner">
+					<div class="fixed-image section dark-translucent-bg" style="background-image:url('/theme_louma/static/src/images/divers/section-image-8.jpg');">
+						<div class="container">
+						<div class="space-top"></div>
+						<h1>Welcome to Louma</h1>
+						<div class="separator-2"></div>
+						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae sit excepturi, <br class="hidden-xs hidden-sm"></br> hic officiis illo dolore sunt assumenda saepe id commodi sint praesentium <br class="hidden-xs hidden-sm"></br> natus laborum quas cumque facilis, suscipit aliquam dolorum.</p>
+						</div>
+					</div>
+				</div>
+				<div class="page-intro">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<ol class="breadcrumb">
+									<li><i class="fa fa-home pr-10"></i><a href="/">Home</a></li>
+									<li class="active">About Us</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+				<section class="main-container">
+					<div class="container">
+						<div class="row">
+							<div class="main col-md-12">
+								<h1 class="page-title">About Us</h1>
+								<div class="separator-2"></div>
+								<div class="row">
+									<div class="col-md-6">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Suspendisse aliquet imperdiet commodo. Aenean vel lacinia elit. Class aptent taciti sociosqu ad litora torquent per.</p>
+										<p>Sed eget pulvinar quam, vel feugiat enim. Aliquam erat volutpat. Phasellus eu porta ipsum. Suspendisse aliquet imperdiet commodo. Aenean vel lacinia elit. Class aptent taciti sociosqu ad litora torquent per. Vestibulum velmo.</p>
+										<ul class="list-icons">
+											<li class="object-non-visible" data-animation-effect="fadeInUpSmall"><i class="icon-check"></i> Etiam sed dolor ac diam volutpat</li>
+											<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100"><i class="icon-check"></i> Sed eget pulvinar quam, vel feugiat enim aliquam </li>
+											<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="300"><i class="icon-check"></i> Erat volutpat. Phasellus eu porta ipsum suspendisse aliquet imperdiet</li>
+											<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="500"><i class="icon-check"></i> Phasellus eu porta ipsum. Suspendisse aliquet imperdiet commodo</li>
+										</ul>
+									</div>
+									<aside class="sidebar col-md-6">
+										<div class="side vertical-divider-left">
+											<div class="block clearfix">
+												<h3 class="title margin-top-clear">Intro Video</h3>
+												<div class="embed-responsive embed-responsive-16by9">
+													<iframe src='http://player.vimeo.com/video/109335671?title=0&amp;amp;byline=0&amp;amp;portrait=0;api=1'></iframe>
+													<p><a href="http://vimeo.com/29198414">Introducing Vimeo Music Store</a> from <a href="http://vimeo.com/staff">Vimeo Staff</a> on <a href="https://vimeo.com/">Vimeo</a>.</p>
+												</div>
+											</div>
+										</div>
+									</aside>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="section clearfix">
+					<div class="container">
+						<h2>Why Choose Us</h2>
+						<div class="separator-2"></div>
+						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br></br> Perferendis tenetur beatae adipisci atque.</p>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="panel-group" id="accordion">
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+													<i class="fa fa-paint-brush"></i>Beautiful Design
+												</a>
+											</h4>
+										</div>
+										<div id="collapseOne" class="panel-collapse collapse in">
+											<div class="panel-body">
+												Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed">
+													<i class="fa fa-mobile"></i>100% Responsive
+												</a>
+											</h4>
+										</div>
+										<div id="collapseTwo" class="panel-collapse collapse">
+											<div class="panel-body">
+												Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed">
+													<i class="fa fa-shopping-cart"></i>E-Commerce
+												</a>
+											</h4>
+										</div>
+										<div id="collapseThree" class="panel-collapse collapse">
+											<div class="panel-body">
+												Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="progress">
+									<div class="progress-bar progress-bar-gray" role="progressbar" data-animate-width="80%">
+										<span class="object-non-visible" data-animation-effect="fadeInLeftBig" data-effect-delay="200">HTML5</span>
+									</div>
+								</div>
+								<div class="progress">
+									<div class="progress-bar progress-bar-gray" role="progressbar" data-animate-width="90%">
+										<span class="object-non-visible" data-animation-effect="fadeInLeftBig" data-effect-delay="200">CSS3</span>
+									</div>
+								</div>
+								<div class="progress">
+									<div class="progress-bar progress-bar-gray" role="progressbar" data-animate-width="75%">
+										<span class="object-non-visible" data-animation-effect="fadeInLeftBig" data-effect-delay="200">JQUERY</span>
+									</div>
+								</div>
+								<div class="progress">
+									<div class="progress-bar progress-bar-gray" role="progressbar" data-animate-width="85%">
+										<span class="object-non-visible" data-animation-effect="fadeInLeftBig" data-effect-delay="200">PHP</span>
+									</div>
+								</div>
+								<div class="progress">
+									<div class="progress-bar progress-bar-gray" role="progressbar" data-animate-width="80%">
+										<span class="object-non-visible" data-animation-effect="fadeInLeftBig" data-effect-delay="200">DESIGN</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br></br>
+						<h2 class="title">Stats</h2>
+						<div class="separator-2"></div>
+						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br></br> Perferendis tenetur beatae adipisci atque.</p>
+						<div class="stats row grid-space-10">
+							<div class="col-md-3 col-sm-6">
+								<div class="box-style-1 gray-bg">
+									<h2 class="title">Projects</h2>
+									<i class="fa fa-briefcase"></i>
+									<span class="stat-num" data-to="1525" data-speed="3000">0</span>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="box-style-1 gray-bg">
+									<h2 class="title">Clients</h2>
+									<i class="fa fa-users"></i>
+									<span class="stat-num" data-to="1125" data-speed="3000">0</span>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="box-style-1 gray-bg">
+									<h2 class="title">Downloads</h2>
+									<i class="fa fa-cloud-download"></i>
+									<span class="stat-num" data-to="1836" data-speed="3000">0</span>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="box-style-1 gray-bg">
+									<h2 class="title">Likes</h2>
+									<i class="fa fa-thumbs-o-up"></i>
+									<span class="stat-num" data-to="2687" data-speed="3000">0</span>
+								</div>
+							</div>
+						</div>
+						<div class="space"></div>
+					</div>
+				</div>
+				<div class="section gray-bg text-muted footer-top clearfix">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="owl-carousel clients">
+									<div class="client">
+										<a href="#"><img src="/theme_louma/static/src/images/divers/client-1.png" alt=""/></a>
+									</div>
+									<div class="client">
+										<a href="#"><img src="/theme_louma/static/src/images/divers/client-2.png" alt=""/></a>
+									</div>
+									<div class="client">
+										<a href="#"><img src="/theme_louma/static/src/images/divers/client-3.png" alt=""/></a>
+									</div>
+									<div class="client">
+										<a href="#"><img src="/theme_louma/static/src/images/divers/client-4.png" alt=""/></a>
+									</div>
+									<div class="client">
+										<a href="#"><img src="/theme_louma/static/src/images/divers/client-5.png" alt=""/></a>
+									</div>
+									<div class="client">
+										<a href="#"><img src="/theme_louma/static/src/images/divers/client-6.png" alt=""/></a>
+									</div>
+									<div class="client">
+										<a href="#"><img src="/theme_louma/static/src/images/divers/client-7.png" alt=""/></a>
+									</div>
+									<div class="client">
+										<a href="#"><img src="/theme_louma/static/src/images/divers/client-8.png" alt=""/></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<blockquote class="inline">
+									<p class="margin-clear">Design is not just what it looks like and feels like. Design is how it works.</p>
+									<footer><cite title="Source Title">Steve Jobs </cite></footer>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+				</div>
+
+		   </div>
+	   </t>
+    </template>
+</data>
+</openerp>

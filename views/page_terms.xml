@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+	<data>
+		<template name="Page No Sidebar" id="website.terms" page="True">
+		   <t t-call="website.layout">
+               <div class="page-wrapper oe_structure">
+                   <div class="page-intro">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <ol class="breadcrumb">
+                                        <li><i class="fa fa-home pr-10"></i><a href="/">Home</a></li>
+                                        <li class="active">No Sidebar</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                   <div id="wrapper" t-att-style="'padding: 25px 0!important;' if editable else '' " contenteditable=" 'True' if editable else 'False' ">
+                       <section class="container oe_structure">
+                           <h2>Privacy Statement</h2>
+                           <p>Metuentes igitur idem latrones Lycaoniam magna parte campestrem cum se inpares nostris fore congressione stataria documentis frequentibus scirent, tramitibus deviis petivere Pamphyliam diu quidem intactam sed timore populationum et caedium, milite per omnia diffuso propinqua, magnis undique praesidiis conmunitam.</p>
+                           <hr class="half-margins" />
+                           <h2>Confidentiality</h2>
+                           <p>Sed si ille hac tam eximia fortuna propter utilitatem rei publicae frui non properat, ut omnia illa conficiat, quid ego, senator, facere debeo, quem, etiamsi ille aliud vellet, rei publicae consulere oporteret?</p>
+                           <p>Haec subinde Constantius audiens et quaedam referente Thalassio doctus, quem eum odisse iam conpererat lege communi, scribens ad Caesarem blandius adiumenta paulatim illi subtraxit, sollicitari se simulans ne, uti est militare otium fere tumultuosum, in eius perniciem conspiraret, solisque scholis iussit esse contentum palatinis et protectorum cum Scutariis et Gentilibus, et mandabat Domitiano, ex comite largitionum, praefecto ut cum in Syriam venerit, Gallum, quem crebro acciverat, ad Italiam properare blande hortaretur et verecunde.</p>
+                           <hr class="half-margins" />
+
+                           <h2>Disclaimer</h2>
+                           <h3>Exclusions and Limitations</h3>
+                           <p>Latius iam disseminata licentia onerosus bonis omnibus Caesar nullum post haec adhibens modum orientis latera cuncta vexabat nec honoratis parcens nec urbium primatibus nec plebeiis.</p>
+                           <ul>
+                               <li>Haec ubi latius fama vulgasset missaeque</li>
+                               <li>Alios autem dicere aiunt multo etiam inhumanius</li>
+                           </ul>
+                           <p>Et prima post Osdroenam quam, ut dictum est, ab hac descriptione discrevimus, Commagena, nunc Euphratensis, clementer adsurgit, Hierapoli, vetere Nino et Samosata civitatibus amplis inlustris.</p>
+                           <hr class="half-margins" />
+
+                           <h2>Payment</h2>
+                           <p>Utque aegrum corpus quassari etiam levibus solet offensis, ita animus eius angustus et tener, quicquid increpuisset, ad salutis suae dispendium existimans factum aut cogitatum, insontium caedibus fecit victoriam luctuosam.</p>
+                           <p>Has autem provincias, quas Orontes ambiens amnis imosque pedes Cassii montis illius celsi praetermeans funditur in Parthenium mare, Gnaeus Pompeius superato Tigrane regnis Armeniorum abstractas dicioni Romanae coniunxit.</p>
+                           <hr class="half-margins" />
+
+                           <h2>Cancellation Policy</h2>
+                           <p>Post quorum necem nihilo lenius ferociens Gallus ut leo cadaveribus pastus multa huius modi scrutabatur. quae singula narrare non refert, me professione modum, quod evitandum est, excedamus.</p>
+                           <hr class="half-margins" />
+
+                           <h2>Termination of Agreements and Refunds Policy</h2>
+                           <p>Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?</p>
+                           <hr class="half-margins" />
+
+                           <h2>Availability</h2>
+                           <p>Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?</p>
+                           <hr class="half-margins" />
+
+                           <h2>Log Files</h2>
+                           <p>Nunc vero inanes flatus quorundam vile esse quicquid extra urbis pomerium nascitur aestimant praeter orbos et caelibes, nec credi potest qua obsequiorum diversitate coluntur homines sine liberis Romae.</p>
+                           <hr class="half-margins" />
+
+                           <h2>Cookies</h2>
+                           <p>Ut enim benefici liberalesque sumus, non ut exigamus gratiam (neque enim beneficium faeneramur sed natura propensi ad liberalitatem sumus), sic amicitiam non spe mercedis adducti sed quod omnis eius fructus in ipso amore inest, expetendam putamus.</p>
+                           <hr class="half-margins" />
+
+                           <h2>Links to this website </h2>
+                           <p>Post quorum necem nihilo lenius ferociens Gallus ut leo cadaveribus pastus multa huius modi scrutabatur. quae singula narrare non refert, me professione modum, quod evitandum est, excedamus.</p>
+                           <hr class="half-margins" />
+
+                           <h2>Links from this website </h2>
+                           <p>Illud autem non dubitatur quod cum esset aliquando virtutum omnium domicilium Roma, ingenuos advenas plerique nobilium, ut Homerici bacarum suavitate Lotophagi, humanitatis multiformibus officiis retentabant</p>
+                           <hr class="half-margins" />
+
+                           <h2>Copyright Notice </h2>
+                           <p>Et est admodum mirum videre plebem innumeram mentibus ardore quodam infuso cum dimicationum curulium eventu pendentem. haec similiaque memorabile nihil vel serium agi Romae permittunt. ergo redeundum ad textum.</p>
+                           <p>Has autem provincias, quas Orontes ambiens amnis imosque pedes Cassii montis illius celsi praetermeans funditur in Parthenium mare, Gnaeus Pompeius superato Tigrane regnis Armeniorum abstractas dicioni Romanae coniunxit.</p>
+                           <hr class="half-margins" />
+
+                           <h2>Communication</h2>
+                           <p>Has autem provincias, quas Orontes ambiens amnis imosque pedes Cassii montis illius celsi praetermeans funditur in Parthenium mare, Gnaeus Pompeius superato Tigrane regnis Armeniorum abstractas dicioni Romanae coniunxit.</p>
+                           <hr class="half-margins" />
+
+                           <h2>Force Majeure</h2>
+                           <p>Neither party shall be liable to the other for any failure to perform any obligation under any Agreement which is due to an event beyond the control of such party including but not limited to any Act of God, terrorism, war, Political insurgence, insurrection, riot, civil unrest, act of civil or military authority, uprising, earthquake, flood or any other natural or man made eventuality outside of our control, which causes the termination of an agreement or contract entered into, nor which could have been reasonably foreseen. Any Party affected by such event shall forthwith inform the other Party of the same and shall use all reasonable endeavours to comply with the terms and conditions of any Agreement contained herein.</p>
+
+                           <hr class="half-margins" />
+
+                           <h2>Waiver</h2>
+                           <p>Ideo urbs venerabilis post superbas efferatarum gentium cervices oppressas latasque leges fundamenta libertatis et retinacula sempiterna velut frugi parens et prudens et dives Caesaribus tamquam liberis suis regenda patrimonii iura permisit.</p>
+                           <hr class="half-margins" />
+
+                           <h2>General</h2>
+                           <p>Procedente igitur mox tempore cum adventicium nihil inveniretur, relicta ora maritima in Lycaoniam adnexam Isauriae se contulerunt ibique densis intersaepientes itinera praetenturis provincialium et viatorum opibus pascebantur.</p>
+                           <hr class="half-margins" />
+
+                           <h2>Notification of Changes</h2>
+                           <p>Et prima post Osdroenam quam, ut dictum est, ab hac descriptione discrevimus, Commagena, nunc Euphratensis, clementer adsurgit, Hierapoli, vetere Nino et Samosata civitatibus amplis inlustris.</p>
+                           <p>Ut enim benefici liberalesque sumus, non ut exigamus gratiam (neque enim beneficium faeneramur sed natura propensi ad liberalitatem sumus), sic amicitiam non spe mercedis adducti sed quod omnis eius fructus in ipso amore inest, expetendam putamus.</p>
+                       </section>
+                   <div class="container">
+                       <div class="oe_structure" />
+                   </div>
+               </div>
+               </div>
+		    </t>
+		</template>
+	</data>
+</openerp>

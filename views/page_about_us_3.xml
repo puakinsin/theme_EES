@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+<data>
+	<template name="About Us 3" id="website.about-us-3" page="True">
+	   <t t-call="website.layout">
+		   <div class="page-wrapper oe_structure">
+				<div class="banner">
+					<div class="fixed-image section light-translucent-bg" style="background-image:url('/theme_louma/static/src/images/divers/aboutus-bg.jpg');">
+						<div class="container">
+						<div class="space-top"></div>
+						<h1>Introducion</h1>
+						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae sit excepturi, <br class="hidden-xs hidden-sm"></br> hic officiis illo dolore sunt assumenda saepe id commodi sint praesentium <br class="hidden-xs hidden-sm"></br> natus laborum quas cumque facilis, suscipit aliquam dolorum.</p>
+						</div>
+					</div>
+				</div>
+				<div class="page-intro">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<ol class="breadcrumb">
+									<li><i class="fa fa-home pr-10"></i><a href="/">Home</a></li>
+									<li class="active">About Us</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+				<section class="main-container">
+					<div class="container">
+						<div class="row">
+							<div class="main col-md-12">
+								<h1 class="page-title">What we do</h1>
+								<div class="separator-2"></div>
+								<div class="row">
+									<div class="col-md-8">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+										<h3>Uspendisse id sem elementum condimentum lorem</h3>
+										<p>Sed eget pulvinar quam, vel feugiat enim. Aliquam erat volutpat. Phasellus eu porta ipsum. Suspendisse aliquet imperdiet commodo. Aenean vel lacinia elit. Class aptent taciti sociosqu ad litora torquent per. Vestibulum velmo.</p>
+										<ul class="list-icons">
+											<li class="object-non-visible" data-animation-effect="fadeInUpSmall"><i class="icon-check"></i> Etiam sed dolor ac diam volutpat</li>
+											<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100"><i class="icon-check"></i> Sed eget pulvinar quam, vel feugiat enim aliquam </li>
+											<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="300"><i class="icon-check"></i> Erat volutpat. Phasellus eu porta ipsum suspendisse aliquet imperdiet</li>
+											<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="500"><i class="icon-check"></i> Phasellus eu porta ipsum. Suspendisse aliquet imperdiet commodo</li>
+										</ul>
+										<a class="btn btn-lg btn-default" href="#"><i class="fa fa-users pr-10"></i> Our Team</a>
+									</div>
+									<aside class="sidebar col-md-4">
+										<div class="side vertical-divider-left">
+											<div class="block clearfix">
+												<h3 class="title margin-top-clear">Latest projects</h3>
+												<div class="separator"></div>
+												<div class="gallery row">
+													<div class="gallery-item col-xs-4">
+														<div class="overlay-container">
+															<img src="/theme_louma/static/src/images/divers/w6.jpg" alt=""/>
+															<a href="#" class="overlay small">
+																<i class="fa fa-link"></i>
+															</a>
+														</div>
+													</div>
+													<div class="gallery-item col-xs-4">
+														<div class="overlay-container">
+															<img src="/theme_louma/static/src/images/divers/w1.jpg" alt=""/>
+															<a href="#" class="overlay small">
+																<i class="fa fa-link"></i>
+															</a>
+														</div>
+													</div>
+													<div class="gallery-item col-xs-4">
+														<div class="overlay-container">
+															<img src="/theme_louma/static/src/images/divers/w8.jpg" alt=""/>
+															<a href="#" class="overlay small">
+																<i class="fa fa-link"></i>
+															</a>
+														</div>
+													</div>
+												</div>
+												<div class="gallery row">
+													<div class="gallery-item col-xs-4">
+														<div class="overlay-container">
+															<img src="/theme_louma/static/src/images/divers/w6.jpg" alt=""/>
+															<a href="#" class="overlay small">
+																<i class="fa fa-link"></i>
+															</a>
+														</div>
+													</div>
+													<div class="gallery-item col-xs-4">
+														<div class="overlay-container">
+															<img src="/theme_louma/static/src/images/divers/w1.jpg" alt=""/>
+															<a href="#" class="overlay small">
+																<i class="fa fa-link"></i>
+															</a>
+														</div>
+													</div>
+													<div class="gallery-item col-xs-4">
+														<div class="overlay-container">
+															<img src="/theme_louma/static/src/images/divers/w8.jpg" alt=""/>
+															<a href="#" class="overlay small">
+																<i class="fa fa-link"></i>
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<h3 class="title">Testimonial</h3>
+											<div class="separator"></div>
+											<blockquote class="margin-clear">
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos dolorem.</p>
+												<footer><cite title="Source Title">William Iven </cite></footer>
+											</blockquote>
+										</div>
+									</aside>
+								</div>
+								<hr></hr>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="section clearfix">
+					<div class="container">
+						<h2 class="title">Why Choose Us</h2>
+						<div class="separator-2"></div>
+						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> </br>Perferendis tenetur beatae adipisci atque.</p>
+						<br></br>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="panel-group" id="accordion">
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+													<i class="fa fa-css3"></i>CSS3
+												</a>
+											</h4>
+										</div>
+										<div id="collapseOne" class="panel-collapse collapse in">
+											<div class="panel-body">
+												Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+												3 wolf moon officia aute, non cupidatat skateboard dolor brunch,
+												Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+												on it squid single-origin.Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+												Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+												on it squid single-origin.Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed">
+													<i class="fa fa-code"></i>Easy Code
+												</a>
+											</h4>
+										</div>
+										<div id="collapseTwo" class="panel-collapse collapse">
+											<div class="panel-body">
+												Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+												3 wolf moon officia aute, non cupidatat skateboard dolor brunch,
+												Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+												on it squid single-origin.Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+												Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+												on it squid single-origin.Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed">
+													<i class="fa fa-html5"></i>HTML5
+												</a>
+											</h4>
+										</div>
+										<div id="collapseThree" class="panel-collapse collapse">
+											<div class="panel-body">
+												Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+												3 wolf moon officia aute, non cupidatat skateboard dolor brunch,
+												Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+												on it squid single-origin.Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+												Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+												on it squid single-origin.Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="owl-carousel content-slider-with-controls">
+									<div class="overlay-container margin-top-clear">
+										<img src="/theme_louma/static/src/images/slider/slider-aboutus-1.jpg" style="height: 374px;" alt=""/>
+										<a href="/theme_louma/static/src/images/slider/slider-aboutus-1.jpg" class="popup-img overlay" title="image title"><i class="fa fa-search-plus"></i></a>
+									</div>
+									<div class="overlay-container margin-top-clear">
+										<img src="/theme_louma/static/src/images/slider/slider-aboutus-2.jpg" style="height: 374px;" alt=""/>
+										<a href="/theme_louma/static/src/images/slider/slider-aboutus-2.jpg" class="popup-img overlay" title="image title"><i class="fa fa-search-plus"></i></a>
+									</div>
+									<div class="overlay-container margin-top-clear">
+										<img src="/theme_louma/static/src/images/slider/slider-aboutus-3.jpg" style="height: 374px;" alt=""/>
+										<a href="/theme_louma/static/src/images/slider/slider-aboutus-3.jpg" class="popup-img overlay" title="image title"><i class="fa fa-search-plus"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section gray-bg clearfix">
+					<div class="container">
+						<h2 class="title">Stats &amp; Skills</h2>
+						<div class="separator-2"></div>
+						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br></br> Perferendis tenetur beatae adipisci atque.</p>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="row grid-space-10">
+									<div class="col-sm-6">
+										<div class="box-style-1 white-bg margin-top-clear">
+											<h2 class="title">Projects</h2>
+											<i class="fa fa-briefcase"></i>
+											<span class="stat-num">1053</span>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="box-style-1 white-bg margin-top-clear">
+											<h2 class="title">Clients</h2>
+											<i class="fa fa-users"></i>
+											<span class="stat-num">2569</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="progress">
+									<div class="progress-bar progress-bar-default" role="progressbar" data-animate-width="80%">
+										<span class="object-non-visible" data-animation-effect="fadeInLeftBig" data-effect-delay="200">HTML5</span>
+									</div>
+								</div>
+								<div class="progress">
+									<div class="progress-bar progress-bar-default" role="progressbar" data-animate-width="90%">
+										<span class="object-non-visible" data-animation-effect="fadeInLeftBig" data-effect-delay="200">CSS3</span>
+									</div>
+								</div>
+								<div class="progress">
+									<div class="progress-bar progress-bar-default" role="progressbar" data-animate-width="75%">
+										<span class="object-non-visible" data-animation-effect="fadeInLeftBig" data-effect-delay="200">JQUERY</span>
+									</div>
+								</div>
+								<div class="progress">
+									<div class="progress-bar progress-bar-default" role="progressbar" data-animate-width="85%">
+										<span class="object-non-visible" data-animation-effect="fadeInLeftBig" data-effect-delay="200">PHP</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section clearfix">
+					<div class="container">
+						<h2>Our Team</h2>
+						<div class="separator-2"></div>
+						<p class="lead">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus.</p>
+						<div class="row grid-space-20">
+							<div class="col-md-3 col-sm-6">
+								<div class="box-style-1 gray-bg team-member">
+									<div class="overlay-container">
+										<img src="/theme_louma/static/src/images/divers/team-member-1.jpg" alt=""/>
+										<div class="overlay">
+											<ul class="social-links light clearfix">
+												<li class="twitter"><a target="_blank" href="http://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+												<li class="skype"><a target="_blank" href="http://www.skype.com/"><i class="fa fa-skype"></i></a></li>
+												<li class="facebook"><a target="_blank" href="http://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+											</ul>
+										</div>
+									</div>
+									<h3>Tatiana Nino</h3>
+									Tester
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="box-style-1 gray-bg team-member">
+									<div class="overlay-container">
+										<img src="/theme_louma/static/src/images/divers/team-member-2.jpg" alt=""/>
+										<div class="overlay">
+											<ul class="social-links light clearfix">
+												<li class="twitter"><a target="_blank" href="http://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+												<li class="skype"><a target="_blank" href="http://www.skype.com/"><i class="fa fa-skype"></i></a></li>
+												<li class="facebook"><a target="_blank" href="http://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+											</ul>
+										</div>
+									</div>
+									<h3>Gabriel Santiago</h3>
+									Designer
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="box-style-1 gray-bg team-member">
+									<div class="overlay-container">
+										<img src="/theme_louma/static/src/images/divers/team-member-3.jpg" alt=""/>
+										<div class="overlay">
+											<ul class="social-links light clearfix">
+												<li class="twitter"><a target="_blank" href="http://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+												<li class="skype"><a target="_blank" href="http://www.skype.com/"><i class="fa fa-skype"></i></a></li>
+												<li class="facebook"><a target="_blank" href="http://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+											</ul>
+										</div>
+									</div>
+									<h3>Trent Yarnell</h3>
+									Developer
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="box-style-1 gray-bg team-member">
+									<div class="overlay-container">
+										<img src="/theme_louma/static/src/images/divers/team-member-4.jpg" alt=""/>
+										<div class="overlay">
+											<ul class="social-links light clearfix">
+												<li class="twitter"><a target="_blank" href="http://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+												<li class="skype"><a target="_blank" href="http://www.skype.com/"><i class="fa fa-skype"></i></a></li>
+												<li class="facebook"><a target="_blank" href="http://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+											</ul>
+										</div>
+									</div>
+									<h3>Maya Escamilla</h3>
+									Manager
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section gray-bg text-muted footer-top clearfix">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="owl-carousel clients">
+									<div class="client">
+										<a href="#"><img src="/theme_louma/static/src/images/divers/client-1.png" alt=""/></a>
+									</div>
+									<div class="client">
+										<a href="#"><img src="/theme_louma/static/src/images/divers/client-2.png" alt=""/></a>
+									</div>
+									<div class="client">
+										<a href="#"><img src="/theme_louma/static/src/images/divers/client-3.png" alt=""/></a>
+									</div>
+									<div class="client">
+										<a href="#"><img src="/theme_louma/static/src/images/divers/client-4.png" alt=""/></a>
+									</div>
+									<div class="client">
+										<a href="#"><img src="/theme_louma/static/src/images/divers/client-5.png" alt=""/></a>
+									</div>
+									<div class="client">
+										<a href="#"><img src="/theme_louma/static/src/images/divers/client-6.png" alt=""/></a>
+									</div>
+									<div class="client">
+										<a href="#"><img src="/theme_louma/static/src/images/divers/client-7.png" alt=""/></a>
+									</div>
+									<div class="client">
+										<a href="#"><img src="/theme_louma/static/src/images/divers/client-8.png" alt=""/></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<blockquote class="inline">
+									<p class="margin-clear">Design is not just what it looks like and feels like. Design is how it works.</p>
+									<footer><cite title="Source Title">Steve Jobs </cite></footer>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+				</div>
+
+		   </div>
+       </t>
+    </template>
+</data>
+</openerp>

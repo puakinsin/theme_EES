@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+	<data>
+		<template name="Portfolio" id="website.portfolio-item" page="True">
+		   <t t-call="website.layout">
+			   <div class="page-wrapper oe_structure">
+					<div class="banner">
+						<div class="fixed-image parallax" style="background-image:url('/theme_louma/static/src/images/slider/slide-3.jpg');"></div>
+					</div>
+					<div class="page-intro">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12">
+									<ol class="breadcrumb">
+										<li><i class="fa fa-home pr-10"></i><a href="/">Home</a></li>
+										<li class="active">Portfolio Item</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+					</div>
+					<section class="main-container">
+						<div class="container">
+							<div class="row">
+								<div class="main col-md-12">
+									<h1 class="page-title margin-top-clear">Portfolio Item</h1>
+									<div class="row">
+										<div class="col-md-6">
+											<h3>Project Description</h3>
+											<div class="separator-2"></div>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+											<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+										</div>
+										<div class="col-md-6">
+											<ul class="nav nav-pills white space-top" role="tablist">
+												<li class="active"><a href="#portfolio-images" role="tab" data-toggle="tab" title="images"><i class="fa fa-camera pr-5"></i> Photo</a></li>
+												<li><a href="#portfolio-video" role="tab" data-toggle="tab" title="video"><i class="fa fa-video-camera pr-5"></i> Video</a></li>
+											</ul>
+											<div class="tab-content clear-style">
+												<div class="tab-pane active" id="portfolio-images">
+													<div class="owl-carousel content-slider-with-controls">
+														<div class="overlay-container">
+															<img src="/theme_louma/static/src/images/divers/portfolio-item-1.jpg" alt=""/>
+															<a href="/theme_louma/static/src/images/divers/portfolio-item-1.jpg" class="popup-img overlay" title="image title"><i class="fa fa-search-plus"></i></a>
+														</div>
+														<div class="overlay-container">
+															<img src="/theme_louma/static/src/images/divers/portfolio-item-2.jpg" alt=""/>
+															<a href="/theme_louma/static/src/images/divers/portfolio-item-2.jpg" class="popup-img overlay" title="image title"><i class="fa fa-search-plus"></i></a>
+														</div>
+														<div class="overlay-container">
+															<img src="/theme_louma/static/src/images/divers/portfolio-item-3.jpg" alt=""/>
+															<a href="/theme_louma/static/src/images/divers/portfolio-item-3.jpg" class="popup-img overlay" title="image title"><i class="fa fa-search-plus"></i></a>
+														</div>
+													</div>
+												</div>
+												<div class="tab-pane" id="portfolio-video">
+													<div class="embed-responsive embed-responsive-16by9">
+														<iframe src='http://player.vimeo.com/video/109335671?title=0&amp;amp;byline=0&amp;amp;portrait=0;api=1'></iframe>
+														<p><a href="http://vimeo.com/29198414">Introducing Vimeo Music Store</a> from <a href="http://vimeo.com/staff">Vimeo Staff</a> on <a href="https://vimeo.com/">Vimeo</a>.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<hr></hr>
+									<div class="row">
+										<div class="col-md-12">
+											<h3>Project Info</h3>
+											<ul class="list">
+												<li><strong class="vertical-divider">Client </strong> Micheal Lmen</li>
+												<li><strong class="vertical-divider">Date </strong> OCT 2014</li>
+												<li><strong class="vertical-divider">In </strong> Web Design</li>
+												<li><strong class="vertical-divider">Place </strong> Europe</li>
+												<li><strong class="vertical-divider">URL </strong> <a href="#">www.louma.com</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<div class="section dark-translucent-bg parallax-bg-3 parallax">
+						<div class="container">
+							<div class="call-to-action">
+								<div class="row">
+									<div class="col-md-8">
+										<h1 class="title text-center">We work hard to give you the best Odoo Theme.</h1>
+									</div>
+									<div class="col-md-4">
+										<div class="text-center">
+											<a href="#" class="btn btn-default btn-lg">Purchase</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section clearfix">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12">
+									<h2>Related Projects</h2>
+									<div class="separator-2"></div>
+									<p>Sed ut Perspiciatis Unde Omnis Iste Sed ut sit  voluptatem accusan tium </p>
+									<div class="owl-carousel carousel">
+										<div class="image-box object-non-visible" data-animation-effect="fadeInLeft" data-effect-delay="300">
+											<div class="overlay-container">
+												<img src="/theme_louma/static/src/images/divers/w1.jpg" class="fix-height-portfolio-4col" alt=""/>
+												<a href="#" class="overlay small">
+													<i class="fa fa-link"></i>
+													<span>Web Design</span>
+												</a>
+											</div>
+											<a href="#" class="btn btn-light-gray btn-lg btn-block">Project Title</a>
+										</div>
+										<div class="image-box object-non-visible" data-animation-effect="fadeInLeft" data-effect-delay="200">
+											<div class="overlay-container">
+												<img src="/theme_louma/static/src/images/divers/w2.jpg" class="fix-height-portfolio-4col" alt=""/>
+												<a href="#" class="overlay small">
+													<i class="fa fa-link"></i>
+													<span>Web Design</span>
+												</a>
+											</div>
+											<a href="#" class="btn btn-light-gray btn-lg btn-block">Project Title</a>
+										</div>
+										<div class="image-box object-non-visible" data-animation-effect="fadeInLeft" data-effect-delay="100">
+											<div class="overlay-container">
+												<img src="/theme_louma/static/src/images/divers/portfolio-3.jpg" class="fix-height-portfolio-4col" alt=""/>
+												<a href="#" class="overlay small">
+													<i class="fa fa-link"></i>
+													<span>Web Design</span>
+												</a>
+											</div>
+											<a href="#" class="btn btn-light-gray btn-lg btn-block">Project Title</a>
+										</div>
+										<div class="image-box object-non-visible" data-animation-effect="fadeInLeft" data-effect-delay="0">
+											<div class="overlay-container">
+												<img src="/theme_louma/static/src/images/divers/portfolio-4.jpg" class="fix-height-portfolio-4col" alt=""/>
+												<a href="#" class="overlay small">
+													<i class="fa fa-link"></i>
+													<span>Web Design</span>
+												</a>
+											</div>
+											<a href="#" class="btn btn-light-gray btn-lg btn-block">Project Title</a>
+										</div>
+										<div class="image-box">
+											<div class="overlay-container">
+												<img src="/theme_louma/static/src/images/divers/portfolio-5.jpg" class="fix-height-portfolio-4col" alt=""/>
+												<a href="#" class="overlay small">
+													<i class="fa fa-link"></i>
+													<span>Web Design</span>
+												</a>
+											</div>
+											<a href="#" class="btn btn-light-gray btn-lg btn-block">Project Title</a>
+										</div>
+										<div class="image-box">
+											<div class="overlay-container">
+												<img src="/theme_louma/static/src/images/divers/portfolio-6.jpg" class="fix-height-portfolio-4col" alt=""/>
+												<a href="#" class="overlay small">
+													<i class="fa fa-link"></i>
+													<span>Web Design</span>
+												</a>
+											</div>
+											<a href="#" class="btn btn-light-gray btn-lg btn-block">Project Title</a>
+										</div>
+										<div class="image-box">
+											<div class="overlay-container">
+												<img src="/theme_louma/static/src/images/divers/portfolio-7.jpg" class="fix-height-portfolio-4col" alt=""/>
+												<a href="#" class="overlay small">
+													<i class="fa fa-link"></i>
+													<span>Web Design</span>
+												</a>
+											</div>
+											<a href="#" class="btn btn-light-gray btn-lg btn-block">Project Title</a>
+										</div>
+										<div class="image-box">
+											<div class="overlay-container">
+												<img src="/theme_louma/static/src/images/divers/portfolio-8.jpg" class="fix-height-portfolio-4col" alt=""/>
+												<a href="#" class="overlay small">
+													<i class="fa fa-link"></i>
+													<span>Web Design</span>
+												</a>
+											</div>
+											<a href="#" class="btn btn-light-gray btn-lg btn-block">Project Title</a>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section gray-bg text-muted footer-top clearfix">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="owl-carousel clients">
+										<div class="client">
+											<a href="#"><img src="/theme_louma/static/src/images/divers/client-1.png" alt=""/></a>
+										</div>
+										<div class="client">
+											<a href="#"><img src="/theme_louma/static/src/images/divers/client-2.png" alt=""/></a>
+										</div>
+										<div class="client">
+											<a href="#"><img src="/theme_louma/static/src/images/divers/client-3.png" alt=""/></a>
+										</div>
+										<div class="client">
+											<a href="#"><img src="/theme_louma/static/src/images/divers/client-4.png" alt=""/></a>
+										</div>
+										<div class="client">
+											<a href="#"><img src="/theme_louma/static/src/images/divers/client-5.png" alt=""/></a>
+										</div>
+										<div class="client">
+											<a href="#"><img src="/theme_louma/static/src/images/divers/client-6.png" alt=""/></a>
+										</div>
+										<div class="client">
+											<a href="#"><img src="/theme_louma/static/src/images/divers/client-7.png" alt=""/></a>
+										</div>
+										<div class="client">
+											<a href="#"><img src="/theme_louma/static/src/images/divers/client-8.png" alt=""/></a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<blockquote class="inline">
+										<p class="margin-clear">Design is not just what it looks like and feels like. Design is how it works.</p>
+										<footer><cite title="Source Title">Steve Jobs </cite></footer>
+									</blockquote>
+								</div>
+							</div>
+						</div>
+					</div>
+
+			   </div>
+		   </t>
+		</template>
+	</data>
+</openerp>

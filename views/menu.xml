@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="custom_navbar" name="Custom nav-bar" customize_show="True" inherit_id="website.layout">
+            <xpath expr="//header" position="replace">
+                <header id="menu_odoo" style="display:none;">
+                    <div class="navbar navbar-default navbar-static-top">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                        data-target=".navbar-top-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="/" t-if="website" t-field="website.name">My Website</a>
+                            </div>
+                            <div class="collapse navbar-collapse navbar-top-collapse">
+                                <ul class="nav navbar-nav navbar-right" id="top_menu">
+                                    <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                                        <t t-call="website.submenu"/>
+                                    </t>
+                                    <li class="divider" t-ignore="true" t-if="website.user_id != user_id"/>
+                                    <li class="dropdown" t-ignore="true" t-if="website.user_id != user_id">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                            <b>
+                                                <span t-esc="(len(user_id.name)&gt;25) and (user_id.name[:23]+'...') or user_id.name"/>
+                                                <span class="caret"></span>
+                                            </b>
+                                        </a>
+                                        <ul class="dropdown-menu js_usermenu" role="menu">
+                                            <li id="o_logout">
+                                                <a t-attf-href="/web/session/logout?redirect=/" role="menuitem">Logout
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div class="header-top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-2 col-sm-6">
+                                <!-- header-top-first start -->
+                                <div class="header-top-first clearfix">
+                                    <ul class="social-links clearfix hidden-xs">
+                                        <li t-if="website.social_twitter" class="twitter">
+                                            <a target="_blank" t-att-href="website.social_twitter">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li t-if="website.social_linkedin" class="linkedin">
+                                            <a target="_blank" t-att-href="website.social_linkedin">
+                                                <i class="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li t-if="website.social_googleplus" class="googleplus">
+                                            <a target="_blank" t-att-href="website.social_googleplus">
+                                                <i class="fa fa-google-plus"></i>
+                                            </a>
+                                        </li>
+                                        <li t-if="website.social_youtube" class="youtube">
+                                            <a target="_blank" t-att-href="website.social_youtube">
+                                                <i class="fa fa-youtube-play"></i>
+                                            </a>
+                                        </li>
+                                        <li t-if="website.social_facebook" class="facebook">
+                                            <a target="_blank" t-att-href="website.social_facebook">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="social-links hidden-lg hidden-md hidden-sm">
+                                        <div class="btn-group dropdown">
+                                            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                <i class="fa fa-share-alt"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-animation">
+                                                <li t-if="website.social_twitter" class="twitter">
+                                                    <a target="_blank" t-att-href="website.social_twitter">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li t-if="website.social_linkedin" class="linkedin">
+                                                    <a target="_blank" t-att-href="website.social_linkedin">
+                                                        <i class="fa fa-linkedin"></i>
+                                                    </a>
+                                                </li>
+                                                <li t-if="website.social_googleplus" class="googleplus">
+                                                    <a target="_blank" t-att-href="website.social_googleplus">
+                                                        <i class="fa fa-google-plus"></i>
+                                                    </a>
+                                                </li>
+                                                <li t-if="website.social_youtube" class="youtube">
+                                                    <a target="_blank" t-att-href="website.social_youtube">
+                                                        <i class="fa fa-youtube-play"></i>
+                                                    </a>
+                                                </li>
+                                                <li t-if="website.social_facebook" class="facebook">
+                                                    <a target="_blank" t-att-href="website.social_facebook">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- header-top-first end -->
+                            </div>
+                            <div class="col-xs-10 col-sm-6">
+                                <!-- header-top-second start -->
+                                <div id="header-top-second" class="clearfix">
+                                    <!-- header top dropdowns start -->
+                                    <div class="header-top-dropdown">
+                                        
+                                        <div class="btn-group dropdown">
+                                            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                <i class="fa fa-search"></i>
+                                                Search
+                                            </button>
+                                            <ul class="dropdown-menu search dropdown-menu-right dropdown-animation">
+                                                <li>
+                                                    <form action="/shop" role="search" class="search-box search_class">
+                                                        <div class="form-group has-feedback">
+                                                            <input type="text" name="search" id="search" value=""
+                                                                   class="form-control" placeholder="Search"/>
+                                                            <i class="fa fa-search form-control-feedback"></i>
+                                                        </div>
+                                                    </form>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="btn-group dropdown" t-ignore="true"
+                                             t-if="website.user_id == user_id">
+                                            <a class="btn" href="/web/login">
+                                                <i class="fa fa-user"></i>
+                                                Login
+                                            </a>
+                                        </div>
+
+                                        <div class="btn-group dropdown" t-ignore="true"
+                                             t-if="website.user_id == user_id">
+                                            <a class="btn" href="/web/signup">
+                                                <i class="fa fa-user-plus"></i>
+                                                Sign up
+                                            </a>
+                                        </div>
+
+
+                                        <div class="btn-group dropdown" t-ignore="true"
+                                             t-if="website.user_id != user_id">
+                                            <button type="button" class="dropdown-toggle btn"
+                                                    data-toggle="dropdown">
+                                                <i class="fa fa-user"></i>
+                                                <span t-esc="(len(user_id.name)&gt;25) and (user_id.name[:23]+'...') or user_id.name"/>
+                                                <span class="caret"></span>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-right dropdown-animation js_usermenu"
+                                                role="menu">
+                                                <li><a href="/my/home" role="menuitem">My Account</a></li>
+                                                <li id="o_logout">
+                                                    <a t-attf-href="/web/session/logout?redirect=/" role="menuitem">
+                                                        Logout
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+
+                                        <div class="btn-group dropdown"
+                                             t-if="(request.website_multilang and len(languages) &gt; 1) or (website and (editable or translatable))">
+                                            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                <i class="fa fa-globe"></i>
+                                                Language
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-right dropdown-animation js_language_selector">
+                                                <li t-foreach="languages" t-as="lg">
+                                                    <a
+                                                            t-att-href="url_for(request.httprequest.path + '?' + keep_query(), lang=lg[0])"
+                                                            t-att-data-default-lang="(editable or translatable) and 'true' if website and lg[0] == website.default_lang_code else None"
+                                                            t-att-data-lang="lg[0]"
+                                                            class="js_change_lang"
+                                                            >
+                                                        <t t-esc="lg[1].split('/').pop()"/>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+
+                                        <div class="btn-group dropdown">
+                                            <t t-set="website_sale_order" t-value="website.sale_get_order()"/>
+
+                                            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                <i class="fa fa-shopping-cart"></i>
+                                                Cart
+
+                                                <span t-if="website_sale_order and website_sale_order.cart_quantity and website_sale_order.cart_quantity &gt; 0"
+                                                      class="my_cart_quantity label label-primary">
+                                                    <t t-esc="website_sale_order and website_sale_order.cart_quantity"></t>
+                                                </span>
+                                            </button>
+
+                                            <ul class="dropdown-menu dropdown-menu-right dropdown-animation cart"
+                                                id="shop-cart">
+                                                <!--<li t-if=" not website_sale_order">
+                                                    <p>
+                                                        <center style="font-size: 15px;">
+                                                            <div class="empty-cart">&#9785;</div>
+                                                            Your shopping cart is empty
+                                                        </center>
+                                                    </p>
+                                                </li>
+
+                                                <li t-if=" website_sale_order and website_sale_order.cart_quantity and website_sale_order.cart_quantity == 0 ">
+                                                    <p>
+                                                        <i class="fa fa-warning"></i>
+                                                        Your shopping cart is empty
+                                                        <br></br>
+                                                        <center>
+                                                            <div class="empty-cart">&#9785;</div>
+                                                        </center>
+                                                    </p>
+                                                </li>
+
+                                                <li t-if="website_sale_order and website_sale_order.website_order_line">
+                                                    <table class="table table-hover">
+                                                        <thead>
+                                                            <tr>
+                                                                <th class="quantity">QTY</th>
+                                                                <th class="product">Product</th>
+                                                                <th class="amount">Subtotal</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <t t-foreach="website_sale_order.website_order_line"
+                                                               t-as="line">
+                                                                <tr>
+                                                                    <td class="quantity">
+                                                                        <t t-esc="int(line.product_uom_qty)"/>
+                                                                        x
+                                                                    </td>
+                                                                    <td class="product">
+                                                                        <a t-attf-href="/shop/product/#{ slug(line.product_id.product_tmpl_id) }">
+                                                                            <t t-esc="line.product_id.with_context(display_default_code=False).display_name"/>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td class="amount">
+                                                                        <span t-field="line.price_unit"
+                                                                              style="white-space: nowrap;color: #a94442;"
+                                                                              t-field-options='{
+                                                                         "widget": "monetary",
+                                                                         "display_currency": "website.currency_id"
+                                                                     }'/>
+                                                                    </td>
+                                                                </tr>
+                                                            </t>
+
+                                                        </tbody>
+                                                    </table>
+                                                    <div class="panel-body text-right mt8 mb8">
+                                                        <a id="refresh-cart" style="margin-right: 15px;" class="hidden"
+                                                           onclick="window.location.reload();">
+                                                            <i class="icon-refresh"></i>
+                                                            Refresh
+                                                        </a>
+                                                        <a href="/shop/cart" class="btn btn-group btn-default btn-sm">
+                                                            View Cart
+                                                        </a>
+                                                        <a href="/shop" class="btn btn-group btn-default btn-sm">
+                                                            Shopping
+                                                        </a>
+                                                    </div>
+                                                </li>-->
+                                                <li><t t-call="website_sale.cart_popover"/></li>
+                                            </ul>
+                                        </div>
+
+
+                                    </div>
+                                    <!--  header top dropdowns end -->
+                                </div>
+                                <!-- header-top-second end -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <header class="header fixed clearfix">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="header-left clearfix">
+                                    <a class="logo" href="/">
+                                        <span itemprop="image" t-field="res_company.logo"
+                                              t-field-options='{"widget": "image","class":"logo_img"}'/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="header-right clearfix">
+                                    <div class="main-navigation animated">
+                                        <nav class="navbar navbar-default" role="navigation">
+                                            <div class="container-fluid">
+                                                <div class="navbar-header">
+                                                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                                            data-target="#navbar-collapse-1">
+                                                        <span class="sr-only">Toggle navigation</span>
+                                                        <span class="icon-bar"></span>
+                                                        <span class="icon-bar"></span>
+                                                        <span class="icon-bar"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                                                    <ul class="nav navbar-nav navbar-right">
+                                                        <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                                                            <t t-call="website.submenu"/>
+                                                        </t>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </xpath>
+        </template>
+    </data>
+</openerp>

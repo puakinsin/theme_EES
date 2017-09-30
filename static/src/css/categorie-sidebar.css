@@ -1,0 +1,289 @@
+/* Category Sidebar */
+/**
+ **************************************************************** **/
+#category-widget
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+	margin-top: 37px;
+}
+#category-widget li li
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#category-widget a {
+	display:block;
+	font:600 12px/24px 'Open Sans', Verdana;
+	text-transform: uppercase;
+    text-decoration: none;
+}
+
+#category-widget a i {
+	margin-right:8px;
+}
+
+#category-widget > li > a {
+	color:#666;
+	font-size: 14px;
+	position: relative;
+	border-top:1px solid #eaeaea;
+	padding:6px 10px 6px 43px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+#category-widget > li:last-child {
+	border-bottom:1px solid #eaeaea;
+}
+
+#category-widget li li {
+	padding-left:11px;
+}
+
+#category-widget li li:last-child,
+#category-widget li li:last-child a {
+	border-bottom:none;
+}
+
+#category-widget li li a {
+	color:#7e7e7e;
+	padding:2px 10px 2px 8px;
+}
+
+#category-widget li ul {
+	display:none;
+	padding:8px 0 10px;
+	border-top:1px solid #eaeaea;
+}
+
+/** new modification**/
+#category-widget .open.category-widget-btn ul {
+	display:block;
+}
+
+/*new added**/
+#category-widget li:not(.open) ul
+{display:none!important;}
+
+
+.category-widget-btn {
+	display:inline-block;
+	width:22px;
+	height:22px;
+	font-size:14px;
+	line-height: 22px;
+	text-align: center;
+	background-color: #505050;
+	color:#fff;
+	/*position: absolute;*/
+    margin-right: 5px; /* new addes */
+	left:10px;
+	top:7px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+}
+
+.category-widget-btn:after {
+	content:'+';
+}
+
+/*New modification */
+.open.category-widget-btn:after {
+	content:'-';
+	color:#fff;
+}
+
+.title-products_grid
+{
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #555;
+    font-weight: 700;
+}
+
+#products_attributes_filters strong
+{
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #555;
+    font-weight: 700;
+}
+
+#products_attributes_filters strong :parent
+{}
+
+
+/*
+ *****Collapses shop
+ --------------------------------------------*/
+
+#products_grid_before .panel {
+	margin-bottom: 20px;
+	background-color: transparent;
+}
+
+#products_grid_before .panel-body {
+	padding:15px 20px;
+}
+
+#products_grid_before .panel-heading {
+	padding:0;
+	position: relative;
+	transition:background 0.45s ease;
+	-webkit-transition:background 0.45s ease;
+}
+
+#products_grid_before .panel-group.no-radius .panel,
+#products_grid_before .panel-group.no-radius .panel-heading {
+	border-radius: 0 !important
+}
+
+#products_grid_before .panel-heading a {
+	display: block;
+	padding: 15px 20px;
+}
+
+#products_grid_before .panel-title {
+	font-size: 15px;
+}
+
+#products_grid_before .panel-icon {
+	position: absolute;
+	right:20px;
+	top:50%;
+	display: inline-block;
+	font-family:FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transform: translate(0, 0);
+	font-size:18px;
+	margin-top: -9px;
+	color:#303030 !important;
+}
+
+#products_grid_before .panel-icon:before {
+	content:'\f106';
+}
+
+#products_grid_before .collapsed .panel-icon:before {
+	content:'\f107';
+}
+
+/* Default Color */
+#products_grid_before .panel-default {
+	border-color: #eaeaea;
+}
+
+#products_grid_before .panel-default > .panel-heading {
+	color: #505050;
+	background-color: #f9f9f9;
+	border-color: #d7d7d7;
+}
+
+#products_grid_before .panel-default > .panel-heading:hover {
+	background-color: #f2f2f2;
+}
+
+#products_grid_before .panel-default > .panel-heading + .panel-collapse > .panel-body {
+	border-top-color: #eaeaea;
+}
+
+#products_grid_before .panel-group .panel-heading + .panel-collapse > .panel-body,
+#products_grid_before .panel-group .panel-heading + .panel-collapse > .list-group {
+	border-top-color: #eaeaea;
+}
+
+/* Custom Color */
+#products_grid_before .panel-custom > .panel-heading {
+	color: #f1f1f1;
+}
+
+
+/* Inverse (Dark)*/
+#products_grid_before .panel-inverse {
+	border-color: #1a1a1a;
+}
+
+#products_grid_before .panel-inverse > .panel-heading {
+	color: #bebebe;
+	background-color: #2a2a2a;
+	border-color: #1a1a1a;
+}
+
+#products_grid_before .panel-inverse > .panel-heading:hover {
+	background-color: #1a1a1a;
+}
+
+#products_grid_before .panel-inverse > .panel-heading + .panel-collapse > .panel-body {
+	border-top-color: #1a1a1a;
+}
+
+#products_grid_before .panel-inverse .panel-icon {
+	color:#eaeaea !important;
+}
+
+
+#products_grid_before .panel-primary .panel-title a,
+#products_grid_before .panel-custom .panel-title a {
+	color:#f5f5f5;
+}
+
+#products_grid_before .panel-primary .panel-icon,
+#products_grid_before .panel-custom .panel-icon {
+	color:#f1f1f1 !important;
+}
+
+#products_grid_before .panel-custom .panel-title a:hover,
+#products_grid_before .panel-primary .panel-title a:hover,
+#products_grid_before .panel-custom .panel-title a:focus,
+#products_grid_before .panel-primary .panel-title a:focus {
+	color:#fff;
+}
+
+#products_grid_before .panel-inverse .panel-title a {
+	color:#eaeaea;
+}
+
+#products_grid_before .panel-inverse .panel-title a:hover,
+#products_grid_before .panel-inverse .panel-title a:focus {
+	color:#f1f1f1;
+}
+
+
+/* Panel Bordered */
+#products_grid_before .panel-bordered,
+#products_grid_before .panel-border-tb {
+	border-color: #eaeaea;
+}
+
+#products_grid_before .panel-bordered > .panel-heading,
+#products_grid_before .panel-border-tb > .panel-heading {
+	border-color: #eaeaea;
+}
+
+#products_grid_before .panel-bordered > .panel-heading + .panel-collapse > .panel-body,
+#products_grid_before .panel-der-tb > .panel-heading + .panel-collapse > .panel-body {
+	border-top-color: #eaeaea;
+}
+
+#products_grid_before .panel-border-tb > .panel-heading {
+	border-radius: 0;
+}
+
+#products_grid_before .panel-border-tb.panel {
+	border-radius: 0;
+	box-shadow:none;
+	-webkit-box-shadow:none;
+	border-left:none;
+	border-right:none;
+}
+
+label.css_attribute_color:hover {
+    box-shadow: inset 0 0 0 2px #fff;
+    -webkit-box-shadow: inset 0 0 0 2px #fff;
+}

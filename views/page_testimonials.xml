@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+	<data>
+		<template name="Testimonials" id="website.testimonials" page="True">
+		    <t t-call="website.layout">
+			   <div class="page-wrapper oe_structure">
+					<div class="page-intro">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12">
+									<ol class="breadcrumb">
+										<li><i class="fa fa-home pr-10"></i><a href="/">Home</a></li>
+										<li class="active">Testimonials</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<section class="main-container">
+						<div class="container">
+							<div class="row">
+								<div class="main col-md-8 col-md-offset-2">
+									<h1 id="testimonials" class="page-title">Testimonials</h1>
+									<br></br>
+									<blockquote>
+										<p>Damian ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis, cupiditate delectus in consequatur, culpa unde soluta, ducimus dicta blanditiis voluptas rerum ipsa omnis vero ad tempora saepe tempore neque!</p>
+										<footer><cite title="Source Title">Damian Zaleski </cite></footer>
+									</blockquote>
+									<br></br>
+									<blockquote class="inline">
+										<p class="margin-clear">Damian ipsum dolor sit amet, consectetur adipisicing elit. Adipisci debitis, cupiditate delectus in consequatur, culpa unde soluta, ducimus dicta!</p>
+										<footer><cite title="Source Title">Damian Zaleski </cite></footer>
+									</blockquote>
+									<div class="space"></div>
+									<div class="testimonial clearfix">
+										<center><h2 class="title">Perfect</h2></center>
+										<div class="testimonial-image">
+											<img src="/theme_louma/static/src/images/divers/testimonial-1.jpg" alt="#" title="#" class="img-circle"/>
+										</div>
+										<div class="testimonial-body">
+											<p>Sed ut perspiciatis unde omnis iste natu error sit voluptatem accusan tium dolore laud antium,  totam rem dolor sit amet tristique pulvinar, turpis arcu rutrum nunc, ac laoreet turpis augue a justo.</p>
+											<div class="testimonial-info-1">- Micheal Lmen</div>
+											<div class="testimonial-info-2">Company</div>
+										</div>
+									</div>
+									<hr></hr>
+									<div class="space-bottom"></div>
+									<div class="well">
+										<div class="testimonial clearfix">
+											<div class="testimonial-image">
+												<img src="/theme_louma/static/src/images/divers/testimonial-2.jpg" alt="#" title="#" class="img-circle"/>
+											</div>
+											<div class="testimonial-body">
+												<center><h2 class="title">Amazing</h2></center>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eveniet, nihil repellat temporibus! Vitae veniam neque atque autem vel fugit aspernatur perferendis sunt, voluptatum debitis! Nemo aut, itaque officiis assumenda.</p>
+												<div class="testimonial-info-1">- Anna Dupret</div>
+												<div class="testimonial-info-2">Company</div>
+											</div>
+										</div>
+									</div>
+									<div class="space-bottom"></div>
+									<div class="default-bg text-muted clearfix pr-20 pl-20">
+										<div class="testimonial clearfix">
+											<div class="testimonial-image">
+												<img src="/theme_louma/static/src/images/divers/testimonial-3.jpg" alt="#" title="#" class="img-circle"/>
+											</div>
+											<div class="testimonial-body">
+												<center><h2 class="title">Thanks</h2></center>
+												<p>Laboriosam eius, delectus reiciendis fugit totam, doloremque ut ipsa vel id tempora quaerat facere, quo fugiat perferendis incidunt iusto ea doloribus! Quaerat, minus.</p>
+												<div class="testimonial-info-1">- Leila Rmen</div>
+												<div class="testimonial-info-2">Company</div>
+											</div>
+										</div>
+									</div>
+									<div class="space"></div>
+									<div class="dark-bg text-muted clearfix pr-20 pl-20">
+										<div class="testimonial clearfix">
+											<div class="testimonial-image">
+												<img src="/theme_louma/static/src/images/divers/testimonial-1.jpg" alt="#" title="#" class="img-circle"/>
+											</div>
+											<div class="testimonial-body">
+												<center><h2 class="title">Great</h2></center>
+												<p>Ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, nulla quae dolores, unde eos laboriosam ea tenetur omnis laborum a libero rem similique mollitia qui repellat quod veniam porro aspernatur.</p>
+												<div class="testimonial-info-1">- Micheal Lmen</div>
+												<div class="testimonial-info-2">Company</div>
+											</div>
+										</div>
+									</div>
+									<div class="space"></div>
+									<div class="row">
+										<div class="col-md-6">
+											<div class="testimonial clearfix">
+												<div class="testimonial-body">
+													<h2 class="title">Lorem Ipsum</h2>
+													<p>Ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, nulla quae dolores, unde eos laboriosam ea tenetur omnis..</p>
+													<div class="testimonial-info-1">- Micheal Lmen</div>
+													<div class="testimonial-info-2">Company</div>
+													<hr></hr>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="testimonial gray-bg">
+												<div class="testimonial-body">
+													<h2 class="title">Lorem Ipsum</h2>
+													<p>Ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, nulla quae dolores, unde eos laboriosam ea tenetur omnis..</p>
+													<div class="testimonial-info-1">- Anna Dupret</div>
+													<div class="testimonial-info-2">Company</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6">
+											<div class="testimonial default-bg text-muted">
+												<div class="testimonial-body">
+													<h2 class="title">Lorem Ipsum</h2>
+													<p>Ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, nulla quae dolores, unde eos laboriosam ea tenetur omnis..</p>
+													<div class="testimonial-info-1">- Anna Dupret</div>
+													<div class="testimonial-info-2">Company</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="testimonial dark-bg text-muted">
+												<div class="testimonial-body">
+													<h2 class="title">Lorem Ipsum</h2>
+													<p>Ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, nulla quae dolores, unde eos laboriosam ea tenetur omnis..</p>
+													<div class="testimonial-info-1">- Anna Dupret</div>
+													<div class="testimonial-info-2">Company</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br></br>
+									<div class="owl-carousel content-slider">
+										<div class="testimonial clearfix">
+											<h2 class="title">Testimonial Slider without controls</h2>
+											<div class="testimonial-image">
+												<img src="/theme_louma/static/src/images/divers/testimonial-1.jpg" alt="#" title="#" class="img-circle"/>
+											</div>
+											<div class="testimonial-body">
+												<p>Sed ut perspiciatis unde omnis iste natu error sit voluptatem accusan tium dolore laud antium,  totam rem dolor sit amet tristique pulvinar, turpis arcu rutrum nunc, ac laoreet turpis augue a justo.</p>
+												<div class="testimonial-info-1">- Micheal Lmen</div>
+												<div class="testimonial-info-2">Company</div>
+											</div>
+											<hr></hr>
+										</div>
+										<div class="testimonial clearfix">
+											<h2 class="title">Testimonial Slider without controls (Autoplay on)</h2>
+											<div class="testimonial-image">
+												<img src="/theme_louma/static/src/images/divers/testimonial-2.jpg" alt="#" title="#" class="img-circle"/>
+											</div>
+											<div class="testimonial-body">
+												<p>Turpis arcu rutrum nunc, ac laoreet turpis augue a justo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, esse, animi maxime voluptate tempore at sunt labore incidunt nulla dignissimos iusto ad similique inventore distinctio quam repellendus itaque minus minima.</p>
+												<div class="testimonial-info-1">- Anna Dupret</div>
+												<div class="testimonial-info-2">Company</div>
+											</div>
+											<hr></hr>
+										</div>
+										<div class="testimonial clearfix">
+											<h2 class="title">Testimonial Slider without controls (Autoplay on)</h2>
+											<div class="testimonial-image">
+												<img src="/theme_louma/static/src/images/divers/testimonial-3.jpg" alt="#" title="#" class="img-circle"/>
+											</div>
+											<div class="testimonial-body">
+												<p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors. Continually transform fully tested expertise with competitive technologies ac laoreet turpis augue a justo.</p>
+												<div class="testimonial-info-1">- Leila Rmen</div>
+												<div class="testimonial-info-2">Company</div>
+											</div>
+											<hr></hr>
+										</div>
+									</div>
+									<br></br>
+									<div class="owl-carousel content-slider-with-controls-bottom">
+										<div class="testimonial clearfix">
+											<h2 class="title">Testimonial Slider with controls</h2>
+											<div class="testimonial-image">
+												<img src="/theme_louma/static/src/images/divers/testimonial-1.jpg" alt="#" title="#" class="img-circle"/>
+											</div>
+											<div class="testimonial-body">
+												<p>Sed ut perspiciatis unde omnis iste natu error sit voluptatem accusan tium dolore laud antium,  totam rem dolor sit amet tristique pulvinar, turpis arcu rutrum nunc, ac laoreet turpis augue a justo.</p>
+												<div class="testimonial-info-1">- Micheal Lmen</div>
+												<div class="testimonial-info-2">Company</div>
+											</div>
+											<hr></hr>
+										</div>
+										<div class="testimonial clearfix">
+											<h2 class="title">Testimonial Slider with controls</h2>
+											<div class="testimonial-image">
+												<img src="/theme_louma/static/src/images/divers/testimonial-2.jpg" alt="#" title="#" class="img-circle"/>
+											</div>
+											<div class="testimonial-body">
+												<p>Turpis arcu rutrum nunc, ac laoreet turpis augue a justo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, esse, animi maxime voluptate tempore at sunt labore incidunt nulla dignissimos iusto ad similique inventore distinctio quam repellendus itaque minus minima.</p>
+												<div class="testimonial-info-1">- Anna Dupret</div>
+												<div class="testimonial-info-2">Company</div>
+											</div>
+											<hr></hr>
+										</div>
+										<div class="testimonial clearfix">
+											<h2 class="title">Testimonial Slider with controls</h2>
+											<div class="testimonial-image">
+												<img src="/theme_louma/static/src/images/divers/testimonial-3.jpg" alt="#" title="#" class="img-circle"/>
+											</div>
+											<div class="testimonial-body">
+												<p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors. Continually transform fully tested expertise with competitive technologies ac laoreet turpis augue a justo.</p>
+												<div class="testimonial-info-1">- Leila Rmen</div>
+												<div class="testimonial-info-2">Company</div>
+											</div>
+											<hr></hr>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<div class="section gray-bg clearfix">
+						<div class="owl-carousel content-slider">
+							<div class="testimonial">
+								<div class="container">
+									<div class="row">
+										<div class="col-md-8 col-md-offset-2">
+											<h2 class="title">Full Width Testimonial Slider</h2>
+											<div class="testimonial-image">
+												<img src="/theme_louma/static/src/images/divers/testimonial-1.jpg" alt="#" title="#" class="img-circle"/>
+											</div>
+											<div class="testimonial-body">
+												<p>Sed ut perspiciatis unde omnis iste natu error sit voluptatem accusan tium dolore laud antium,  totam rem dolor sit amet tristique pulvinar, turpis arcu rutrum nunc, ac laoreet turpis augue a justo.</p>
+												<div class="testimonial-info-1">- Micheal Lmen</div>
+												<div class="testimonial-info-2">Company</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="testimonial">
+								<div class="container">
+									<div class="row">
+										<div class="col-md-8 col-md-offset-2">
+											<h2 class="title">Full Width Testimonial Slider</h2>
+											<div class="testimonial-image">
+												<img src="/theme_louma/static/src/images/divers/testimonial-2.jpg" alt="#" title="#" class="img-circle"/>
+											</div>
+											<div class="testimonial-body">
+												<p>Turpis arcu rutrum nunc, ac laoreet turpis augue a justo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, esse, animi maxime voluptate tempore at sunt labore incidunt nulla dignissimos iusto ad similique inventore distinctio quam repellendus itaque minus minima.</p>
+												<div class="testimonial-info-1">- Anna Dupret</div>
+												<div class="testimonial-info-2">Company</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="testimonial">
+								<div class="container">
+									<div class="row">
+										<div class="col-md-8 col-md-offset-2">
+											<h2 class="title">Full Width Testimonial Slider</h2>
+											<div class="testimonial-image">
+												<img src="/theme_louma/static/src/images/divers/testimonial-3.jpg" alt="#" title="#" class="img-circle"/>
+											</div>
+											<div class="testimonial-body">
+												<p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors. Continually transform fully tested expertise with competitive technologies ac laoreet turpis augue a justo.</p>
+												<div class="testimonial-info-1">- Leila Rmen</div>
+												<div class="testimonial-info-2">Company</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+			   </div>
+		    </t>
+		</template>
+	</data>
+</openerp>

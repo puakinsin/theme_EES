@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+    <data>
+        <template name="Home Video BG" id="website.home-video" page="True">
+            <t t-call="website.layout">
+                <div class="page-wrapper oe_structure">
+                    <!-- banner start -->
+                    <div class="banner js_revolution">
+                        <div class="slideshow white-bg">
+                            <div class="slider-banner-container">
+                                <div class="slider-banner-fullscreen-alt-nav">
+                                    <ul>
+                                        <!-- slide 1 start -->
+                                        <li data-transition="fade" data-slotamount="1" data-masterspeed="1000"
+                                            data-fstransition="fade" data-fsmasterspeed="1000"
+                                            data-saveperformance="off" data-title="Slide 1">
+                                            <img src="/theme_louma/static/src/videos/video-poster.png" alt="slidebg1"
+                                                 data-bgposition="center center" data-bgfit="cover"
+                                                 data-bgrepeat="no-repeat"/>
+                                            <div class="tp-caption dark-translucent-bg"
+                                                 data-x="center"
+                                                 data-y="bottom"
+                                                 data-speed="800"
+                                                 data-start="0">
+                                            </div>
+                                            <!-- Video Background -->
+                                            <div class="tp-caption tp-fade fadeout fullscreenvideo"
+                                                 data-x="0"
+                                                 data-y="0"
+                                                 data-speed="1000"
+                                                 data-start="1100"
+                                                 data-easing="Power4.easeOut"
+                                                 data-elementdelay="0.01"
+                                                 data-endelementdelay="0.1"
+                                                 data-endspeed="1500"
+                                                 data-endeasing="Power4.easeIn"
+                                                 data-autoplay="true"
+                                                 data-autoplayonlyfirsttime="false"
+                                                 data-nextslideatend="true"
+                                                 data-volume="mute"
+                                                 data-forceCover="1"
+                                                 data-aspectratio="16:9"
+                                                 data-forcerewind="on"
+                                                 style="z-index: 2;">
+                                                <video class="" preload="none" width="100%" height="100%"
+                                                       poster='/theme_louma/static/src/videos/video-poster.png'>
+                                                    <source src="/theme_louma/static/src/videos/background-video.mp4"
+                                                            type='video/mp4'/>
+                                                </video>
+                                            </div>
+                                            <div class="tp-caption very_large_text sfl tp-resizeme"
+                                                 data-x="center"
+                                                 data-y="70"
+                                                 data-speed="200"
+                                                 data-start="0"
+                                                 data-end="10000"
+                                                 data-endspeed="200"
+                                                 data-splitin="chars"
+                                                 data-elementdelay="0.07"
+                                                 data-endelementdelay="0.1"
+                                                 data-splitout="chars">We Love to Make Odoo Theme
+                                            </div>
+                                            <div class="tp-caption sfr small_thin_white text-center tp-resizeme"
+                                                 data-x="center"
+                                                 data-y="170"
+                                                 data-speed="600"
+                                                 data-start="0"
+                                                 data-end="10000"
+                                                 data-endspeed="600">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                elit.
+                                                <br></br>
+                                                Quia dolorum consectetur doloremque a aliquam ullam labore, ducimus
+                                                adipisci iste animi
+                                                <br></br>
+                                                natus asperiores sequi assumenda minima blanditiis. Culpa quis
+                                                consectetur ratione.
+                                            </div>
+                                            <div class="tp-caption sft"
+                                                 data-x="center"
+                                                 data-y="500"
+                                                 data-speed="600"
+                                                 data-start="0"
+                                                 data-end="10000"
+                                                 data-endspeed="600">
+                                                <a href="#page-top" class="btn btn-lg smooth-scroll">
+                                                    <i class="fa fa-angle-double-down fa-2x"></i>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li data-transition="fade" data-slotamount="7" data-masterspeed="1000"
+                                            data-saveperformance="on" data-title="Slide 2" class="js_image_dvt_rvslider">
+                                            <img src="/theme_louma/static/src/images/slider/slider-bgv-2.jpg"
+                                                 alt="slidebg1" data-bgposition="center top" data-bgfit="cover"
+                                                 data-bgrepeat="no-repeat"/>
+                                            <div class="tp-caption light-translucent-bg"
+                                                 data-x="center"
+                                                 data-y="bottom"
+                                                 data-speed="800"
+                                                 data-start="0"
+                                                 style="background-color:rgba(255,255,255,0.3);">
+                                            </div>
+                                            <div class="tp-caption very_large_text sfl tp-resizeme"
+                                                 data-x="center"
+                                                 data-y="70"
+                                                 data-speed="200"
+                                                 data-start="0"
+                                                 data-end="10000"
+                                                 data-endspeed="200"
+                                                 data-splitin="chars"
+                                                 data-elementdelay="0.07"
+                                                 data-endelementdelay="0.1"
+                                                 data-splitout="chars">Welcome To Louma
+                                            </div>
+                                            <div class="tp-caption sfr small_thin_dark text-center tp-resizeme"
+                                                 data-x="center"
+                                                 data-y="170"
+                                                 data-speed="600"
+                                                 data-start="0"
+                                                 data-end="10000"
+                                                 data-endspeed="600">Quia dolorum consectetur doloremque a aliquam ullam
+                                                labore, ducimus adipisci iste animi
+                                                <br></br>
+                                                natus asperiores sequi assumenda minima blanditiis. Culpa quis
+                                                consectetur ratione.
+                                            </div>
+                                            <div class="tp-caption light_medium_20 sft"
+                                                 data-x="center"
+                                                 data-y="500"
+                                                 data-speed="600"
+                                                 data-start="0"
+                                                 data-end="10000"
+                                                 data-endspeed="600">
+                                                <a href="#page-top" class="btn btn-lg black smooth-scroll">
+                                                    <i class="fa fa-angle-double-down fa-2x"></i>
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- banner end -->
+                    <!-- page-top start-->
+                    <div id="page-top" class="page-top object-non-visible" data-animation-effect="fadeInUpSmall"
+                         data-effect-delay="100">
+                        <div class="clearfix">
+                            <div class="col-md-12">
+                                <h1 class="text-center title">Services</h1>
+                                <div class="separator"></div>
+                                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <div class="row grid-space-20">
+                                    <div class="col-md-12 col-lg-5">
+                                        <br class="hidden-sm hidden-xs"></br>
+                                        <br class="hidden-sm hidden-xs"></br>
+                                        <img src="/theme_louma/static/src/images/divers/section-image-3.png" alt=""
+                                             class="object-non-visible center-block" data-animation-effect="fadeInUp"
+                                             data-effect-delay="0"/>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3">
+                                        <br class="hidden-xs"></br>
+                                        <div class="box-style-3 object-non-visible"
+                                             data-animation-effect="fadeInUpSmall" data-effect-delay="0">
+                                            <div class="icon-container default-bg circle">
+                                                <i class="fa fa-paint-brush"></i>
+                                            </div>
+                                            <div class="body">
+                                                <h2>Beautiful Design</h2>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+                                                    similique tempora blanditiis, doloremque invent.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="box-style-3 object-non-visible"
+                                             data-animation-effect="fadeInUpSmall" data-effect-delay="0">
+                                            <div class="icon-container default-bg circle">
+                                                <i class="fa fa-mobile"></i>
+                                            </div>
+                                            <div class="body">
+                                                <h2>100 % Responsive</h2>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+                                                    similique tempora blanditiis, doloremque invent.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <br class="hidden-xs hidden-sm"></br>
+                                        <br></br>
+                                        <br></br>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3">
+                                        <br class="hidden-xs"></br>
+                                        <div class="box-style-3 object-non-visible"
+                                             data-animation-effect="fadeInUpSmall" data-effect-delay="0">
+                                            <div class="icon-container default-bg circle">
+                                                <i class="fa fa-thumbs-o-up"></i>
+                                            </div>
+                                            <div class="body">
+                                                <h2>Easy to Use</h2>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+                                                    similique tempora blanditiis, doloremque invent.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="box-style-3 object-non-visible"
+                                             data-animation-effect="fadeInUpSmall" data-effect-delay="200">
+                                            <div class="icon-container default-bg circle">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </div>
+                                            <div class="body">
+                                                <h2>E-Commerce</h2>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+                                                    similique tempora blanditiis, doloremque invent.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <br class="hidden-xs"></br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- page-top end -->
+
+                    <!-- section start -->
+                    <div class="clearfix light-gray-bg object-non-visible" data-animation-effect="fadeInUpSmall"
+                         data-effect-delay="200">
+                        <div class="full-width-section">
+                            <div class="full-image-container">
+                                <img class="center-block"
+                                     src="/theme_louma/static/src/images/divers/section-image-8.jpg" alt=""/>
+                            </div>
+                            <div class="full-text-container">
+                                <h1>Welcome to the Future</h1>
+                                <div class="separator-2"></div>
+                                <p class="lead text-justify">Lorem ipsum dolor sit amet. Maiores, odio ut deleniti
+                                    doloremque ad at praesentium laudantium.
+                                </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi veniam, veritatis
+                                    sint consequuntur! Natus, culpa, explicabo! Non quo laboriosam nobis quia, amet
+                                    excepturi optio dolor impedit. Perferendis libero unde, nulla deserunt sequi.
+                                    Voluptatum, officia suscipit porro reprehenderit vitae quo rem reiciendis, a vero
+                                    quae. Vero beatae voluptatum.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="section  dark-bg pattern-6">
+                            <div class="container">
+                                <div class="call-to-action">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <h1 class="title text-center">We work hard to give you the best Odoo
+                                                Theme.
+                                            </h1>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="text-center">
+                                                <a href="#" class="btn btn-default btn-lg">Purchase</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="full-width-section">
+                            <div class="full-text-container left">
+                                <h1>Impress your clients</h1>
+                                <div class="separator-2 right"></div>
+                                <p class="lead text-justify">Lorem ipsum dolor sit amet. Maiores, odio ut deleniti
+                                    doloremque ad at praesentium laudantium.
+                                </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi veniam, veritatis
+                                    sint consequuntur! Natus, culpa, explicabo! Non quo laboriosam nobis quia, amet
+                                    excepturi optio dolor impedit. Perferendis libero unde, nulla deserunt sequi.
+                                    Voluptatum, officia suscipit porro reprehenderit vitae quo rem reiciendis, a vero
+                                    quae. Vero beatae voluptatum.
+                                </p>
+                            </div>
+                            <div class="full-image-container">
+                                <img class="center-block"
+                                     src="/theme_louma/static/src/images/divers/section-image-9.jpg" alt=""/>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- section end -->
+
+                    <!-- section start -->
+                    <div class="section object-non-visible" data-animation-effect="fadeIn" data-effect-delay="300">
+                        <br></br>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2">
+                                    <div class="owl-carousel content-slider-with-controls-bottom">
+                                        <div class="testimonial margin-clear clearfix">
+                                            <center>
+                                                <h2 class="title">Perfect!</h2>
+                                            </center>
+                                            <div class="testimonial-image">
+                                                <img src="/theme_louma/static/src/images/divers/testimonial-1.jpg"
+                                                     alt="#" title="#" class="img-circle"/>
+                                            </div>
+                                            <div class="testimonial-body">
+                                                <p>Sed ut perspiciatis unde omnis iste natu error sit voluptatem accusan
+                                                    tium dolore laud antium, totam rem dolor sit amet tristique
+                                                    pulvinar, turpis arcu rutrum nunc, ac laoreet turpis augue a justo.
+                                                </p>
+                                                <div class="testimonial-info-1">- Micheal Lmen</div>
+                                                <div class="testimonial-info-2">Company</div>
+                                            </div>
+                                            <hr class="clear"></hr>
+                                        </div>
+                                        <div class="testimonial margin-clear clearfix">
+                                            <center>
+                                                <h2 class="title">Great!</h2>
+                                            </center>
+                                            <div class="testimonial-image">
+                                                <img src="/theme_louma/static/src/images/divers/testimonial-2.jpg"
+                                                     alt="#" title="#" class="img-circle"/>
+                                            </div>
+                                            <div class="testimonial-body">
+                                                <p>Turpis arcu rutrum nunc, ac laoreet turpis augue a justo. Lorem ipsum
+                                                    dolor sit amet, consectetur adipisicing elit. Expedita, esse, animi
+                                                    maxime voluptate tempore at sunt labore incidunt nulla dignissimos
+                                                    iusto ad similique inventore distinctio quam repellendus itaque
+                                                    minus minima.
+                                                </p>
+                                                <div class="testimonial-info-1">- Anna Dupret</div>
+                                                <div class="testimonial-info-2">Company</div>
+                                            </div>
+                                            <hr class="clear"></hr>
+                                        </div>
+                                        <div class="testimonial margin-clear clearfix">
+                                            <center>
+                                                <h2 class="title">Amazing!</h2>
+                                            </center>
+                                            <div class="testimonial-image">
+                                                <img src="/theme_louma/static/src/images/divers/testimonial-3.jpg"
+                                                     alt="#" title="#" class="img-circle"/>
+                                            </div>
+                                            <div class="testimonial-body">
+                                                <p>Phosfluorescently e-enable adaptive synergy for strategic quality
+                                                    vectors. Continually transform fully tested expertise with
+                                                    competitive technologies ac laoreet turpis augue a justo.
+                                                </p>
+                                                <div class="testimonial-info-1">- Leila Rmen</div>
+                                                <div class="testimonial-info-2">Company</div>
+                                            </div>
+                                            <hr class="clear"></hr>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br></br>
+                    </div>
+                    <!-- section end -->
+                    <!-- section start -->
+                    <div class="section light-gray-bg footer-top clearfix">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="owl-carousel clients">
+                                        <div class="client">
+                                            <a href="#">
+                                                <img src="/theme_louma/static/src/images/divers/client-1.png" alt=""/>
+                                            </a>
+                                        </div>
+                                        <div class="client">
+                                            <a href="#">
+                                                <img src="/theme_louma/static/src/images/divers/client-2.png" alt=""/>
+                                            </a>
+                                        </div>
+                                        <div class="client">
+                                            <a href="#">
+                                                <img src="/theme_louma/static/src/images/divers/client-3.png" alt=""/>
+                                            </a>
+                                        </div>
+                                        <div class="client">
+                                            <a href="#">
+                                                <img src="/theme_louma/static/src/images/divers/client-4.png" alt=""/>
+                                            </a>
+                                        </div>
+                                        <div class="client">
+                                            <a href="#">
+                                                <img src="/theme_louma/static/src/images/divers/client-5.png" alt=""/>
+                                            </a>
+                                        </div>
+                                        <div class="client">
+                                            <a href="#">
+                                                <img src="/theme_louma/static/src/images/divers/client-6.png" alt=""/>
+                                            </a>
+                                        </div>
+                                        <div class="client">
+                                            <a href="#">
+                                                <img src="/theme_louma/static/src/images/divers/client-7.png" alt=""/>
+                                            </a>
+                                        </div>
+                                        <div class="client">
+                                            <a href="#">
+                                                <img src="/theme_louma/static/src/images/divers/client-8.png" alt=""/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <blockquote class="inline">
+                                        <p class="margin-clear">Design is not just what it looks like and feels like.
+                                            Design is how it works.
+                                        </p>
+                                        <footer>
+                                            <cite title="Source Title">Steve Jobs</cite>
+                                        </footer>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- section end -->
+                </div>
+            </t>
+        </template>
+    </data>
+</openerp>

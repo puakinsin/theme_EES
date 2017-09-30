@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+    <data>
+
+        <template id="tab_snippet_structure_louma" inherit_id="website.snippets" name="Tab Snippet Structure Louma">
+            <xpath expr="//div[@id='snippet_content']" position="after">
+                <div id="snippet_structure_louma" class="o_panel">
+                    <div class="o_panel_header">
+                        <i class="fa fa-indent"/>
+                        Louma
+                    </div>
+                    <div class="o_panel_body">
+
+                    </div>
+                </div>
+            </xpath>
+        </template>
+
+        <template id="separator_snippet_options" inherit_id="website.snippet_options">
+            <xpath expr="." position="inside">
+                <div data-js='blog-style'
+                     data-selector="section:not(.carousel):not(.parallax):not(.o_gallery):not(.louma)">
+                    <li class="dropdown-submenu">
+                        <a tabindex="-1" href="#">Style</a>
+                        <ul class="dropdown-menu">
+                            <li data-toggle_class="para_large">
+                                <a>Bigger Text</a>
+                            </li>
+                            <li data-toggle_class="readable">
+                                <a>Narrow</a>
+                            </li>
+                        </ul>
+                    </li>
+                </div>
+            </xpath>
+
+
+            <!-- <xpath expr="//div[@data-js='background']" position="after">
+                 <div data-js='background'
+                      data-selector=".parallax-bg-shop">
+                     <li class="dropdown-submenu">
+                         <a tabindex="-1" href="#"><i class="fa fa-picture-o"/>Background Parallax Shop</a>
+                         <ul class="dropdown-menu">
+                             <li data-background=""><a href="#">None</a></li>
+                             <li class="divider"></li>
+                             <li data-choose_image="choose_image"><a href="#"><b>Set Custom Image...</b></a></li>
+                             <li class="divider"></li>
+                             <li data-background="/theme_louma/static/src/images/theme/background/bg1.jpg"><a href="#">Option 1</a></li>
+                             <li data-background="/theme_louma/static/src/images/theme/background/bg2.jpg"><a href="#">Option 2</a></li>
+                             <li data-background="/theme_louma/static/src/images/theme/background/bg3.jpg"><a href="#">Option 3</a></li>
+                             <li data-background="/theme_louma/static/src/images/theme/background/bg4.jpg"><a href="#">Option 4</a></li>
+                             <li data-background="/theme_louma/static/src/images/theme/background/bg5.jpg"><a href="#">Option 5</a></li>
+                             <li data-background="/theme_louma/static/src/images/theme/background/bg6.jpg"><a href="#">Option 6</a></li>
+                             <li data-background="/theme_louma/static/src/images/theme/background/bg7.jpg"><a href="#">Option 7</a></li>
+                             <li data-background="/theme_louma/static/src/images/theme/background/bg8.jpg"><a href="#">Option 8</a></li>
+                             <li data-background="/theme_louma/static/src/images/theme/background/bg9.jpg"><a href="#">Option 9</a></li>
+                             <li data-background="/theme_louma/static/src/images/theme/background/bg10.jpg"><a href="#">Option 10</a></li>
+                             <li data-background="/theme_louma/static/src/images/theme/background/bg11.jpg"><a href="#">Option 11</a></li>
+                             <li data-background="/theme_louma/static/src/images/theme/background/bg12.jpg"><a href="#">Option 12</a></li>
+                         </ul>
+                     </li>
+                 </div>
+
+
+             </xpath>-->
+
+            <xpath expr="//div[@data-js='background']" position="after">
+                <div data-js='background'
+                     data-selector=".louma,.parallax-bg-shop">
+                    <li class="dropdown-submenu">
+                        <a tabindex="-1" href="#"><i class="fa fa-picture-o"/>Background Louma
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li data-background="">
+                                <a href="#">None</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li data-choose_image="choose_image">
+                                <a href="#">
+                                    <b>Set Custom Image...</b>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li data-background="/theme_louma/static/src/images/theme/background/bg1.jpg">
+                                <a href="#">Option 1</a>
+                            </li>
+                            <li data-background="/theme_louma/static/src/images/theme/background/bg2.jpg">
+                                <a href="#">Option 2</a>
+                            </li>
+                            <li data-background="/theme_louma/static/src/images/theme/background/bg3.jpg">
+                                <a href="#">Option 3</a>
+                            </li>
+                            <li data-background="/theme_louma/static/src/images/theme/background/bg4.jpg">
+                                <a href="#">Option 4</a>
+                            </li>
+                            <li data-background="/theme_louma/static/src/images/theme/background/bg5.jpg">
+                                <a href="#">Option 5</a>
+                            </li>
+                            <li data-background="/theme_louma/static/src/images/theme/background/bg6.jpg">
+                                <a href="#">Option 6</a>
+                            </li>
+                            <li data-background="/theme_louma/static/src/images/theme/background/bg7.jpg">
+                                <a href="#">Option 7</a>
+                            </li>
+                            <li data-background="/theme_louma/static/src/images/theme/background/bg8.jpg">
+                                <a href="#">Option 8</a>
+                            </li>
+                            <li data-background="/theme_louma/static/src/images/theme/background/bg9.jpg">
+                                <a href="#">Option 9</a>
+                            </li>
+                            <li data-background="/theme_louma/static/src/images/theme/background/bg10.jpg">
+                                <a href="#">Option 10</a>
+                            </li>
+                            <li data-background="/theme_louma/static/src/images/theme/background/bg11.jpg">
+                                <a href="#">Option 11</a>
+                            </li>
+                            <li data-background="/theme_louma/static/src/images/theme/background/bg12.jpg">
+                                <a href="#">Option 12</a>
+                            </li>
+                        </ul>
+                    </li>
+                </div>
+
+
+            </xpath>
+
+
+            <xpath expr="//div[@data-js='background']" position="after">
+                <div data-selector=".row > [class*='testimonial-col-louma col-md-'],.row > [class*='big-icon-col-louma col-md-'],.row > [class*='features-col-louma col-md-']">
+                    <li class="dropdown-submenu">
+                        <a tabindex="-1" href="#">Background Color</a>
+                        <ul class="dropdown-menu">
+                            <li data-select_class="default-bg">
+                                <a>Default</a>
+                            </li>
+                            <li data-select_class="gray-bg">
+                                <a>Gray</a>
+                            </li>
+                            <li data-select_class="dark-bg">
+                                <a>Dark</a>
+                            </li>
+                            <li data-select_class="white-bg">
+                                <a>White</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </div>
+            </xpath>
+
+            <xpath expr="//div[@data-js='background']" position="after">
+                <div data-js='slider_ul'
+                     data-selector=".slider_ul">
+                    <li data-add_li="true">
+                        <a href="#">Add new line</a>
+                    </li>
+                </div>
+                <div data-selector=".slider_ul li">
+                    <!--<li data-remove_li="true">-->
+                    <!--<a href="#">Remove</a>-->
+                    <!--</li>-->
+                </div>
+            </xpath>
+
+            <xpath expr="//div[@data-js='background']" position="after">
+                <div data-js='js_revolution'
+                     data-selector=".js_revolution">
+                </div>
+
+                <div data-js='js_owl_carousel'
+                     data-selector=".owl-carousel">
+                </div>
+
+                <div data-js='js_image_dvt'
+                     data-selector="div > [class*='overlay-container']">
+                    <li data-choose_image="choose_image">
+                        <a href="#">
+                            <b>Choose Image...</b>
+                        </a>
+                    </li>
+                </div>
+
+                <div data-js='js_image_dvt_rvslider'
+                     data-selector=".js_image_dvt_rvslider">
+                    <li data-choose_image="choose_image">
+                        <a href="#">
+                            <b>Change background Slider...</b>
+                        </a>
+                    </li>
+                </div>
+
+            </xpath>
+
+        </template>
+        <template id="assets_frontend_js" name="Latest Posts JS frontend assets" inherit_id="website.assets_frontend">
+            <xpath expr="//script[last()]" position="after">
+                <script type="text/javascript" src="/theme_louma/static/src/js/theme.snippets.editor.js"></script>
+            </xpath>
+        </template>
+
+    </data>
+</openerp>

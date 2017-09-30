@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+    <data>
+        <template name="Home shop" id="website.home-shop" page="True">
+            <t t-call="website.layout">
+                <div class="page-wrapper oe_structure">
+                    <div class="banner shop-banner js_revolution">
+                        <div class="slideshow white-bg">
+                            <div class="slider-banner-container">
+                                <div class="slider-banner">
+                                    <ul>
+                                        <li data-transition="fade" data-slotamount="7" data-masterspeed="1000"
+                                            data-saveperformance="on" data-title="Slide 1" class="js_image_dvt_rvslider">
+                                            <img src="/theme_louma/static/src/images/slider/slide-shop-1.jpg"
+                                                 alt="slidebg1" data-bgposition="center top" data-bgfit="cover"
+                                                 data-bgrepeat="no-repeat"/>
+                                            <div class="tp-caption light-translucent-bg"
+                                                 data-x="center"
+                                                 data-y="bottom"
+                                                 data-speed="800"
+                                                 data-start="0"
+                                                 style="background-color:rgba(255,255,255,0.4);">
+                                            </div>
+
+                                            <div class="tp-caption very_large_text hidden-sm  sfl tp-resizeme"
+                                                 data-x="center"
+                                                 data-y="150"
+                                                 data-speed="200"
+                                                 data-start="0"
+                                                 data-end="10000"
+                                                 data-endspeed="200"
+                                                 data-splitin="chars"
+                                                 data-elementdelay="0.07"
+                                                 data-endelementdelay="0.1"
+                                                 data-splitout="chars">Boost your online shop presence
+                                            </div>
+
+                                            <div class="tp-caption tp-resizeme hidden-sm sfb"
+                                                 data-x="center"
+                                                 data-y="230"
+                                                 data-speed="700"
+                                                 data-start="600"
+                                                 data-end="10000"
+                                                 data-endspeed="600">
+                                                <a href="#" class="btn btn-primary">Offers
+                                                    <i class="fa fa-angle-right pl-10"></i>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li data-transition="fade" data-slotamount="7" data-masterspeed="1000"
+                                            data-saveperformance="on" data-title="Slide 2" class="js_image_dvt_rvslider">
+                                            <img src="/theme_louma/static/src/images/slider/slide-shop-2.jpg"
+                                                 alt="slidebg1" data-bgposition="center top" data-bgfit="cover"
+                                                 data-bgrepeat="no-repeat"/>
+                                            <div class="tp-caption light-translucent-bg"
+                                                 data-x="center"
+                                                 data-y="bottom"
+                                                 data-speed="800"
+                                                 data-start="0"
+                                                 style="background-color:rgba(255,255,255,0.4);">
+                                            </div>
+                                            <div class="tp-caption very_large_text hidden-sm sft  tp-resizeme"
+                                                 data-x="center"
+                                                 data-y="150"
+                                                 data-speed="700"
+                                                 data-start="200"
+                                                 data-end="10000"
+                                                 data-endspeed="600">Special Offers
+                                            </div>
+
+                                            <div class="tp-caption tp-resizeme hidden-sm sfb"
+                                                 data-x="center"
+                                                 data-y="230"
+                                                 data-speed="700"
+                                                 data-start="600"
+                                                 data-end="10000"
+                                                 data-endspeed="600">
+                                                <a href="#" class="btn btn-primary">Learn More
+                                                    <i class="fa fa-angle-right pl-10"></i>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li data-transition="fade" data-slotamount="7" data-masterspeed="1000"
+                                            data-saveperformance="on" data-title="Slide 2" class="js_image_dvt_rvslider">
+
+                                            <img src="/theme_louma/static/src/images/slider/slide-shop-3.jpg"
+                                                 alt="slidebg1" data-bgposition="center top" data-bgfit="cover"
+                                                 data-bgrepeat="no-repeat"/>
+
+                                            <div class="tp-caption light-translucent-bg"
+                                                 data-x="center"
+                                                 data-y="bottom"
+                                                 data-speed="800"
+                                                 data-start="0"
+                                                 style="background-color:rgba(255,255,255,0.4);">
+                                            </div>
+                                            <div class="tp-caption very_large_text hidden-sm sft  tp-resizeme"
+                                                 data-x="center"
+                                                 data-y="150"
+                                                 data-speed="700"
+                                                 data-start="200"
+                                                 data-end="10000"
+                                                 data-endspeed="600">Up To 50% Sales
+                                            </div>
+                                            <div class="tp-caption tp-resizeme hidden-sm sfb"
+                                                 data-x="center"
+                                                 data-y="230"
+                                                 data-speed="700"
+                                                 data-start="600"
+                                                 data-end="10000"
+                                                 data-endspeed="600">
+                                                <a href="#" class="btn btn-primary">Learn More
+                                                    <i class="fa fa-angle-right pl-10"></i>
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sorting-filters">
+                            <div class="container">
+                                <form action="/shop" class="form-inline text-center search_class">
+                                    <div class="form-group">
+                                        <label>Search product</label>
+                                        <div class="row grid-space-10">
+                                            <div class="col-sm-12">
+                                                <input type="text" name="search" id="search" value=""
+                                                       class="form-control"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <button class="btn btn-default">Search
+                                            <i class="fa fa-search color-white "></i>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  New products -->
+                    <t t-if="bins">
+                        <div class="container mt16">
+                            <h1 class="text-center title">New products</h1>
+                            <div class="separator"></div>
+                            <div class='row mt16'>
+                                <div id="owl-new-products" class="owl-carousel owl-theme">
+                                    <t t-foreach="bins" t-as="tr_product">
+                                        <t t-foreach="tr_product" t-as="td_product">
+                                            <t t-if="td_product">
+                                                <t t-set="product" t-value="td_product['product']"/>
+                                                <t t-if="product.product_variant_ids[0].new_product">
+                                                    <div class="masonry-grid-item product-item">
+                                                        <div class="listing-item">
+                                                            <div class="overlay-container">
+                                                                <span itemprop="image" t-field="product.image"
+                                                                      t-field-options='{"widget": "image"}'
+                                                                      t-att-alt="product.name"/>
+                                                                <a t-attf-href="/shop/product/#{ slug(product) }"
+                                                                   class="overlay small">
+                                                                    <i class="fa fa-plus"></i>
+                                                                    <span>
+                                                                        <strong>PRODUCT</strong>
+                                                                        DETAIL
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+
+                                                            <div class="listing-item-body">
+                                                                <h3 class="title">
+                                                                    <a itemprop="name"
+                                                                       t-attf-href="/shop/product/#{ slug(product) }"
+                                                                       t-field="product.name"/>
+                                                                </h3>
+                                                                <span itemprop="offers" itemscope="itemscope"
+                                                                      itemtype="http://schema.org/Offer"
+                                                                      class="product_price"
+                                                                      t-if="product.product_variant_ids">
+                                                                    <b class="price">
+                                                                        <t t-if="(compute_currency(product.lst_price) - product.price) &gt; 0.1">
+                                                                            <del class="text-danger mr8"
+                                                                                 style="white-space: nowrap;"
+                                                                                 t-field="product.lst_price"
+                                                                                 t-field-options='{
+                                                                                   "widget": "monetary",
+                                                                                   "from_currency": "product.company_id.currency_id",
+                                                                                   "display_currency": "website.currency_id"
+                                                                        }'/>
+                                                                        </t>
+                                                                        <span t-field="product.price"
+                                                                              style="white-space: nowrap;"
+                                                                              t-field-options='{
+                                                                                  "widget": "monetary",
+                                                                                  "display_currency": "website.currency_id"
+                                                                    }'>
+                                                                        </span>
+                                                                        <span itemprop="price" style="display:none;"
+                                                                              t-esc="product.price"/>
+                                                                        <span itemprop="priceCurrency"
+                                                                              style="display:none;"
+                                                                              t-esc="website.currency_id.name"/>
+                                                                    </b>
+                                                                </span>
+                                                                <div class="elements-list pull-right">
+                                                                    <t t-if="len(product.product_variant_ids) == 1">
+                                                                        <a class="add_to_cart a-submit">
+                                                                            <i class="fa fa-shopping-cart pr-10"></i>
+                                                                            Add to Cart
+                                                                        </a>
+                                                                    </t>
+                                                                    <t t-if="len(product.product_variant_ids) &gt; 1">
+                                                                        <a class="add_to_cart"
+                                                                           t-attf-href="/shop/product/#{ slug(product) }">
+                                                                            <i class="fa fa-shopping-cart"></i>
+                                                                            ADD TO CART
+                                                                        </a>
+                                                                    </t>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </t>
+                                            </t>
+                                        </t>
+                                    </t>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+
+                    <div class="container oe_structure" contenteditable=" 'True' if editable else 'False' ">
+                        <div class="row">
+                            <div class="col-md-4 product-service mb16">
+                                <div class="product-service-heading">
+                                    <i class="fa fa-truck"></i>
+                                </div>
+                                <div class="product-service-in">
+                                    <h3>Free Delivery</h3>
+                                    <p>Integer mattis lacinia felis vel molestie. Ut eu euismod erat, tincidunt pulvinar
+                                        semper veliUt porta, leo...
+                                    </p>
+                                    <a href="#">+Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 product-service mb16">
+                                <div class="product-service-heading">
+                                    <i class="fa fa-headphones"></i>
+                                </div>
+                                <div class="product-service-in">
+                                    <h3>Customer Service</h3>
+                                    <p>Integer mattis lacinia felis vel molestie. Ut eu euismod erat, tincidunt pulvinar
+                                        semper veliUt porta, leo...
+                                    </p>
+                                    <a href="#">+Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 product-service mb16">
+                                <div class="product-service-heading">
+                                    <i class="fa fa-refresh"></i>
+                                </div>
+                                <div class="product-service-in">
+                                    <h3>Free Returns</h3>
+                                    <p>Integer mattis lacinia felis vel molestie. Ut eu euismod erat, tincidunt pulvinar
+                                        semper veliUt porta, leo...
+                                    </p>
+                                    <a href="#">+Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Brand Slider -->
+                    <t t-if='brands'>
+                        <h1 t-if='brands' class="text-center title">Our Brands</h1>
+                        <div class="separator"></div>
+                        <div class="section gray-bg text-muted footer-top clearfix">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="owl-carousel clients">
+                                            <t t-if='brands'>
+                                                <t t-foreach="brands" t-as="i">
+                                                    <div class="client">
+                                                        <span itemprop="image" t-field="i.logo" class="img-responsive"
+                                                              t-field-options="{&quot;widget&quot;: &quot;image&quot;, &quot;alt&quot;: &quot;i.image_alt&quot;,'resize': '100x100'}"/>
+                                                    </div>
+                                                </t>
+                                            </t>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+
+                </div>
+            </t>
+        </template>
+    </data>
+</openerp>

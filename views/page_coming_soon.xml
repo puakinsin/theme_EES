@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+    <data>
+        <template name="Coming Soon" id="website.coming-soon" page="True">
+            <html t-att-lang="lang and lang.replace('_', '-')"
+                  t-att-data-website-id="website.id if editable and website else None"
+                  t-att-data-editable="'1' if editable else None"
+                  t-att-data-translatable="'1' if translatable else None"
+                  t-att-data-edit_translations="'1' if edit_translations else None"
+                  t-att-data-view-xmlid="xmlid if editable or translatable else None"
+                  t-att-data-main-object="repr(main_object) if editable else None"
+                  t-att-data-oe-company-name="res_company.name">
+                <head>
+                    <meta charset="utf-8" />
+                    <t t-if="main_object and 'website_meta_title' in main_object and not title">
+                        <t t-set="title" t-value="main_object.website_meta_title"/>
+                    </t>
+                    <t t-if="main_object and 'name' in main_object and not title and not additional_title">
+                        <t t-set="additional_title" t-value="main_object.name"/>
+                    </t>
+                    <t t-if="not title">
+                        <t t-set="title"><t t-if="additional_title"><t t-raw="additional_title"/> | </t><t t-esc="(website or res_company).name"/></t>
+                    </t>
+
+                    <meta name="viewport" content="initial-scale=1"/>
+                    <meta name="description" t-att-content="main_object and 'website_meta_description' in main_object
+                        and main_object.website_meta_description or website_meta_description"/>
+                    <meta name="keywords" t-att-content="main_object and 'website_meta_keywords' in main_object
+                        and main_object.website_meta_keywords or website_meta_keywords"/>
+                    <meta name="generator" content="Odoo"/>
+
+                    <!-- OpenGraph tags for Facebook sharing -->
+                    <meta property="og:title" t-att-content="additional_title" />
+                    <meta property="og:site_name" t-att-content="res_company.name" />
+                    <t t-if="main_object and 'plain_content' in main_object and main_object.plain_content">
+                        <t t-set="og_description" t-value="main_object.plain_content[0:500]"/>
+                        <meta property="og:description" t-att-content="og_description" />
+                        <meta property='og:image' t-att-content="request.httprequest.url_root+'logo.png'"/>
+                        <meta property='og:url' t-att-content="request.httprequest.url_root+request.httprequest.path[1:end]"/>
+                    </t>
+
+                    <title><t t-esc="title"/></title>
+
+                    <t t-set="languages" t-value="website.get_languages() if website else None"/>
+                    <t t-if="request and request.website_multilang and website">
+                        <t t-foreach="website.get_alternate_languages(request.httprequest)" t-as="lg">
+                            <link rel="alternate" t-att-hreflang="lg['hreflang']" t-att-href="lg['href']"/>
+                        </t>
+                    </t>
+
+                    <t t-call-assets="web.assets_common" t-js="false"/>
+                    <t t-call-assets="website.assets_frontend" t-js="false"/>
+                    <t t-call-assets="web.assets_common" t-css="false"/>
+                    <t t-call-assets="website.assets_frontend" t-css="false"/>
+
+                    <t t-raw="head or ''" name='layout_head'/>
+
+                    <!-- Web Fonts -->
+                    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'/>
+                    <link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'/>
+                    <!-- Bootstrap core CSS -->
+                    <link href="/theme_louma/static/src/bootstrap/css/bootstrap.css" rel="stylesheet"/>
+                    <!-- Font Awesome CSS -->
+                    <link href="/theme_louma/static/src/fonts/font-awesome/css/font-awesome.css" rel="stylesheet"/>
+                    <!-- Fontello CSS -->
+                    <link href="/theme_louma/static/src/fonts/fontello/css/fontello.css" rel="stylesheet"/>
+                    <!-- Plugins -->
+                    <link href="/theme_louma/static/src/css/animations.css" rel="stylesheet"/>
+                    <link href="/theme_louma/static/src/plugins/jquery.countdown/jquery.countdown.css" rel="stylesheet"/>
+                    <!--core CSS file -->
+                    <link href="/theme_louma/static/src/css/style.css" rel="stylesheet"/>
+                </head>
+                <body>
+                    <div class="fullscreen-bg"></div>
+                    <div class="page-wrapper">
+                        <section class="main-container light-translucent-bg">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="main col-md-8 col-md-offset-2">
+                                        <a class="logo" href="/">
+                                            <span itemprop="image" t-field="res_company.logo" t-field-options='{"widget": "image","class":"logo_img"}'/>
+                                        </a>
+                                        <div class="site-slogan">
+                                            Powerful Odoo Theme
+                                        </div>
+                                        <h1 class="title fullscreen-bg-h1">Coming Soon</h1>
+                                        <br></br>
+                                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque nisi inventore est sapiente fugit, non labore deleniti ullam quis perspiciatis harum! Qui temporibus soluta, omnis odio dolores hic voluptas eveniet!</p>
+                                        <div class="countdown"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="section">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="space"></div>
+                                        <ul class="social-links colored large text-center margin-top-clear circle">
+                                            <li class="facebook"><a target="_blank" t-att-href="website.social_facebook" t-if="website.social_facebook"><i class="fa fa-facebook"></i></a></li>
+                                            <li class="twitter"><a target="_blank" t-att-href="website.social_twitter" t-if="website.social_twitter"><i class="fa fa-twitter"></i></a></li>
+                                            <li class="googleplus"><a target="_blank" t-att-href="website.social_googleplus" t-if="website.social_googleplus"><i class="fa fa-google-plus"></i></a></li>
+                                            <li class="linkedin"><a target="_blank" t-att-href="website.social_linkedin" t-if="website.social_linkedin"><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <br></br>
+                                    <div class="col-md-12 text-center">
+                                        <p>Copyright © Louma . All Rights Reserved</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container">
+					        <div class="oe_structure" />
+				        </div>
+                    </div>
+
+                    <script type="text/javascript" src="/theme_louma/static/src/cbootstrap/js/bootstrap.min.js"></script>
+                    <!-- Modernizr javascript -->
+                    <script type="text/javascript" src="/theme_louma/static/src/plugins/modernizr.js"></script>
+                    <!-- Appear javascript -->
+                    <script type="text/javascript" src="/theme_louma/static/src/plugins/jquery.appear.js"></script>
+                    <!-- Count Down javascript -->
+                    <script type="text/javascript" src="/theme_louma/static/src/plugins/jquery.countdown/jquery.plugin.js"></script>
+                    <script type="text/javascript" src="/theme_louma/static/src/plugins/jquery.countdown/jquery.countdown.js"></script>
+                    <script type="text/javascript" src="/theme_louma/static/src/js/coming.soon.config.js"></script>
+                    <!-- SmoothScroll javascript -->
+                    <script type="text/javascript" src="/theme_louma/static/src/plugins/jquery.browser.js"></script>
+                    <script type="text/javascript" src="/theme_louma/static/src/plugins/SmoothScroll.js"></script>
+                    <!-- Initialization of Plugins -->
+                    <script type="text/javascript" src="/theme_louma/static/src/js/template.js"></script>
+                </body>
+            </html>
+        </template>
+    </data>
+</openerp>

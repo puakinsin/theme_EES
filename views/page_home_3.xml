@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+    <data>
+        <template name="Home 3" id="website.home-3" page="True">
+            <t t-call="website.layout">
+                <div class="page-wrapper oe_structure">
+                    <div class="banner js_revolution">
+                        <div class="slideshow white-bg">
+                            <div class="slider-banner-container">
+                                <div class="slider-banner-fullscreen">
+                                    <ul>
+                                        <li data-transition="fade" data-slotamount="7" data-masterspeed="1000"
+                                            data-saveperformance="on" data-title="Slide 1" class="js_image_dvt_rvslider">
+                                            <img src="/theme_louma/static/src/images/slider/slider-2-slide-1.jpg"
+                                                 alt="slidebg1" data-bgposition="center top" data-bgfit="cover"
+                                                 data-bgrepeat="no-repeat"/>
+                                            <div class="tp-caption light-translucent-bg"
+                                                 data-x="center"
+                                                 data-y="bottom"
+                                                 data-speed="800"
+                                                 data-start="0"
+                                                 style="background-color:rgba(255,255,255,0.3);">
+                                            </div>
+                                            <div class="tp-caption very_large_text sfl tp-resizeme"
+                                                 data-x="center"
+                                                 data-y="70"
+                                                 data-speed="600"
+                                                 data-start="0"
+                                                 data-end="10000"
+                                                 data-endspeed="600">Louma - Powerful Odoo Theme
+                                            </div>
+                                            <div class="tp-caption sfr small_thin_white text-center tp-resizeme"
+                                                 data-x="center"
+                                                 data-y="170"
+                                                 data-speed="600"
+                                                 data-start="0"
+                                                 data-end="10000"
+                                                 data-endspeed="600">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                elit.
+                                                <br></br>
+                                                Quia dolorum consectetur doloremque a aliquam ullam labore, ducimus
+                                                adipisci iste animi
+                                                <br></br>
+                                                natus asperiores sequi assumenda minima blanditiis. Culpa quis
+                                                consectetur ratione.
+                                            </div>
+                                            <div class="tp-caption tp-resizeme sfl"
+                                                 data-x="center"
+                                                 data-y="350"
+                                                 data-speed="600"
+                                                 data-start="0"
+                                                 data-end="10000"
+                                                 data-endspeed="600">
+                                                <a href="#" class="btn btn-default btn-lg">Read More
+                                                    <i class="fa fa-angle-double-right pl-10"></i>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <!-- slide 1 end -->
+                                        <!-- slide 2 start -->
+                                        <li data-transition="fade" data-slotamount="7" data-masterspeed="1000"
+                                            data-saveperformance="on" data-title="Slide 2" class="js_image_dvt_rvslider">
+                                            <img src="/theme_louma/static/src/images/slider/slider-2-slide-2.jpg"
+                                                 alt="slidebg1" data-bgposition="center top" data-bgfit="cover"
+                                                 data-bgrepeat="no-repeat"/>
+                                            <div class="tp-caption light-translucent-bg"
+                                                 data-x="center"
+                                                 data-y="bottom"
+                                                 data-speed="800"
+                                                 data-start="0"
+                                                 style="background-color:rgba(255,255,255,0.3);">
+                                            </div>
+
+                                            <!-- LAYER NR. 1 -->
+                                            <div class="tp-caption very_large_text sfl tp-resizeme"
+                                                 data-x="center"
+                                                 data-y="70"
+                                                 data-speed="600"
+                                                 data-start="0"
+                                                 data-end="10000"
+                                                 data-endspeed="600">E-Commerce Odoo Theme
+                                            </div>
+                                            <div class="tp-caption sfr small_thin_white text-center tp-resizeme"
+                                                 data-x="center"
+                                                 data-y="170"
+                                                 data-speed="600"
+                                                 data-start="0"
+                                                 data-end="10000"
+                                                 data-endspeed="600">Quia dolorum consectetur doloremque a aliquam ullam
+                                                labore, ducimus adipisci iste animi
+                                                <br></br>
+                                                natus asperiores sequi assumenda minima blanditiis. Culpa quis
+                                                consectetur ratione.
+                                            </div>
+                                            <div class="tp-caption sfl tp-resizeme"
+                                                 data-x="center"
+                                                 data-y="300"
+                                                 data-speed="600"
+                                                 data-start="0"
+                                                 data-end="10000"
+                                                 data-endspeed="600">
+                                                <a href="#" class="btn btn-default btn-lg">Read More
+                                                    <i class="fa fa-angle-double-right pl-10"></i>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <!-- slide 2 end -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="page-top object-non-visible" data-animation-effect="fadeInUpSmall"
+                         data-effect-delay="100">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h1 class="text-center title">Services</h1>
+                                    <div class="separator"></div>
+                                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <div class="row grid-space-20">
+                                        <div class="col-sm-12 col-md-4 col-md-push-4">
+                                            <img src="/theme_louma/static/src/images/divers/tablette.png" alt=""
+                                                 class="object-non-visible" data-animation-effect="fadeInUp"
+                                                 data-effect-delay="0"/>
+                                        </div>
+                                        <div class="col-sm-6 col-md-4 col-md-pull-4">
+                                            <div class="box-style-3 right object-non-visible"
+                                                 data-animation-effect="fadeInUpSmall" data-effect-delay="0">
+                                                <div class="icon-container default-bg">
+                                                    <i class="fa fa-paint-brush"></i>
+                                                </div>
+                                                <div class="body">
+                                                    <h2>Beautiful Design</h2>
+                                                    <p>Voluptatem ad provident non veritatis.</p>
+                                                </div>
+                                            </div>
+                                            <div class="box-style-3 right object-non-visible"
+                                                 data-animation-effect="fadeInUpSmall" data-effect-delay="200">
+                                                <div class="icon-container default-bg">
+                                                    <i class="fa fa-mobile"></i>
+                                                </div>
+                                                <div class="body">
+                                                    <h2>100 % Responsive</h2>
+                                                    <p>Iure sequi unde hic. Sapiente quaerat.</p>
+                                                </div>
+                                            </div>
+                                            <div class="box-style-3 right object-non-visible"
+                                                 data-animation-effect="fadeInUpSmall" data-effect-delay="400">
+                                                <div class="icon-container default-bg">
+                                                    <i class="fa fa-shopping-cart"></i>
+                                                </div>
+                                                <div class="body">
+                                                    <h2>E-Commerce</h2>
+                                                    <p>Inventore dolores aut laboriosam cum.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <div class="box-style-3 object-non-visible"
+                                                 data-animation-effect="fadeInUpSmall" data-effect-delay="0">
+                                                <div class="icon-container default-bg">
+                                                    <i class="fa fa-bold"></i>
+                                                </div>
+                                                <div class="body">
+                                                    <h2>Bootstrap Based</h2>
+                                                    <p>Voluptatem ad provident non veritatis.</p>
+                                                </div>
+                                            </div>
+                                            <div class="box-style-3 object-non-visible"
+                                                 data-animation-effect="fadeInUpSmall" data-effect-delay="200">
+                                                <div class="icon-container default-bg">
+                                                    <i class="fa fa-thumbs-o-up"></i>
+                                                </div>
+                                                <div class="body">
+                                                    <h2>Easy to Use</h2>
+                                                    <p>Iure sequi unde hic. Sapiente quaerat.</p>
+                                                </div>
+                                            </div>
+                                            <div class="box-style-3 object-non-visible"
+                                                 data-animation-effect="fadeInUpSmall" data-effect-delay="400">
+                                                <div class="icon-container default-bg">
+                                                    <i class="fa fa-rocket"></i>
+                                                </div>
+                                                <div class="body">
+                                                    <h2>Latest Technologies</h2>
+                                                    <p>Inventore dolores aut laboriosam cum.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <section class="main-container default-bg">
+                        <div class="main">
+                            <div class="container">
+                                <div class="call-to-action">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <h1 class="title text-center">We work hard to give you the best Odoo
+                                                Theme.
+                                            </h1>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="text-center">
+                                                <a href="#" class="btn btn-white btn-lg">Purchase</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <div class="section clearfix object-non-visible" data-animation-effect="fadeInUpSmall"
+                         data-effect-delay="200">
+                        <div class="container">
+                            <h1 class="text-center">About Us</h1>
+                            <div class="separator"></div>
+                            <p class="lead text-center">Lorem ipsum dolor sit amet. Maiores, odio ut deleniti doloremque
+                                ad at praesentium
+                                <br></br>
+                                laudantium molestias similique. Quisquam incidunt ut laboriosam.
+                            </p>
+                            <br></br>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="/theme_louma/static/src/images/slider/slider-1-slide-2.png"
+                                         style="width: 368px;" alt=""/>
+                                    <div class="space hidden-md hidden-lg"></div>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="space-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+                                        veniam, veritatis sint consequuntur! Natus, culpa, explicabo! Non quo laboriosam
+                                        nobis quia, amet excepturi optio dolor impedit. Perferendis libero unde, nulla
+                                        deserunt sequi. Voluptatum, officia suscipit porro reprehenderit vitae quo rem
+                                        reiciendis, a vero quae. Vero beatae voluptatum, illo quaerat provident
+                                        doloribus consequuntur saepe, id quas animi vel ad eligendi adipisci.
+                                    </p>
+                                    <a href="#" class="btn btn-lg btn-default">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section gray-bg clearfix object-non-visible" data-animation-effect="fadeInUpSmall"
+                         data-effect-delay="300">
+                        <div class="container">
+                            <h2 class="title">Our Team</h2>
+                            <div class="separator-2"></div>
+                            <div class="row grid-space-20">
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="box-style-1 white-bg team-member">
+                                        <div class="overlay-container">
+                                            <img src="/theme_louma/static/src/images/divers/team-member-1.jpg" alt=""/>
+                                            <div class="overlay">
+                                                <ul class="social-links clearfix">
+                                                    <li class="twitter">
+                                                        <a target="_blank" href="http://www.twitter.com/">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="skype">
+                                                        <a target="_blank" href="http://www.skype.com/">
+                                                            <i class="fa fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="facebook">
+                                                        <a target="_blank" href="http://www.facebook.com/">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <h3>Tatiana Nino</h3>
+                                        Tester
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="box-style-1 white-bg team-member">
+                                        <div class="overlay-container">
+                                            <img src="/theme_louma/static/src/images/divers/team-member-2.jpg" alt=""/>
+                                            <div class="overlay">
+                                                <ul class="social-links clearfix">
+                                                    <li class="twitter">
+                                                        <a target="_blank" href="http://www.twitter.com/">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="skype">
+                                                        <a target="_blank" href="http://www.skype.com/">
+                                                            <i class="fa fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="facebook">
+                                                        <a target="_blank" href="http://www.facebook.com/">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <h3>Gabriel Santiago</h3>
+                                        Designer
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="box-style-1 white-bg team-member">
+                                        <div class="overlay-container">
+                                            <img src="/theme_louma/static/src/images/divers/team-member-3.jpg" alt=""/>
+                                            <div class="overlay">
+                                                <ul class="social-links clearfix">
+                                                    <li class="twitter">
+                                                        <a target="_blank" href="http://www.twitter.com/">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="skype">
+                                                        <a target="_blank" href="http://www.skype.com/">
+                                                            <i class="fa fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="facebook">
+                                                        <a target="_blank" href="http://www.facebook.com/">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <h3>Trent Yarnell</h3>
+                                        Developer
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="box-style-1 white-bg team-member">
+                                        <div class="overlay-container">
+                                            <img src="/theme_louma/static/src/images/divers/team-member-4.jpg" alt=""/>
+                                            <div class="overlay">
+                                                <ul class="social-links clearfix">
+                                                    <li class="twitter">
+                                                        <a target="_blank" href="http://www.twitter.com/">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="skype">
+                                                        <a target="_blank" href="http://www.skype.com/">
+                                                            <i class="fa fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="facebook">
+                                                        <a target="_blank" href="http://www.facebook.com/">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <h3>Maya Escamilla</h3>
+                                        Manager
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section clearfix object-non-visible" data-animation-effect="fadeInUpSmall"
+                         data-effect-delay="300">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2>Latest Projects</h2>
+                                    <div class="separator-2"></div>
+                                    <div class="filters">
+                                        <ul class="nav nav-pills">
+                                            <li class="active">
+                                                <a href="#" data-filter="*">All</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" data-filter=".web-design">Web design</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" data-filter=".app-development">App development</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" data-filter=".site-building">Site building</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="isotope-container row grid-space-20">
+                                        <div class="col-sm-6 col-md-4 isotope-item web-design isotop-fix-positin">
+                                            <div class="image-box">
+                                                <div class="overlay-container">
+                                                    <img src="/theme_louma/static/src/images/divers/w1.jpg"
+                                                         class="width-100 fix-height-h3" alt=""/>
+                                                    <a href="#" class="overlay small">
+                                                        <i class="fa fa-link"></i>
+                                                        <span>Web Design</span>
+                                                    </a>
+                                                </div>
+                                                <a href="#" class="btn btn-light-gray btn-lg btn-block">Project Title
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-4 isotope-item app-development isotop-fix-positin">
+                                            <div class="image-box">
+                                                <div class="overlay-container">
+                                                    <img src="/theme_louma/static/src/images/divers/w2.jpg"
+                                                         class="width-100 fix-height-h3" alt=""/>
+                                                    <a href="#" class="overlay small">
+                                                        <i class="fa fa-link"></i>
+                                                        <span>App Development</span>
+                                                    </a>
+                                                </div>
+                                                <a href="#" class="btn btn-light-gray btn-lg btn-block">Project Title
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-4 isotope-item web-design isotop-fix-positin">
+                                            <div class="image-box">
+                                                <div class="overlay-container">
+                                                    <img src="/theme_louma/static/src/images/divers/w3.jpg"
+                                                         class="width-100 fix-height-h3" alt=""/>
+                                                    <a href="#" class="overlay small">
+                                                        <i class="fa fa-link"></i>
+                                                        <span>Web Design</span>
+                                                    </a>
+                                                </div>
+                                                <a href="#" class="btn btn-light-gray btn-lg btn-block">Project Title
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-4 isotope-item site-building isotop-fix-positin">
+                                            <div class="image-box">
+                                                <div class="overlay-container">
+                                                    <img src="/theme_louma/static/src/images/divers/w4.jpg"
+                                                         class="width-100 fix-height-h3" alt=""/>
+                                                    <a href="#" class="overlay small">
+                                                        <i class="fa fa-link"></i>
+                                                        <span>Site Building</span>
+                                                    </a>
+                                                </div>
+                                                <a href="#" class="btn btn-light-gray btn-lg btn-block">Project Title
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-4 isotope-item app-development isotop-fix-positin">
+                                            <div class="image-box">
+                                                <div class="overlay-container">
+                                                    <img src="/theme_louma/static/src/images/divers/w5.jpg"
+                                                         class="width-100 fix-height-h3" alt=""/>
+                                                    <a href="#" class="overlay small">
+                                                        <i class="fa fa-link"></i>
+                                                        <span>App Development</span>
+                                                    </a>
+                                                </div>
+                                                <a href="#" class="btn btn-light-gray btn-lg btn-block">Project Title
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-4 isotope-item web-design isotop-fix-positin">
+                                            <div class="image-box">
+                                                <div class="overlay-container">
+                                                    <img src="/theme_louma/static/src/images/divers/w6.jpg"
+                                                         class="width-100 fix-height-h3" alt=""/>
+                                                    <a href="#" class="overlay small">
+                                                        <i class="fa fa-link"></i>
+                                                        <span>Web Design</span>
+                                                    </a>
+                                                </div>
+                                                <a href="#" class="btn btn-light-gray btn-lg btn-block">Project Title
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="parallax parallax-bg-3 dark-translucent-bg object-non-visible"
+                         data-animation-effect="fadeIn" data-effect-delay="300">
+                        <div class="container">
+                            <div class="stats row grid-space-10">
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="box-style-1">
+                                        <h2 class="title">Projects</h2>
+                                        <i class="fa fa-briefcase"></i>
+                                        <span class="stat-num" data-to="1525" data-speed="3000">0</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="box-style-1">
+                                        <h2 class="title">Clients</h2>
+                                        <i class="fa fa-users"></i>
+                                        <span class="stat-num" data-to="1125" data-speed="3000">0</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="box-style-1">
+                                        <h2 class="title">Downloads</h2>
+                                        <i class="fa fa-cloud-download"></i>
+                                        <span class="stat-num" data-to="1836" data-speed="3000">0</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="box-style-1">
+                                        <h2 class="title">Likes</h2>
+                                        <i class="fa fa-thumbs-o-up"></i>
+                                        <span class="stat-num" data-to="2687" data-speed="3000">0</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section gray-bg text-muted footer-top clearfix">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="owl-carousel clients">
+                                        <div class="client">
+                                            <a href="#">
+                                                <img src="/theme_louma/static/src/images/divers/client-1.png" alt=""/>
+                                            </a>
+                                        </div>
+                                        <div class="client">
+                                            <a href="#">
+                                                <img src="/theme_louma/static/src/images/divers/client-2.png" alt=""/>
+                                            </a>
+                                        </div>
+                                        <div class="client">
+                                            <a href="#">
+                                                <img src="/theme_louma/static/src/images/divers/client-3.png" alt=""/>
+                                            </a>
+                                        </div>
+                                        <div class="client">
+                                            <a href="#">
+                                                <img src="/theme_louma/static/src/images/divers/client-4.png" alt=""/>
+                                            </a>
+                                        </div>
+                                        <div class="client">
+                                            <a href="#">
+                                                <img src="/theme_louma/static/src/images/divers/client-5.png" alt=""/>
+                                            </a>
+                                        </div>
+                                        <div class="client">
+                                            <a href="#">
+                                                <img src="/theme_louma/static/src/images/divers/client-6.png" alt=""/>
+                                            </a>
+                                        </div>
+                                        <div class="client">
+                                            <a href="#">
+                                                <img src="/theme_louma/static/src/images/divers/client-7.png" alt=""/>
+                                            </a>
+                                        </div>
+                                        <div class="client">
+                                            <a href="#">
+                                                <img src="/theme_louma/static/src/images/divers/client-8.png" alt=""/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <blockquote class="inline">
+                                        <p class="margin-clear">Design is not just what it looks like and feels like.
+                                            Design is how it works.
+                                        </p>
+                                        <footer>
+                                            <cite title="Source Title">Steve Jobs</cite>
+                                        </footer>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </t>
+        </template>
+    </data>
+</openerp>

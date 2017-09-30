@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+        <template id="Custom_footer1" inherit_id="website.footer_default" name="Louma Footers">
+            <xpath expr="//div[@id='footer']" position="replace">
+                <div id="footer" style="display:none;" class="container hidden-print">
+                    <div class="row">
+                        <div class="col-md-4 col-lg-3">
+                            <h4>Our Products &amp; Services</h4>
+                            <ul class="list-unstyled" id="products">
+                                <li>
+                                    <a href="/">Home</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4  col-lg-3" id="info">
+                            <h4>Connect with us</h4>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="/page/website.contactus">Contact us</a>
+                                </li>
+                            </ul>
+                            <ul class="list-unstyled">
+                                <li t-ignore="true">
+                                    <i class="fa fa-phone"></i>
+                                    <span t-field="res_company.phone"></span>
+                                </li>
+                                <li t-ignore="true">
+                                    <i class="fa fa-envelope"></i>
+                                    <span t-field="res_company.email"></span>
+                                </li>
+                            </ul>
+                            <h2>
+                                <a t-att-href="website.social_facebook" t-if="website.social_facebook">
+                                    <i class="fa fa-facebook-square"/>
+                                </a>
+                                <a t-att-href="website.social_twitter" t-if="website.social_twitter">
+                                    <i class="fa fa-twitter"/>
+                                </a>
+                                <a t-att-href="website.social_linkedin" t-if="website.social_linkedin">
+                                    <i class="fa fa-linkedin"/>
+                                </a>
+                                <a t-att-href="website.social_youtube" t-if="website.social_youtube">
+                                    <i class="fa fa-youtube-play"/>
+                                </a>
+                                <a t-att-href="website.social_googleplus" t-if="website.social_googleplus"
+                                   rel="publisher">
+                                    <i class="fa fa-google-plus-square"/>
+                                </a>
+                                <a t-att-href="website.social_github" t-if="website.social_github">
+                                    <i class="fa fa-github"/>
+                                </a>
+                            </h2>
+                        </div>
+                        <div class="col-md-4 col-lg-5 col-lg-offset-1">
+                            <h4>
+                                <span t-field="res_company.name"/>
+                                <small>-
+                                    <a href="/page/website.aboutus">About us</a>
+                                </small>
+                            </h4>
+                            <div>
+                                <p>
+                                    We are a team of passionate people whose goal is to improve everyone's
+                                    life through disruptive products. We build great products to solve your
+                                    business problems.
+                                </p>
+                                <p>
+                                    Our products are designed for small to medium size companies willing to optimize
+                                    their performance.
+                                </p>
+                            </div>
+                            <t t-call="website.language_selector"/>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+		</template>
+
+        <template id="custom_footer2" inherit_id="website.footer_default" customize_show="True" name=" Footer 1">
+			 <xpath expr="//div[@id='footer']" position="after">
+                <footer id="footer" class="light">
+                        <div class="scrollToTop"><i class="fa fa-angle-up"></i></div>
+
+                        <div class="footer">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="footer-content">
+                                            <h2 class="mt0">About us</h2>
+                                            <p class="text-justify">
+                                                <b>LOUMA</b> iQuo soluta provident, quod reiciendis. Dolores nam totam aut illum ex ratione harum molestias maxime minima tempore, possimus, laudantium. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                            <ul class="social-links circle">
+                                                <li class="facebook"><a target="_blank" t-att-href="website.social_facebook" t-if="website.social_facebook"><i class="fa fa-facebook"></i></a></li>
+                                                <li class="twitter"><a target="_blank" t-att-href="website.social_twitter" t-if="website.social_twitter"><i class="fa fa-twitter"></i></a></li>
+                                                <li class="googleplus"><a target="_blank" t-att-href="website.social_googleplus" t-if="website.social_googleplus"><i class="fa fa-google-plus"></i></a></li>
+                                                <li class="linkedin"><a target="_blank" t-att-href="website.social_linkedin" t-if="website.social_linkedin"><i class="fa fa-linkedin"></i></a></li>
+                                                <li class="youtube"><a target="_blank" t-att-href="website.social_youtube" t-if="website.social_youtube"><i class="fa fa-youtube"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-3 col-lg-2">
+                                        <div class="footer-content">
+                                            <h2 class="mt0">Links</h2>
+                                            <nav>
+                                                <ul class="nav nav-pills nav-stacked">
+                                                    <li><a href="#">Home</a></li>
+                                                    <li><a href="#">Pages</a></li>
+                                                    <li><a href="#">Portfolio</a></li>
+                                                    <li><a href="#">Blog</a></li>
+
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-3 col-lg-4">
+                                        <div class="footer-content">
+                                            <h2 class="mt0">Contact</h2>
+                                            <ul class="list-icons">
+                                                <li><i class="fa fa-map-marker pr-10"></i> <span t-field="res_company.street"/> <span t-field="res_company.city"/> <span t-field="res_company.country_id"/></li>
+                                                <li><i class="fa fa-phone pr-10"></i> <span t-field="res_company.phone"></span></li>
+                                                <li><i class="fa fa-fax pr-10"></i> <span t-field="res_company.fax"></span> </li>
+                                                <li><i class="fa fa-envelope-o pr-10"></i> <span t-field="res_company.email"></span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="space-bottom hidden-lg hidden-xs"></div>
+                            </div>
+                        </div>
+                        <div class="subfooter">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6 copyright_block">
+                                        <p>Copyright © Made by <a target="_blank" href="http://www.dev-talents.com/">DevTalents</a></p>
+                                    </div>
+                                    <div class="col-md-6 payment_block">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+            </xpath>
+		</template>
+
+        <template id="custom_footer3" inherit_id="website.footer_default"  name=" Footer 2" active="False" customize_show="True">
+            <xpath expr="//div[@id='footer']" position="after">
+                <footer id="footer" class="light">
+                    <div class="scrollToTop"><i class="fa fa-angle-up"></i></div>
+                    <div class="footer">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="footer-content">
+                                        <p>Veritatis officiis ullam libero quam aliquam, tenetur dolor incidunt praesentium dolorum laborum tempora suscipit quo sapiente?</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. possimus laborum. Accusantium, itaque.</p>
+                                        <div class="row">
+                                            <br></br>
+                                            <div class="col-md-6">
+                                                <ul class="social-links">
+                                                    <li class="facebook"><a target="_blank" t-att-href="website.social_facebook" t-if="website.social_facebook"><i class="fa fa-facebook"></i></a></li>
+                                                    <li class="twitter"><a target="_blank" t-att-href="website.social_twitter" t-if="website.social_twitter"><i class="fa fa-twitter"></i></a></li>
+                                                    <li class="googleplus"><a target="_blank" t-att-href="website.social_googleplus" t-if="website.social_googleplus"><i class="fa fa-google-plus"></i></a></li>
+                                                    <li class="linkedin"><a target="_blank" t-att-href="website.social_linkedin" t-if="website.social_linkedin"><i class="fa fa-linkedin"></i></a></li>
+                                                    <li class="youtube"><a target="_blank" t-att-href="website.social_youtube" t-if="website.social_youtube"><i class="fa fa-youtube"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="footer-content">
+                                        <h2 class="mt0">Contact</h2>
+                                        <ul class="list-icons">
+                                            <li><i class="fa fa-map-marker pr-10"></i> <span t-field="res_company.street"/> <span t-field="res_company.city"/> <span t-field="res_company.country_id"/></li>
+                                            <li><i class="fa fa-phone pr-10"></i> <span t-field="res_company.phone"></span></li>
+                                            <li><i class="fa fa-fax pr-10"></i> <span t-field="res_company.fax"></span> </li>
+                                            <li><i class="fa fa-envelope-o pr-10"></i> <span t-field="res_company.email"></span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subfooter">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 copyright_block">
+                                    <p>Copyright © 2016 by <a target="_blank" href="http://www.dev-talents.com/">DevTalents</a>. All Rights Reserved</p>
+                                </div>
+                                <div class="col-md-6 payment_block">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </xpath>
+        </template>
+
+        <template id="custom_footer4" inherit_id="website.footer_default"  name=" Footer 3" active="False" customize_show="True">
+            <xpath expr="//div[@id='footer']" position="after">
+                <footer id="footer" class="light">
+                    <div class="scrollToTop"><i class="fa fa-angle-up"></i></div>
+                    <div class="footer">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="footer-content">
+                                        <p>
+                                            Veritatis officiis ullam libero quam aliquam, tenetur dolor incidunt praesentium dolorum
+                                            laborum tempora suscipit quo sapiente.Ullam libero quam aliquam, tenetur dolor incidunt prals.
+                                        </p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. possimus laborum. Accusantium, itaque.</p>
+                                        <br></br>
+                                        <ul class="social-links colored circle">
+                                            <li class="facebook"><a target="_blank" t-att-href="website.social_facebook" t-if="website.social_facebook"><i class="fa fa-facebook"></i></a></li>
+                                            <li class="twitter"><a target="_blank" t-att-href="website.social_twitter" t-if="website.social_twitter"><i class="fa fa-twitter"></i></a></li>
+                                            <li class="googleplus"><a target="_blank" t-att-href="website.social_googleplus" t-if="website.social_googleplus"><i class="fa fa-google-plus"></i></a></li>
+                                            <li class="linkedin"><a target="_blank" t-att-href="website.social_linkedin" t-if="website.social_linkedin"><i class="fa fa-linkedin"></i></a></li>
+                                            <li class="youtube"><a target="_blank" t-att-href="website.social_youtube" t-if="website.social_youtube"><i class="fa fa-youtube-play"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-3 col-lg-2 col-lg-offset-1">
+                                    <div class="footer-content">
+                                        <h2 class="mt0">Links</h2>
+                                        <nav>
+                                            <ul class="nav nav-pills nav-stacked">
+                                                <li><a href="#">Home</a></li>
+                                                <li><a href="#">pages</a></li>
+                                                <li><a href="#">Portfolio</a></li>
+                                                <li><a href="#">Blog</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-3 col-lg-3">
+                                    <div class="footer-content">
+                                        <h2 class="mt0">Contact</h2>
+                                        <ul class="list-icons">
+                                            <li><i class="fa fa-map-marker pr-10"></i> <span t-field="res_company.street"/> <span t-field="res_company.city"/> <span t-field="res_company.country_id"/></li>
+                                            <li><i class="fa fa-phone pr-10"></i> <span t-field="res_company.phone"></span></li>
+                                            <li><i class="fa fa-fax pr-10"></i> <span t-field="res_company.fax"></span> </li>
+                                            <li><i class="fa fa-envelope-o pr-10"></i> <span t-field="res_company.email"></span></li>
+                                        </ul>
+                                        <div class="box small"><i class="fa fa-cc-paypal"></i></div>
+                                        <div class="box small"><i class="fa fa-cc-visa"></i></div>
+                                        <div class="box small"><i class="fa fa-cc-mastercard"></i></div>
+                                        <div class="box small"><i class="fa fa-cc-discover"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subfooter">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 copyright_block">
+                                    <p>Copyright © 2016 <a target="_blank" href="http://www.dev-talents.com/">DevTalents</a>. All Rights Reserved</p>
+                                </div>
+                                <div class="col-md-6 payment_block">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </xpath>
+        </template>
+
+        <template id="custom_footer5" inherit_id="website.footer_default"  name=" Footer 4" active="False" customize_show="True">
+            <xpath expr="//div[@id='footer']" position="after" >
+                <footer id="footer" class="light">
+                    <div class="scrollToTop"><i class="fa fa-angle-up"></i></div>
+                    <div class="footer">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="footer-content">
+                                        <p>Lorem ipsum dolor sit amet, consect tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven. Lorem ipsum dolor sit amet elit.</p>
+                                        <ul class="list-icons">
+                                            <li><i class="fa fa-map-marker pr-10"></i> <span t-field="res_company.street"/> <span t-field="res_company.city"/> <span t-field="res_company.country_id"/></li>
+                                            <li><i class="fa fa-phone pr-10"></i><span t-field="res_company.phone"></span></li>
+                                            <li><i class="fa fa-fax pr-10"></i><span t-field="res_company.fax"></span></li>
+                                            <li><i class="fa fa-envelope-o pr-10"></i> <span t-field="res_company.email"></span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="footer-content">
+                                        <h2 class="mt0">Latest Projects</h2>
+                                        <div class="gallery row">
+                                            <div class="gallery-item col-xs-4">
+                                                <div class="overlay-container">
+                                                    <img src="/theme_louma/static/src/images/divers/gallery-1.jpg" alt=""/>
+                                                    <a href="#" class="overlay small">
+                                                        <i class="fa fa-link"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-item col-xs-4">
+                                                <div class="overlay-container">
+                                                    <img src="/theme_louma/static/src/images/divers/gallery-2.jpg" alt=""/>
+                                                    <a href="#" class="overlay small">
+                                                        <i class="fa fa-link"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-item col-xs-4">
+                                                <div class="overlay-container">
+                                                    <img src="/theme_louma/static/src/images/divers/gallery-3.jpg" alt=""/>
+                                                    <a href="#" class="overlay small">
+                                                        <i class="fa fa-link"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-item col-xs-4">
+                                                <div class="overlay-container">
+                                                    <img src="/theme_louma/static/src/images/divers/gallery-4.jpg" alt=""/>
+                                                    <a href="#" class="overlay small">
+                                                        <i class="fa fa-link"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-item col-xs-4">
+                                                <div class="overlay-container">
+                                                    <img src="/theme_louma/static/src/images/divers/gallery-5.jpg" alt=""/>
+                                                    <a href="#" class="overlay small">
+                                                        <i class="fa fa-link"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-item col-xs-4">
+                                                <div class="overlay-container">
+                                                    <img src="/theme_louma/static/src/images/divers/gallery-6.jpg" alt=""/>
+                                                    <a href="#" class="overlay small">
+                                                        <i class="fa fa-link"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-item col-xs-4">
+                                                <div class="overlay-container">
+                                                    <img src="/theme_louma/static/src/images/divers/gallery-7.jpg" alt=""/>
+                                                    <a href="#" class="overlay small">
+                                                        <i class="fa fa-link"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-item col-xs-4">
+                                                <div class="overlay-container">
+                                                    <img src="/theme_louma/static/src/images/divers/gallery-8.jpg" alt=""/>
+                                                    <a href="#" class="overlay small">
+                                                        <i class="fa fa-link"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-item col-xs-4">
+                                                <div class="overlay-container">
+                                                    <img src="/theme_louma/static/src/images/divers/gallery-9.jpg" alt=""/>
+                                                    <a href="#" class="overlay small">
+                                                        <i class="fa fa-link"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-3 col-lg-2">
+                                    <div class="footer-content">
+                                        <h2 class="mt0">Links</h2>
+                                        <nav>
+                                            <ul class="nav nav-pills nav-stacked">
+                                                <li><a href="#">Home</a></li>
+                                                <li><a href="#">Pages</a></li>
+                                                <li><a href="#">Portfolio</a></li>
+                                                <li><a href="#">Blog</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subfooter">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 copyright_block">
+                                    <p>Copyright © 2016 <a target="_blank" href="http://www.dev-talents.com/">DevTalents</a>. All Rights Reserved</p>
+                                </div>
+                                <div class="col-md-6 payment_block">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </xpath>
+        </template>
+
+       <template id="custom_layout_footer_copyright" inherit_id="website.layout_footer_copyright" >
+           <xpath expr="//div[@class='container mt16 mb8']" position="replace">
+           </xpath>
+       </template>
+    </data>
+</openerp>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+	<data>
+		<template name="features pricing tables 3" id="website.pricing-tables-3" page="True">
+		   <t t-call="website.layout">
+			   <div class="page-wrapper oe_structure">
+				   <div class="page-intro">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12">
+									<ol class="breadcrumb">
+										<li><i class="fa fa-home pr-10"></i><a href="/">Home</a></li>
+										<li class="active">Pricing Tables</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+					</div>
+				   <section class="main-container">
+						<div class="container">
+							<div class="row">
+								<div class="main col-md-12">
+									<h1 class="page-title">Pricing Tables</h1>
+									<br></br>
+									<h2 class="page-title">Pricing Tables White</h2>
+									<div class="pricing-tables white object-non-visible" data-animation-effect="fadeInUpSmall">
+										<div class="row grid-space-0">
+											<div class="col-sm-4 plan">
+												<div class="header">
+													<h3>Basic</h3>
+													<div class="price"><span>Free</span></div>
+												</div>
+												<ul>
+													<li>1 User</li>
+													<li>
+														<a href="#" class="pt-popover" data-toggle="popover" data-placement="right" data-content="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." title="" data-original-title="15GB Storage" data-trigger="hover">1GB Storage</a>
+													</li>
+													<li>
+														<a href="#" class="pt-popover" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." title="" data-original-title="15 Email Acounts">1 Email Acounts</a>
+													</li>
+													<li>Subdomains</li>
+													<li>Security</li>
+													<li>Bandwidth</li>
+													<li>Databases</li>
+													<li><a class="btn btn-default">Subscribe</a></li>
+												</ul>
+											</div>
+											<div class="col-sm-4 plan best-value">
+												<div class="header">
+													<h3>Premium</h3>
+													<div class="price"><span>$19.99</span>/m.</div>
+												</div>
+												<ul>
+													<li>80 Users</li>
+													<li>Unlimited Disk Space</li>
+													<li>
+														<a href="#" class="pt-popover" data-toggle="popover" data-placement="right" data-content="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." title="" data-original-title="Unlimited Subdomains">Unlimited Email Acounts</a>
+													</li>
+													<li>Subdomains</li>
+													<li>Security</li>
+													<li>500 Visitors per month</li>
+													<li>1 Database</li>
+													<li><a class="btn btn-default"><i class="fa fa-shopping-cart pr-10"></i>Add to cart</a></li>
+												</ul>
+											</div>
+											<div class="col-sm-4 plan">
+												<div class="header">
+													<h3>Pro</h3>
+													<div class="price"><span>$24.99</span>/m.</div>
+												</div>
+												<ul>
+													<li>Unlimited Users</li>
+													<li>Unlimited Disk Space</li>
+													<li>Unlimited Email Acounts</li>
+													<li>Unlimited Subdomains</li>
+													<li>
+														<a href="#" class="pt-popover" data-toggle="popover" data-placement="right" data-content="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." title="" data-original-title="Enchaned Security">Enchaned Security</a>
+													</li>
+													<li>Unlimited Bandwidth</li>
+													<li>Unlimited Databases</li>
+													<li><a class="btn btn-default"><i class="fa fa-shopping-cart pr-10"></i>Add to cart</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="pricing-tables white object-non-visible" data-animation-effect="fadeInUpSmall">
+										<div class="row grid-space-0">
+											<div class="col-sm-3 plan">
+												<div class="header">
+													<h3>Basic</h3>
+													<div class="price"><span>Free</span></div>
+												</div>
+												<ul>
+													<li>1 User</li>
+													<li>
+														<a href="#" class="pt-popover" data-toggle="popover" data-placement="right" data-content="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." title="" data-original-title="15GB Storage" data-trigger="hover">1GB Storage</a>
+													</li>
+													<li>
+														<a href="#" class="pt-popover" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." title="" data-original-title="15 Email Acounts">1 Email Acounts</a>
+													</li>
+													<li>Subdomains</li>
+													<li>Security</li>
+													<li>Bandwidth</li>
+													<li>Databases</li>
+													<li><a class="btn btn-default">Subscribe</a></li>
+												</ul>
+											</div>
+											<div class="col-sm-3 plan">
+												<div class="header">
+													<h3>Premium</h3>
+													<div class="price"><span>$19.99</span>/m.</div>
+												</div>
+												<ul>
+													<li>80 Users</li>
+													<li>Unlimited Disk Space</li>
+													<li>
+														<a href="#" class="pt-popover" data-toggle="popover" data-placement="right" data-content="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." title="" data-original-title="Unlimited Subdomains">Unlimited Email Acounts</a>
+													</li>
+													<li>Subdomains</li>
+													<li>Security</li>
+													<li>500 Visitors per month</li>
+													<li>1 Database</li>
+													<li><a class="btn btn-default"><i class="fa fa-shopping-cart pr-10"></i>Add to cart</a></li>
+												</ul>
+											</div>
+											<div class="col-sm-3 plan best-value">
+												<div class="header">
+													<h3>Pro</h3>
+													<div class="price"><span>$24.99</span>/m.</div>
+												</div>
+												<ul>
+													<li>Unlimited Users</li>
+													<li>Unlimited Disk Space</li>
+													<li>Unlimited Email Acounts</li>
+													<li>Unlimited Subdomains</li>
+													<li>
+														<a href="#" class="pt-popover" data-toggle="popover" data-placement="right" data-content="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." title="" data-original-title="Enchaned Security">Enchaned Security</a>
+													</li>
+													<li>Unlimited Bandwidth</li>
+													<li>Unlimited Databases</li>
+													<li><a class="btn btn-default"><i class="fa fa-shopping-cart pr-10"></i>Add to cart</a></li>
+												</ul>
+											</div>
+											<div class="col-sm-3 plan">
+												<div class="header">
+													<h3>Ultimate</h3>
+													<div class="price"><span>$45.99</span>/m.</div>
+												</div>
+												<ul>
+													<li>Unlimited Users</li>
+													<li>Unlimited Disk Space</li>
+													<li>Unlimited Email Acounts</li>
+													<li>Unlimited Subdomains</li>
+													<li>
+														<a href="#" class="pt-popover" data-toggle="popover" data-placement="right" data-content="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." title="" data-original-title="Enchaned Security">Enchaned Security</a>
+													</li>
+													<li>Unlimited Bandwidth</li>
+													<li>Unlimited Databases</li>
+													<li><a class="btn btn-default"><i class="fa fa-shopping-cart pr-10"></i>Add to cart</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+			   </div>
+		   </t>
+		</template>
+	</data>
+</openerp>

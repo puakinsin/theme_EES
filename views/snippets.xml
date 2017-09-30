@@ -1,0 +1,1529 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+    <data>
+        <template id="s_1_column_text" inherit_id="theme_louma.tab_snippet_structure_louma" name="1 Column">
+            <xpath expr="//div[@id='snippet_structure_louma']/div[@class='o_panel_body']" position="inside">
+                <div>
+                    <div class="louma oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/theme_louma/static/src/images/theme/blocks/one_column.png"/>
+                        <span class="oe_snippet_thumbnail_title">1 Column</span>
+                    </div>
+
+                    <section class="oe_snippet_body louma">
+                        <div class="container">
+                            <div class="row">
+                                <div class="main col-md-12">
+                                    <h2 class="page-title">Custom Pages</h2>
+                                    <div class="separator-2"></div>
+                                    <p>Our #1 priority is you, the user. We believe in our product and hold ourselves to
+                                        the highest standards. We truly care about your site as much as you do, which is
+                                        why we offer amazing support at our dedicated support center. In addition, we
+                                        offer free updates with new features requested by our users. You can count on
+                                        us.<br/>This theme gives you limitless potential to build amazing pages. Easily
+                                        create unique page layouts using the tools we provide. In addition, we have you
+                                        covered with dozens of beautiful pre-designed pages you can quickly choose from.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+
+
+        <template id="s_2_column_text" inherit_id="theme_louma.tab_snippet_structure_louma" name="2 Columns">
+            <xpath expr="//div[@id='snippet_structure_louma']/div[@class='o_panel_body']" position="inside">
+                <div>
+                    <div class="louma oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/theme_louma/static/src/images/theme/blocks/tow_column.png"/>
+                        <span class="oe_snippet_thumbnail_title">2 Columns</span>
+                    </div>
+
+                    <section class="oe_snippet_body louma">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h2 class="page-title">Custom Pages</h2>
+                                    <div class="separator-2"></div>
+                                    <p>Our #1 priority is you, the user. We believe in our product and hold ourselves to
+                                        the highest standards. We truly care about your site as much as you do, which is
+                                        why we offer amazing support at our dedicated support center. In addition, we
+                                        offer free updates with new features requested by our users. You can count on
+                                        us.<br/>This theme gives you limitless potential to build amazing pages. Easily
+                                        create unique page layouts using the tools we provide. In addition, we have you
+                                        covered with dozens of beautiful pre-designed pages you can quickly choose from.
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <h2 class="page-title">Custom Pages</h2>
+                                    <div class="separator-2"></div>
+                                    <p>Our #1 priority is you, the user. We believe in our product and hold ourselves to
+                                        the highest standards. We truly care about your site as much as you do, which is
+                                        why we offer amazing support at our dedicated support center. In addition, we
+                                        offer free updates with new features requested by our users. You can count on
+                                        us.<br/>This theme gives you limitless potential to build amazing pages. Easily
+                                        create unique page layouts using the tools we provide. In addition, we have you
+                                        covered with dozens of beautiful pre-designed pages you can quickly choose from.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="s_3_column_text" inherit_id="theme_louma.tab_snippet_structure_louma" name="3 Columns">
+            <xpath expr="//div[@id='snippet_structure_louma']/div[@class='o_panel_body']" position="inside">
+                <div>
+                    <div class="louma oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/theme_louma/static/src/images/theme/blocks/three_column.png"/>
+                        <span class="oe_snippet_thumbnail_title">3 Columns</span>
+                    </div>
+
+                    <section class="oe_snippet_body louma">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <h2>Custom Pages</h2>
+                                    <div class="separator-2"></div>
+                                    <p>Our #1 priority is you, the user. We believe in our product and hold ourselves to
+                                        the highest standards. We truly care about your site as much as you do, which is
+                                        why we offer amazing support at our dedicated support center. In addition, we
+                                        offer free updates with new features requested by our users. You can count on
+                                        us.<br/>This theme gives you limitless potential to build amazing pages. Easily
+                                        create unique page layouts using the tools we provide. In addition, we have you
+                                        covered with dozens of beautiful pre-designed pages you can quickly choose from.
+                                    </p>
+                                </div>
+                                <div class="col-md-4">
+                                    <h2>Custom Pages</h2>
+                                    <div class="separator-2"></div>
+                                    <p>Our #1 priority is you, the user. We believe in our product and hold ourselves to
+                                        the highest standards. We truly care about your site as much as you do, which is
+                                        why we offer amazing support at our dedicated support center. In addition, we
+                                        offer free updates with new features requested by our users. You can count on
+                                        us.<br/>This theme gives you limitless potential to build amazing pages. Easily
+                                        create unique page layouts using the tools we provide. In addition, we have you
+                                        covered with dozens of beautiful pre-designed pages you can quickly choose from.
+                                    </p>
+                                </div>
+                                <div class="col-md-4">
+                                    <h2>Custom Pages</h2>
+                                    <div class="separator-2"></div>
+                                    <p>Our #1 priority is you, the user. We believe in our product and hold ourselves to
+                                        the highest standards. We truly care about your site as much as you do, which is
+                                        why we offer amazing support at our dedicated support center. In addition, we
+                                        offer free updates with new features requested by our users. You can count on
+                                        us.<br/>This theme gives you limitless potential to build amazing pages. Easily
+                                        create unique page layouts using the tools we provide. In addition, we have you
+                                        covered with dozens of beautiful pre-designed pages you can quickly choose from.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="s_4_column_text" inherit_id="theme_louma.tab_snippet_structure_louma" name="4 Columns">
+            <xpath expr="//div[@id='snippet_structure_louma']/div[@class='o_panel_body']" position="inside">
+                <div>
+                    <div class="louma oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/theme_louma/static/src/images/theme/blocks/four_column.png"/>
+                        <span class="oe_snippet_thumbnail_title">4 Columns</span>
+                    </div>
+
+                    <section class="oe_snippet_body louma">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h2 class="page-title">Custom Pages</h2>
+                                    <div class="separator-2"></div>
+                                    <p>Our #1 priority is you, the user. We believe in our product and hold ourselves to
+                                        the highest standards. We truly care about your site as much as you do, which is
+                                        why we offer amazing support at our dedicated support center. In addition, we
+                                        offer free updates with new features requested by our users. You can count on
+                                        us.<br/>This theme gives you limitless potential to build amazing pages. Easily
+                                        create unique page layouts using the tools we provide. In addition, we have you
+                                        covered with dozens of beautiful pre-designed pages you can quickly choose from.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <h2 class="page-title">Custom Pages</h2>
+                                    <div class="separator-2"></div>
+                                    <p>Our #1 priority is you, the user. We believe in our product and hold ourselves to
+                                        the highest standards. We truly care about your site as much as you do, which is
+                                        why we offer amazing support at our dedicated support center. In addition, we
+                                        offer free updates with new features requested by our users. You can count on
+                                        us.<br/>This theme gives you limitless potential to build amazing pages. Easily
+                                        create unique page layouts using the tools we provide. In addition, we have you
+                                        covered with dozens of beautiful pre-designed pages you can quickly choose from.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <h2 class="page-title">Custom Pages</h2>
+                                    <div class="separator-2"></div>
+                                    <p>Our #1 priority is you, the user. We believe in our product and hold ourselves to
+                                        the highest standards. We truly care about your site as much as you do, which is
+                                        why we offer amazing support at our dedicated support center. In addition, we
+                                        offer free updates with new features requested by our users. You can count on
+                                        us.<br/>This theme gives you limitless potential to build amazing pages. Easily
+                                        create unique page layouts using the tools we provide. In addition, we have you
+                                        covered with dozens of beautiful pre-designed pages you can quickly choose from.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <h2 class="page-title">Custom Pages</h2>
+                                    <div class="separator-2"></div>
+                                    <p>Our #1 priority is you, the user. We believe in our product and hold ourselves to
+                                        the highest standards. We truly care about your site as much as you do, which is
+                                        why we offer amazing support at our dedicated support center. In addition, we
+                                        offer free updates with new features requested by our users. You can count on
+                                        us.<br/>This theme gives you limitless potential to build amazing pages. Easily
+                                        create unique page layouts using the tools we provide. In addition, we have you
+                                        covered with dozens of beautiful pre-designed pages you can quickly choose from.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="s_big_icon" inherit_id="theme_louma.tab_snippet_structure_louma" name="Big Icon">
+            <xpath expr="//div[@id='snippet_structure_louma']/div[@class='o_panel_body']" position="inside">
+                <div>
+                    <div class="louma oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/theme_louma/static/src/images/theme/blocks/big_icon.png"/>
+                        <span class="oe_snippet_thumbnail_title">Big Icon</span>
+                    </div>
+
+                    <section class="oe_snippet_body louma">
+                        <div class="stats row">
+                            <div class="big-icon-col-louma col-md-3 col-sm-6 box-style-1">
+                                <div>
+                                    <h2 class="title">Projects</h2>
+                                    <i class="fa fa-briefcase fa-5x"></i>
+                                    <span class="stat-num counting" data-to="1525" data-speed="3000">1525</span>
+                                </div>
+                            </div>
+                            <div class="big-icon-col-louma col-md-3 col-sm-6 box-style-1">
+                                <div>
+                                    <h2 class="title">Clients</h2>
+                                    <i class="fa fa-users fa-5x"></i>
+                                    <span class="stat-num counting" data-to="1125" data-speed="3000">1125</span>
+                                </div>
+                            </div>
+                            <div class="big-icon-col-louma col-md-3 col-sm-6 box-style-1">
+                                <div>
+                                    <h2 class="title">Downloads</h2>
+                                    <i class="fa fa-cloud-download fa-5x"></i>
+                                    <span class="stat-num counting" data-to="1836" data-speed="3000">1836</span>
+                                </div>
+                            </div>
+                            <div class="big-icon-col-louma col-md-3 col-sm-6 box-style-1">
+                                <div>
+                                    <h2 class="title">Likes</h2>
+                                    <i class="fa fa-thumbs-o-up fa-5x"></i>
+                                    <span class="stat-num counting" data-to="2687" data-speed="3000">2687</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="s_big_image" inherit_id="theme_louma.tab_snippet_structure_louma" name="Big Image">
+            <xpath expr="//div[@id='snippet_structure_louma']/div[@class='o_panel_body']" position="inside">
+                <div>
+                    <div class="louma oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/theme_louma/static/src/images/theme/blocks/big_image.png"/>
+                        <span class="oe_snippet_thumbnail_title">Big Image</span>
+                    </div>
+
+                    <section class="oe_snippet_body louma">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h1 class="text-center">Why Choose Louma</h1>
+                                    <div class="separator"></div>
+                                    <p class="lead text-center">Lorem ipsum dolor sit amet. Maiores, odio ut deleniti
+                                        doloremque ad at praesentium
+                                        <br></br>
+                                        laudantium molestias similique. Quisquam incidunt ut laboriosam.
+                                    </p>
+                                    <center>
+                                        <img src="/theme_louma/static/src/images/divers/section-image-1.png"/>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="s_big_picture_text" inherit_id="theme_louma.tab_snippet_structure_louma" name="Big picture text">
+            <xpath expr="//div[@id='snippet_structure_louma']/div[@class='o_panel_body']" position="inside">
+                <div>
+                    <div class="louma oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/theme_louma/static/src/images/theme/blocks/big_picture_texte.png"/>
+                        <span class="oe_snippet_thumbnail_title">Big picture text</span>
+                    </div>
+
+                    <section class="oe_snippet_body louma">
+                        <div class="full-width-section">
+                            <div class="full-image-container">
+                                <img class="center-block"
+                                     src="/theme_louma/static/src/images/divers/section-image-8.jpg" alt=""/>
+                            </div>
+                            <div class="full-text-container">
+                                <h1>Wellcome to the Future</h1>
+                                <div class="separator-2"></div>
+                                <p class="lead">Lorem ipsum dolor sit amet. Maiores, odio ut deleniti doloremque ad at
+                                    praesentium laudantium.
+                                </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi veniam, veritatis
+                                    sint consequuntur! Natus, culpa, explicabo! Non quo laboriosam nobis quia, amet
+                                    excepturi optio dolor impedit. Perferendis libero unde, nulla deserunt sequi.
+                                    Voluptatum, officia suscipit porro reprehenderit vitae quo rem reiciendis, a vero
+                                    quae. Vero beatae voluptatum.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="s_text_big_picture" inherit_id="theme_louma.tab_snippet_structure_louma" name="Text big picture">
+            <xpath expr="//div[@id='snippet_structure_louma']/div[@class='o_panel_body']" position="inside">
+                <div>
+                    <div class="louma oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/theme_louma/static/src/images/theme/blocks/texte_big_picture.png"/>
+                        <span class="oe_snippet_thumbnail_title">Text big picture</span>
+                    </div>
+
+                    <section class="oe_snippet_body louma">
+                        <div class="full-width-section">
+                            <div class="full-text-container">
+                                <h1>Wellcome to the Future</h1>
+                                <div class="separator-2"></div>
+                                <p class="lead">Lorem ipsum dolor sit amet. Maiores, odio ut deleniti doloremque ad at
+                                    praesentium laudantium.
+                                </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi veniam, veritatis
+                                    sint consequuntur! Natus, culpa, explicabo! Non quo laboriosam nobis quia, amet
+                                    excepturi optio dolor impedit. Perferendis libero unde, nulla deserunt sequi.
+                                    Voluptatum, officia suscipit porro reprehenderit vitae quo rem reiciendis, a vero
+                                    quae. Vero beatae voluptatum.
+                                </p>
+                            </div>
+                            <div class="full-image-container">
+                                <img class="center-block"
+                                     src="/theme_louma/static/src/images/divers/section-image-8.jpg" alt=""/>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="s_button_text" inherit_id="theme_louma.tab_snippet_structure_louma" name="Button and text">
+            <xpath expr="//div[@id='snippet_structure_louma']/div[@class='o_panel_body']" position="inside">
+                <div>
+                    <div class="louma oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/theme_louma/static/src/images/theme/blocks/button.png"/>
+                        <span class="oe_snippet_thumbnail_title">Button and text</span>
+                    </div>
+
+                    <section class="oe_snippet_body louma">
+                        <div class="container">
+                            <div class="oe_share">
+                                <a href="/page/website.contactus" class="btn btn-success btn-lg mt8">
+                                    <i class="fa fa-arrow-right"></i>
+                                    Contact Us Now
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="s_accordions" inherit_id="theme_louma.tab_snippet_structure_louma" name="Accordions">
+            <xpath expr="//div[@id='snippet_structure_louma']/div[@class='o_panel_body']" position="inside">
+                <div>
+                    <div class="louma oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/theme_louma/static/src/images/theme/blocks/accordion.png"/>
+                        <span class="oe_snippet_thumbnail_title">Accordions</span>
+                    </div>
+
+                    <section class="oe_snippet_body louma">
+                        <div class="container">
+                            <div class="row">
+                                <div class="panel-group panel-transparent" id="accordion-3">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion-3"
+                                                   href="#collapseOne-3" aria-expanded="false" class="collapsed">
+                                                    Bootstrap Based
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseOne-3" class="panel-collapse collapse" aria-expanded="false"
+                                             style="height: 0px;">
+                                            <div class="panel-body">
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                                                terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+                                                skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                                                single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                                                helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                                                proident.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion-3"
+                                                   href="#collapseTwo-3" class="collapsed" aria-expanded="false">
+                                                    Clean &amp; powerful code
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseTwo-3" class="panel-collapse collapse" aria-expanded="false">
+                                            <div class="panel-body">
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                                                terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+                                                skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                                                single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                                                helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                                                proident.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion-3"
+                                                   href="#collapseThree-3" class="collapsed" aria-expanded="false">
+                                                    HTML5/CSS3
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseThree-3" class="panel-collapse collapse" aria-expanded="false">
+                                            <div class="panel-body">
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                                                terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+                                                skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                                                single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                                                helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                                                proident.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="s_discount" inherit_id="theme_louma.tab_snippet_structure_louma" name="Pricing Table">
+            <xpath expr="//div[@id='snippet_structure_louma']/div[@class='o_panel_body']" position="inside">
+                <div>
+                    <div class="louma oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/theme_louma/static/src/images/theme/blocks/pricing_tables.png"/>
+                        <span class="oe_snippet_thumbnail_title">Pricing Table</span>
+                    </div>
+
+                    <section class="oe_snippet_body louma">
+                        <div class="container">
+                            <div class="row">
+                                <div class="pricing-tables gray object-non-visible animated object-visible fadeInUpSmall"
+                                     data-animation-effect="fadeInUpSmall">
+                                    <div class="row grid-space-0">
+                                        <!-- pricing table start -->
+                                        <div class="col-sm-3 plan">
+                                            <div class="header">
+                                                <h3>Basic</h3>
+                                                <div class="price">
+                                                    <span>Free</span>
+                                                </div>
+                                            </div>
+                                            <ul>
+                                                <li>1 User</li>
+                                                <li>
+                                                    <a href="#" class="pt-popover" data-toggle="popover"
+                                                       data-placement="right"
+                                                       data-content="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                                       title="" data-original-title="15GB Storage" data-trigger="hover">
+                                                        1GB Storage
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="pt-popover" data-toggle="popover"
+                                                       data-placement="right"
+                                                       data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                                       title="" data-original-title="15 Email Acounts">1 Email Acounts
+                                                    </a>
+                                                </li>
+                                                <li>Subdomains</li>
+                                                <li>Security</li>
+                                                <li>Bandwidth</li>
+                                                <li>Databases</li>
+                                                <li>
+                                                    <a class="btn btn-gray">Subscribe</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- pricing table end -->
+
+                                        <!-- pricing table start -->
+                                        <div class="col-sm-3 plan">
+                                            <div class="header">
+                                                <h3>Premium</h3>
+                                                <div class="price"><span>$19.99</span>/m.
+                                                </div>
+                                            </div>
+                                            <ul>
+                                                <li>80 Users</li>
+                                                <li>Unlimited Disk Space</li>
+                                                <li>
+                                                    <a href="#" class="pt-popover" data-toggle="popover"
+                                                       data-placement="right"
+                                                       data-content="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                                       title="" data-original-title="Unlimited Subdomains">Unlimited
+                                                        Email Acounts
+                                                    </a>
+                                                </li>
+                                                <li>Subdomains</li>
+                                                <li>Security</li>
+                                                <li>500 Visitors per month</li>
+                                                <li>1 Database</li>
+                                                <li>
+                                                    <a class="btn btn-gray"><i class="fa fa-shopping-cart pr-10"></i>Add
+                                                        to cart
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- pricing table end -->
+
+                                        <!-- pricing table start -->
+                                        <div class="col-sm-3 plan best-value">
+                                            <div class="header">
+                                                <h3>Pro</h3>
+                                                <div class="price"><span>$24.99</span>/m.
+                                                </div>
+                                            </div>
+                                            <ul>
+                                                <li>Unlimited Users</li>
+                                                <li>Unlimited Disk Space</li>
+                                                <li>Unlimited Email Acounts</li>
+                                                <li>Unlimited Subdomains</li>
+                                                <li>
+                                                    <a href="#" class="pt-popover" data-toggle="popover"
+                                                       data-placement="right"
+                                                       data-content="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                                       title="" data-original-title="Enchaned Security">Enchaned
+                                                        Security
+                                                    </a>
+                                                </li>
+                                                <li>Unlimited Bandwidth</li>
+                                                <li>Unlimited Databases</li>
+                                                <li>
+                                                    <a class="btn btn-gray"><i class="fa fa-shopping-cart pr-10"></i>Add
+                                                        to cart
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- pricing table end -->
+
+                                        <!-- pricing table start -->
+                                        <div class="col-sm-3 plan">
+                                            <div class="header">
+                                                <h3>Ultimate</h3>
+                                                <div class="price"><span>$45.99</span>/m.
+                                                </div>
+                                            </div>
+                                            <ul>
+                                                <li>Unlimited Users</li>
+                                                <li>Unlimited Disk Space</li>
+                                                <li>Unlimited Email Acounts</li>
+                                                <li>Unlimited Subdomains</li>
+                                                <li>
+                                                    <a href="#" class="pt-popover" data-toggle="popover"
+                                                       data-placement="right"
+                                                       data-content="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                                       title="" data-original-title="Enchaned Security">Enchaned
+                                                        Security
+                                                    </a>
+                                                </li>
+                                                <li>Unlimited Bandwidth</li>
+                                                <li>Unlimited Databases</li>
+                                                <li>
+                                                    <a class="btn btn-gray"><i class="fa fa-shopping-cart pr-10"></i>Add
+                                                        to cart
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- pricing table end -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="s_features" inherit_id="theme_louma.tab_snippet_structure_louma" name="Features">
+            <xpath expr="//div[@id='snippet_structure_louma']/div[@class='o_panel_body']" position="inside">
+                <div>
+                    <div class="louma oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/theme_louma/static/src/images/theme/blocks/features.png"/>
+                        <span class="oe_snippet_thumbnail_title">Features</span>
+                    </div>
+
+                    <section class="oe_snippet_body louma">
+                        <div class="container">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="features-col-louma col-md-4 box-style-1 object-non-visible animated object-visible fadeInUpSmall"
+                                         data-animation-effect="fadeInUpSmall" data-effect-delay="0">
+                                        <i class="fa fa-leaf"></i>
+                                        <h2>Clean Design and Code</h2>
+                                        <p>Voluptatem ad provident non
+                                            <a href="#">repudiandae</a>
+                                            veritatis beatae cupiditate amet reiciendis.
+                                        </p>
+                                        <a href="page-services.html" class="btn-default btn">Read More</a>
+                                    </div>
+
+                                    <div class="features-col-louma col-md-4 box-style-1 object-non-visible animated object-visible fadeInUpSmall"
+                                         data-animation-effect="fadeInUpSmall" data-effect-delay="200">
+                                        <i class="fa fa-laptop"></i>
+                                        <h2>Very Flexible</h2>
+                                        <p>Iure sequi unde hic. Sapiente quaerat labore sequi inventore veritatis
+                                            cumque.
+                                        </p>
+                                        <a href="page-services.html" class="btn-default btn">Read More</a>
+                                    </div>
+                                    <div class="features-col-louma col-md-4 box-style-1 object-non-visible animated object-visible fadeInUpSmall"
+                                         data-animation-effect="fadeInUpSmall" data-effect-delay="400">
+                                        <i class="fa fa-sitemap"></i>
+                                        <h2>Latest Technologies</h2>
+                                        <p>Inventore dolores aut laboriosam cum consequuntur delectus sequi! Eum est.
+                                        </p>
+                                        <a href="page-services.html" class="btn-default btn">Read More</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="s_icon_box" inherit_id="theme_louma.tab_snippet_structure_louma" name="Icon Box">
+            <xpath expr="//div[@id='snippet_structure_louma']/div[@class='o_panel_body']" position="inside">
+                <div>
+                    <div class="louma oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/theme_louma/static/src/images/theme/blocks/icon_box.png"/>
+                        <span class="oe_snippet_thumbnail_title">Icon Box</span>
+                    </div>
+
+                    <section class="oe_snippet_body louma">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="row grid-space-10">
+                                        <div class="col-md-4">
+                                            <div class="box-style-2 object-non-visible animated object-visible fadeInUpSmall"
+                                                 data-animation-effect="fadeInUpSmall" data-effect-delay="0">
+                                                <div class="icon-container white-bg">
+                                                    <i class="fa fa-leaf"></i>
+                                                </div>
+                                                <div class="body">
+                                                    <h2>Clean Design and Code</h2>
+                                                    <p>Voluptatem ad provident non veritatis beatae cupiditate amet
+                                                        reiciendis.
+                                                    </p>
+                                                    <a href="page-services.html" class="link">
+                                                        <span>Read More</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="box-style-2 object-non-visible animated object-visible fadeInUpSmall"
+                                                 data-animation-effect="fadeInUpSmall" data-effect-delay="200">
+                                                <div class="icon-container white-bg">
+                                                    <i class="fa fa-laptop"></i>
+                                                </div>
+                                                <div class="body">
+                                                    <h2>Very Flexible</h2>
+                                                    <p>Iure sequi unde hic. Sapiente quaerat labore inventore veritatis
+                                                        cumque.
+                                                    </p>
+                                                    <a href="page-services.html" class="link">
+                                                        <span>Read More</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="box-style-2 object-non-visible animated object-visible fadeInUpSmall"
+                                                 data-animation-effect="fadeInUpSmall" data-effect-delay="400">
+                                                <div class="icon-container white-bg">
+                                                    <i class="fa fa-sitemap"></i>
+                                                </div>
+                                                <div class="body">
+                                                    <h2>Latest Technologies</h2>
+                                                    <p>Inventore dolores aut laboriosam cum consequuntur delectus sequi!
+                                                        Eum est.
+                                                    </p>
+                                                    <a href="page-services.html" class="link">
+                                                        <span>Read More</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row grid-space-10">
+                                        <div class="col-md-4">
+                                            <div class="box-style-2 object-non-visible animated object-visible fadeInUpSmall"
+                                                 data-animation-effect="fadeInUpSmall" data-effect-delay="600">
+                                                <div class="icon-container white-bg">
+                                                    <i class="fa fa-bold"></i>
+                                                </div>
+                                                <div class="body">
+                                                    <h2>Bootstrap Based</h2>
+                                                    <p>Voluptatem ad provident non veritatis beatae cupiditate amet
+                                                        reiciendis.
+                                                    </p>
+                                                    <a href="page-services.html" class="link">
+                                                        <span>Read More</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="box-style-2 object-non-visible animated object-visible fadeInUpSmall"
+                                                 data-animation-effect="fadeInUpSmall" data-effect-delay="800">
+                                                <div class="icon-container white-bg">
+                                                    <i class="fa fa-check"></i>
+                                                </div>
+                                                <div class="body">
+                                                    <h2>Unlimited Options</h2>
+                                                    <p>Iure sequi unde hic. Sapiente quaerat labore inventore veritatis
+                                                        cumque.
+                                                    </p>
+                                                    <a href="page-services.html" class="link">
+                                                        <span>Read More</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="box-style-2 object-non-visible animated object-visible fadeInUpSmall"
+                                                 data-animation-effect="fadeInUpSmall" data-effect-delay="1000">
+                                                <div class="icon-container white-bg">
+                                                    <i class="fa fa-bicycle"></i>
+                                                </div>
+                                                <div class="body">
+                                                    <h2>Easy to Use</h2>
+                                                    <p>Inventore dolores aut laboriosam cum consequuntur delectus sequi!
+                                                        Eum est.
+                                                    </p>
+                                                    <a href="page-services.html" class="link">
+                                                        <span>Read More</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="s_title" inherit_id="theme_louma.tab_snippet_structure_louma" name="Title">
+            <xpath expr="//div[@id='snippet_structure_louma']/div[@class='o_panel_body']" position="inside">
+                <div>
+                    <div class="louma oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/theme_louma/static/src/images/theme/blocks/title.png"/>
+                        <span class="oe_snippet_thumbnail_title">Title</span>
+                    </div>
+
+                    <section class="oe_snippet_body louma">
+                        <div class="container">
+                            <div class="oe_share">
+                                <h1 class="text-center">Category</h1>
+                                <div class="separator"></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="" inherit_id="theme_louma.tab_snippet_structure_louma" name="Lead Bar">
+            <xpath expr="//div[@id='snippet_structure_louma']/div[@class='o_panel_body']" position="inside">
+                <div>
+                    <div class="louma oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/theme_louma/static/src/images/theme/blocks/lead_bar.png"/>
+                        <span class="oe_snippet_thumbnail_title">Lead Bar</span>
+                    </div>
+
+                    <section class="oe_snippet_body louma">
+                        <div class="container">
+                            <div class="call-to-action">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <h1 class="title text-center">Responsive Odoo Theme</h1>
+                                        <p class="text-center">CLEAN was made with easy customization in mind.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="text-center">
+                                            <a href="#" class="btn btn-white btn-lg">Theme Features</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="s_page_header_1" inherit_id="theme_louma.tab_snippet_structure_louma" name="Page header 1">
+            <xpath expr="//div[@id='snippet_structure_louma']/div[@class='o_panel_body']" position="inside">
+                <div>
+                    <div class="louma oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/theme_louma/static/src/images/theme/blocks/page_header_1.png"/>
+                        <span class="oe_snippet_thumbnail_title">Page header 1</span>
+                    </div>
+
+                    <section class="oe_snippet_body louma">
+                        <div class="page-intro" style="margin-top: 0px;">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <ol class="breadcrumb">
+                                            <li>
+                                                <i class="fa fa-home pr-10"></i>
+                                                <a href="#">Home</a>
+                                            </li>
+                                            <li class="active">Contact us</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="s_page_header_2" inherit_id="theme_louma.tab_snippet_structure_louma" name="Page header 2">
+            <xpath expr="//div[@id='snippet_structure_louma']/div[@class='o_panel_body']" position="inside">
+                <div>
+                    <div class="louma oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/theme_louma/static/src/images/theme/blocks/page_header_2.png"/>
+                        <span class="oe_snippet_thumbnail_title">Page header 2</span>
+                    </div>
+
+                    <section class="oe_snippet_body louma">
+                        <div class="banner">
+                            <div class="fixed-image section dark-translucent-bg"
+                                 style="background-image:url('/theme_louma/static/src/images/divers/section-image-9.jpg');">
+                                <div class="container">
+                                    <div class="space-top"></div>
+                                    <h1>Welcome to Louma</h1>
+                                    <div class="separator-2"></div>
+                                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae sit
+                                        excepturi,
+                                        <br class="hidden-xs hidden-sm"></br>
+                                        hic officiis illo dolore sunt assumenda saepe id commodi sint praesentium
+                                        <br class="hidden-xs hidden-sm"></br>
+                                        natus laborum quas cumque facilis, suscipit aliquam dolorum.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="page-intro">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <ol class="breadcrumb">
+                                                <li>
+                                                    <i class="fa fa-home pr-10"></i>
+                                                    <a href="index.html">Home</a>
+                                                </li>
+                                                <li class="active">About Us</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="s_process_step" inherit_id="theme_louma.tab_snippet_structure_louma" name="Process Steps">
+            <xpath expr="//div[@id='snippet_structure_louma']/div[@class='o_panel_body']" position="inside">
+                <div>
+                    <div class="louma oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/theme_louma/static/src/images/theme/blocks/process_steps.png"/>
+                        <span class="oe_snippet_thumbnail_title">Process Steps</span>
+                    </div>
+
+                    <section class="oe_snippet_body louma">
+                        <div class="container">
+                            <div class="row">
+                                <div class="process">
+                                    <!-- Nav tabs -->
+                                    <ul class="nav nav-pills white space-top" role="tablist">
+                                        <li class="">
+                                            <a href="#pill-pr-1" role="tab" data-toggle="tab" title="Step 1"
+                                               aria-expanded="false">
+                                                <i class="fa fa-dot-circle-o pr-5"></i>
+                                                Step 1
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#pill-pr-2" role="tab" data-toggle="tab" title="Step 2"
+                                               aria-expanded="false">
+                                                <i class="fa fa-dot-circle-o pr-5"></i>
+                                                Step 2
+                                            </a>
+                                        </li>
+                                        <li class="active">
+                                            <a href="#pill-pr-3" role="tab" data-toggle="tab" title="Step 3"
+                                               aria-expanded="true">
+                                                <i class="fa fa-dot-circle-o pr-5"></i>
+                                                Step 3
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <!-- Tab panes -->
+                                    <div class="tab-content clear-style">
+                                        <div class="tab-pane" id="pill-pr-1">
+                                            <h3>Step 1</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, labore
+                                                iste! Pariatur tempore, dicta voluptatibus quis blanditiis voluptates
+                                                in. Molestiae asperiores sed, pariatur nesciunt saepe. Culpa ipsam ut
+                                                enim reiciendis!
+                                            </p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis eaque
+                                                nihil obcaecati minus perferendis officiis cumque nesciunt quae dolorem
+                                                ad tenetur voluptate blanditiis labore libero id veritatis similique
+                                                facere, fugiat soluta omnis minima? Iusto optio hic a reiciendis,
+                                                inventore numquam impedit quaerat deserunt, voluptatum illum in magni,
+                                                aspernatur corporis mollitia nam? Ipsum, cumque facilis recusandae
+                                                commodi dolorum sequi quis possimus, aut, ab incidunt dolorem
+                                                perferendis rerum tenetur. Labore exercitationem magni perspiciatis
+                                                laborum, aliquam officia molestias obcaecati, voluptatum quidem eum iure
+                                                aut, officiis dicta cupiditate ab, sit aliquid. Corporis ducimus ab
+                                                commodi officia? Inventore suscipit saepe dolorem vitae aperiam autem,
+                                                iusto id, enim assumenda modi a voluptate aliquam molestiae quidem
+                                                sapiente, obcaecati recusandae. Magni repellat dignissimos sint iste
+                                                dolorem maxime accusantium quas repellendus quam ipsa, sapiente, beatae
+                                                enim ab ex. Optio eveniet necessitatibus, tempora dolor eaque saepe,
+                                                ipsam vero at officiis cumque, maxime consequuntur in ea, voluptate quae
+                                                nesciunt hic delectus.
+                                            </p>
+                                        </div>
+                                        <div class="tab-pane" id="pill-pr-2">
+                                            <h3>Step 2</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, labore
+                                                iste! Pariatur tempore, dicta voluptatibus quis blanditiis voluptates
+                                                in. Molestiae asperiores sed, pariatur nesciunt saepe. Culpa ipsam ut
+                                                enim reiciendis!
+                                            </p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, labore
+                                                iste! Pariatur tempore, dicta voluptatibus quis blanditiis voluptates
+                                                in. Molestiae asperiores sed, pariatur nesciunt saepe. Culpa ipsam ut
+                                                enim reiciendis!
+                                            </p>
+                                        </div>
+                                        <div class="tab-pane active" id="pill-pr-3">
+                                            <h3>Step 3</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, labore
+                                                iste! Pariatur tempore, dicta voluptatibus quis blanditiis voluptates
+                                                in. Molestiae asperiores sed, pariatur nesciunt saepe. Culpa ipsam ut
+                                                enim reiciendis!
+                                            </p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, labore
+                                                iste! Pariatur tempore, dicta voluptatibus quis blanditiis voluptates
+                                                in. Molestiae asperiores sed, pariatur nesciunt saepe. Culpa ipsam ut
+                                                enim reiciendis!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="s_separator_block" inherit_id="theme_louma.tab_snippet_structure_louma" name="Separator">
+            <xpath expr="//div[@id='snippet_structure_louma']/div[@class='o_panel_body']" position="inside">
+                <div>
+                    <div class="louma oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/theme_louma/static/src/images/theme/blocks/separator.png"/>
+                        <span class="oe_snippet_thumbnail_title">Separator</span>
+                    </div>
+
+                    <section class="oe_snippet_body louma">
+                        <div class="separator"></div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="s_team_profiles" inherit_id="theme_louma.tab_snippet_structure_louma" name="Team Profiles 1">
+            <xpath expr="//div[@id='snippet_structure_louma']/div[@class='o_panel_body']" position="inside">
+                <div>
+                    <div class="louma oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/theme_louma/static/src/images/theme/blocks/team_profiles_1.png"/>
+                        <span class="oe_snippet_thumbnail_title">Team Profiles 1</span>
+                    </div>
+
+                    <section class="oe_snippet_body louma">
+                        <div class="container">
+                            <h2>Our Team</h2>
+                            <div class="separator-2"></div>
+                            <p class="lead">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus.</p>
+                            <div class="row grid-space-20">
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="box-style-1 gray-bg team-member">
+                                        <div class="overlay-container">
+                                            <img src="/theme_louma/static/src/images/divers/team-member-1.jpg" alt=""/>
+                                            <div class="overlay">
+                                                <ul class="social-links light clearfix">
+                                                    <li class="twitter">
+                                                        <a target="_blank" href="http://www.twitter.com">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="skype">
+                                                        <a target="_blank" href="http://www.skype.com">
+                                                            <i class="fa fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="facebook">
+                                                        <a target="_blank" href="http://www.facebook.com">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <h3>Jane Doe</h3>
+                                        CEO
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="box-style-1 gray-bg team-member">
+                                        <div class="overlay-container">
+                                            <img src="/theme_louma/static/src/images/divers/team-member-2.jpg" alt=""/>
+                                            <div class="overlay">
+                                                <ul class="social-links light clearfix">
+                                                    <li class="twitter">
+                                                        <a target="_blank" href="http://www.twitter.com">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="skype">
+                                                        <a target="_blank" href="http://www.skype.com">
+                                                            <i class="fa fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="facebook">
+                                                        <a target="_blank" href="http://www.facebook.com">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <h3>John Doe</h3>
+                                        CTO
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="box-style-1 gray-bg team-member">
+                                        <div class="overlay-container">
+                                            <img src="/theme_louma/static/src/images/divers/team-member-3.jpg" alt=""/>
+                                            <div class="overlay">
+                                                <ul class="social-links light clearfix">
+                                                    <li class="twitter">
+                                                        <a target="_blank" href="http://www.twitter.com">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="skype">
+                                                        <a target="_blank" href="http://www.skype.com">
+                                                            <i class="fa fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="facebook">
+                                                        <a target="_blank" href="http://www.facebook.com">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <h3>Anne Smith</h3>
+                                        Project Manager
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="box-style-1 gray-bg team-member">
+                                        <div class="overlay-container">
+                                            <img src="/theme_louma/static/src/images/divers/team-member-4.jpg" alt=""/>
+                                            <div class="overlay">
+                                                <ul class="social-links light clearfix">
+                                                    <li class="twitter">
+                                                        <a target="_blank" href="http://www.twitter.com">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="skype">
+                                                        <a target="_blank" href="http://www.skype.com">
+                                                            <i class="fa fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="facebook">
+                                                        <a target="_blank" href="http://www.facebook.com">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <h3>Margaret Manson</h3>
+                                        Developer
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="s_team_profiles_2" inherit_id="theme_louma.tab_snippet_structure_louma" name="Team Profiles 2">
+            <xpath expr="//div[@id='snippet_structure_louma']/div[@class='o_panel_body']" position="inside">
+                <div>
+                    <div class="louma oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/theme_louma/static/src/images/theme/blocks/team_profiles_2.png"/>
+                        <span class="oe_snippet_thumbnail_title">Team Profiles 2</span>
+                    </div>
+
+                    <section class="oe_snippet_body louma">
+                        <div class="container">
+                            <h2>Our Team</h2>
+                            <div class="separator-2"></div>
+                            <p class="lead">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus.</p>
+                            <div class="row grid-space-20">
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="image-box team-member option-3">
+                                        <div class="overlay-container">
+                                            <img src="/theme_louma/static/src/images/divers/team-member-1.jpg" alt=""/>
+                                            <div class="overlay">
+                                                <ul class="social-links colored clearfix">
+                                                    <li class="twitter">
+                                                        <a target="_blank" href="http://www.twitter.com">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="skype">
+                                                        <a target="_blank" href="http://www.skype.com">
+                                                            <i class="fa fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="facebook">
+                                                        <a target="_blank" href="http://www.facebook.com">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="image-box-body">
+                                            <h3 class="title">Jane Doe</h3>
+                                            <small>CEO</small>
+                                            <div class="separator-2"></div>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus,
+                                                optio voluptate sapiente hic.
+                                            </p>
+                                            <ul class="list-unstyled">
+                                                <li><i class="fa fa-phone pr-10"></i>+12 123 456 7912
+                                                </li>
+                                                <li><i class="fa fa-mobile pr-10 pl-5"></i>+12 123 456 7912
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-envelope pr-10"></i>
+                                                    <a href="">example@louma.com</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="image-box team-member option-3">
+                                        <div class="overlay-container">
+                                            <img src="/theme_louma/static/src/images/divers/team-member-2.jpg" alt=""/>
+                                            <div class="overlay">
+                                                <ul class="social-links colored clearfix">
+                                                    <li class="twitter">
+                                                        <a target="_blank" href="http://www.twitter.com">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="skype">
+                                                        <a target="_blank" href="http://www.skype.com">
+                                                            <i class="fa fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="facebook">
+                                                        <a target="_blank" href="http://www.facebook.com">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="image-box-body">
+                                            <h3 class="title">John Doe</h3>
+                                            <small>CTO</small>
+                                            <div class="separator-2"></div>
+                                            <p>Dolorum deserunt inventore iste expedita vel odio doloremque corporis
+                                                officia atque enetur quam quae.
+                                            </p>
+                                            <ul class="list-unstyled">
+                                                <li><i class="fa fa-phone pr-10"></i>+12 123 456 7912
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-mobile pr-10 pl-5"></i>
+                                                    +12 123 456 7912
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-envelope pr-10"></i>
+                                                    <a href="mailto:example@Louma.com">example@louma.com</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="image-box team-member option-3">
+                                        <div class="overlay-container">
+                                            <img src="/theme_louma/static/src/images/divers/team-member-3.jpg" alt=""/>
+                                            <div class="overlay">
+                                                <ul class="social-links colored clearfix">
+                                                    <li class="twitter">
+                                                        <a target="_blank" href="http://www.twitter.com">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="skype">
+                                                        <a target="_blank" href="http://www.skype.com">
+                                                            <i class="fa fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="facebook">
+                                                        <a target="_blank" href="http://www.facebook.com">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="image-box-body">
+                                            <h3 class="title">Anne Smith</h3>
+                                            <small>project Manager</small>
+                                            <div class="separator-2"></div>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus,
+                                                optio voluptate sapiente hic.
+                                            </p>
+                                            <ul class="list-unstyled">
+                                                <li><i class="fa fa-phone pr-10"></i>+12 123 456 7912
+                                                </li>
+                                                <li><i class="fa fa-mobile pr-10 pl-5"></i>+12 123 456 7912
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-envelope pr-10"></i>
+                                                    <a href="mailto:example@louma.com">example@louma.com</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="image-box team-member option-3">
+                                        <div class="overlay-container">
+                                            <img src="/theme_louma/static/src/images/divers/team-member-4.jpg" alt=""/>
+                                            <div class="overlay">
+                                                <ul class="social-links colored clearfix">
+                                                    <li class="twitter">
+                                                        <a target="_blank" href="http://www.twitter.com">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="skype">
+                                                        <a target="_blank" href="http://www.skype.com">
+                                                            <i class="fa fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="facebook">
+                                                        <a target="_blank" href="http://www.facebook.com">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="image-box-body">
+                                            <h3 class="title">Margaret Manson</h3>
+                                            <small>Developer</small>
+                                            <div class="separator-2"></div>
+                                            <p>Dolorum deserunt inventore iste expedita vel odio doloremque corporis
+                                                officia atque enetur quam quae.
+                                            </p>
+                                            <ul class="list-unstyled">
+                                                <li><i class="fa fa-phone pr-10"></i>+12 123 456 7912
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-mobile pr-10 pl-5"></i>
+                                                    +12 123 456 7912
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-envelope pr-10"></i>
+                                                    <a href="mailto:example@louma.com">example@louma.com</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="s_testimonials" inherit_id="theme_louma.tab_snippet_structure_louma" name="Testimonials">
+            <xpath expr="//div[@id='snippet_structure_louma']/div[@class='o_panel_body']" position="inside">
+                <div>
+                    <div class="louma oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/theme_louma/static/src/images/theme/blocks/testimonials.png"/>
+                        <span class="oe_snippet_thumbnail_title">Testimonials</span>
+                    </div>
+
+                    <section class="oe_snippet_body louma">
+                        <div class="testimonial-col-louma col-md-8 text-muted clearfix pr-20 pl-20">
+                            <div class="testimonial clearfix">
+                                <div class="testimonial-image">
+                                    <img src="/theme_louma/static/src/images/divers/testimonial-3.jpg" alt="Jane Doe"
+                                         title="Jane Doe" class="img-circle"/>
+                                </div>
+                                <div class="testimonial-body">
+                                    <h2 class="title">Thanks!</h2>
+                                    <p>Laboriosam eius, delectus reiciendis fugit totam, doloremque ut ipsa vel id
+                                        tempora quaerat facere, quo fugiat perferendis incidunt iusto ea doloribus!
+                                        Quaerat, minus.
+                                    </p>
+                                    <div class="testimonial-info-1">- Jane Doe</div>
+                                    <div class="testimonial-info-2">By Company</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+        <template id="s_sidebar_menu" inherit_id="theme_louma.tab_snippet_structure_louma" name="Sidebar menu">
+            <xpath expr="//div[@id='snippet_structure_louma']/div[@class='o_panel_body']" position="inside">
+                <div>
+                    <div class="louma oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/theme_louma/static/src/images/theme/blocks/sidebar_menu.png"/>
+                        <span class="oe_snippet_thumbnail_title">Sidebar menu</span>
+                    </div>
+
+                    <section class="oe_snippet_body louma">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="sidebar">
+                                        <div class="block clearfix">
+                                            <h3 class="title">Sidebar menu</h3>
+                                            <div class="separator"></div>
+                                            <nav>
+                                                <ul class="nav nav-pills nav-stacked">
+                                                    <li>
+                                                        <a href="#">Home</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Blog</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Portfolio</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">About</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Contact</a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+
+        <template id="s_banner" inherit_id="theme_louma.tab_snippet_structure_louma" name="Banner">
+            <xpath expr="//div[@id='snippet_structure_louma']/div[@class='o_panel_body']" position="inside">
+                <div>
+                    <div class="louma oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/website/static/src/img/blocks/block_banner.png"/>
+                        <span class="oe_snippet_thumbnail_title">Banner</span>
+                    </div>
+
+                    <section id="s_banner_3" class="carousel s_banner_3 slide louma_bootstrap" data-interval="10000">
+                        <ol type="01" class="carousel-indicators bullet">
+                            <li data-target="#s_banner_3" data-slide-to="0" class="active"></li>
+                            <li data-target="#s_banner_3" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active slide-bg1">
+                                <div class="container">
+                                    <div>
+                                        <div class="col-md-6 col-sm-6 col-xs-12 mt64 mb64-xs">
+                                            <div class="tp-caption default_bg mb32 large sfr tp-resizeme animated fadeInDown">
+                                                Multi-Purpose Odoo Template
+                                            </div>
+                                            <ul class="list-unstyled slider_ul">
+                                                <li class="tp-caption light_gray_bg sfb mt8 medium tp-resizeme animated fadeInLeft">
+                                                    <i class="default_bg medium icon-check"></i>
+                                                    Responsive Design
+                                                </li>
+                                                <br/>
+
+                                                <li class="tp-caption light_gray_bg sfb mt8 medium tp-resizeme animated fadeInLeft">
+                                                    <i class="default_bg medium icon-check"></i>
+                                                    Bootstrap Based
+                                                </li>
+                                                <br/>
+
+                                                <li class="tp-caption light_gray_bg sfb mt8 medium tp-resizeme animated fadeInLeft">
+                                                    <i class="default_bg medium icon-check"></i>
+                                                    Full of Blocks
+                                                </li>
+                                                <br/>
+
+                                                <li class="tp-caption light_gray_bg sfb mt8 medium tp-resizeme animated fadeInLeft">
+                                                    <i class="default_bg medium icon-check"></i>
+                                                    Easy to Customize
+                                                </li>
+                                                <br/>
+                                            </ul>
+
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 mt64 hidden-xs">
+                                            <img src="/theme_louma/static/src/images/slider/girl_3.png" alt="#"
+                                                 class="img img-responsive animated fadeInRight"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item slide-bg2">
+                                <div class="container">
+                                    <div>
+                                        <div class="col-md-6 col-sm-6 col-xs-12 mt64 mb64-xs">
+                                            <div class="tp-caption default_bg mb32 large sfr tp-resizeme animated fadeInDown">
+                                                Clean &amp; Beautiful Design
+                                            </div>
+                                            <ul class="list-unstyled slider_ul">
+                                                <li class="tp-caption light_gray_bg sfb mt8 medium tp-resizeme animated fadeInLeft">
+                                                    <i class="default_bg medium icon-check"></i>
+                                                    Free Support
+                                                </li>
+                                                <br/>
+
+                                                <li class="tp-caption light_gray_bg sfb mt8 medium tp-resizeme animated fadeInLeft">
+                                                    <i class="default_bg medium icon-check"></i>
+                                                    Easy &amp; Simple Code
+                                                </li>
+                                                <br/>
+
+                                                <li class="tp-caption light_gray_bg sfb mt8 medium tp-resizeme animated fadeInLeft">
+                                                    <i class="default_bg medium icon-check"></i>
+                                                    Crossbrowser Compatible
+                                                </li>
+                                                <br/>
+
+                                                <li class="tp-caption light_gray_bg sfb mt8 medium tp-resizeme animated fadeInLeft">
+                                                    <i class="default_bg medium icon-check"></i>
+                                                    Latest Technologies Used
+                                                </li>
+                                                <br/>
+
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 mt64 mb32 hidden-xs">
+                                            <img src="/theme_louma/static/src/images/slider/slider-1-slide-2.png"
+                                                 alt="#"
+                                                 class="img img-responsive mb16 animated fadeInRight"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-control left" data-target="#s_banner_3" data-slide="prev">
+                            <i class="fa fa-chevron-left"/>
+                        </div>
+                        <div class="carousel-control right" data-target="#s_banner_3" data-slide="next">
+                            <i class="fa fa-chevron-right"/>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</openerp>

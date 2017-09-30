@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+
+<template id="customize_modal" inherit_id="website.theme_customize" name="Customize Modal" priority="1">
+  <xpath expr="div" position="replace">
+    <div id="theme_customize_modal" class="modal fade">
+      <div class="modal-dialog">
+          <div class="modal-content">
+
+              <div class="loading_backdrop"></div>
+              <div class="modal-header text-center">
+                  <button type="button" class="close">×</button>
+                  <h4 class="modal-title">Customize theme</h4>
+              </div>
+              <div class="modal-body">
+
+                  <center><h5 >CHANGE THE LAYOUT</h5></center>
+                  <table name="color" style="background-color:white">
+                      <tr>
+                          <td>
+                              <label style="text-align: inherit;" >
+                                  <img src="/theme_louma/static/src/images/theme/boxed_background/wide.png" style="width: auto; height: auto;" alt="Wide" />
+                                  <input name="boxed_wide" type="radio" data-xmlid="theme_louma.option_layout_wide"/>
+                              </label>
+                          </td>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/boxed_background/boxed.png" style="width: auto; height: auto;" alt="Boxed" />
+                                  <input name="boxed_wide" type="radio" data-xmlid="theme_louma.option_layout_boxed"/>
+                              </label>
+                          </td>
+                      </tr>
+                  </table>
+
+
+                  <center><h5 >CHOOSE THE MAIN COLOR</h5></center>
+                  <table name="color" style="background-color:white">
+                      <tr>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/color_schemes/blue.png" style="width: 30px;height: 30px" alt="Orange" />
+                                  <input name="colorvar" type="radio" data-xmlid="theme_louma.option_color_blue"/>
+                              </label>
+                          </td>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/color_schemes/brown.png" style="width: 30px;height: 30px" alt="Red" />
+                                  <input name="colorvar" type="radio" data-xmlid="theme_louma.option_color_brown"/>
+                              </label>
+                          </td>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/color_schemes/dark-cyan.png" style="width: 30px;height: 30px" alt="Pink" />
+                                  <input name="colorvar" type="radio" data-xmlid="theme_louma.option_color_dark_cyan"/>
+                              </label>
+                          </td>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/color_schemes/dark-gray.png" style="width: 30px;height: 30px" alt="Yellow" />
+                                  <input name="colorvar" type="radio" data-xmlid="theme_louma.option_color_dark_gray"/>
+                              </label>
+                          </td>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/color_schemes/dark-red.png" style="width: 30px;height: 30px" alt="Dark Green" />
+                                  <input name="colorvar" type="radio" data-xmlid="theme_louma.option_color_dark_red"/>
+                              </label>
+                          </td>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/color_schemes/green.png" style="width: 30px;height: 30px" alt="Green" />
+                                  <input name="colorvar" type="radio" data-xmlid="theme_louma.option_color_green"/>
+                              </label>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/color_schemes/light-blue.png" style="width: 30px;height: 30px" alt="Dark Blue" />
+                                  <input name="colorvar" type="radio" data-xmlid="theme_louma.option_color_light_blue"/>
+                              </label>
+                          </td>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/color_schemes/light-green.png" style="width: 30px;height: 30px" alt="Blue" />
+                                  <input name="colorvar" type="radio" data-xmlid="theme_louma.option_color_light_green"/>
+                              </label>
+                          </td>
+
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/color_schemes/pink.png" style="width: 30px;height: 30px" alt="Light Grey" />
+                                  <input name="colorvar" type="radio" data-xmlid="theme_louma.option_color_pink"/>
+                              </label>
+                          </td>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/color_schemes/purple.png" style="width: 30px;height: 30px" alt="Brown" />
+                                  <input name="colorvar" type="radio" data-xmlid="theme_louma.option_color_purple"/>
+                              </label>
+                          </td>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/color_schemes/red.png" style="width: 30px;height: 30px" alt="Light Grey" />
+                                  <input name="colorvar" type="radio" data-xmlid="theme_louma.option_color_red"/>
+                              </label>
+                          </td>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/color_schemes/none.jpg" style="width: 30px;height: 30px" alt="Green" />
+                                  <input name="pattern" type="radio" data-xmlid="theme_louma.option_color_yellow"/>
+                              </label>
+                          </td>
+                      </tr>
+                  </table>
+                  <center><h5 >PATTERNS FOR BOXED VERSION</h5></center>
+                  <center>
+                  <table name="pattern" style="background-color:white">
+                      <tr>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/patterns/none.jpg" style="width: 30px;height: 30px" alt="Green" />
+                                  <input name="pattern" type="radio" data-xmlid="theme_louma.option_pattern_none"/>
+                              </label>
+                          </td>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/patterns/1.png" style="width: 30px;height: 30px" alt="Dark Blue" />
+                                  <input name="pattern" type="radio" data-xmlid="theme_louma.option_pattern_pattern1"/>
+                              </label>
+                          </td>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/patterns/2.png" style="width: 30px;height: 30px" alt="Blue" />
+                                  <input name="pattern" type="radio" data-xmlid="theme_louma.option_pattern_pattern2"/>
+                              </label>
+                          </td>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/patterns/3.png" style="width: 30px;height: 30px" alt="Brown" />
+                                  <input name="pattern" type="radio" data-xmlid="theme_louma.option_pattern_pattern3"/>
+                              </label>
+                          </td>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/patterns/4.png" style="width: 30px;height: 30px" alt="Light Grey" />
+                                  <input name="pattern" type="radio" data-xmlid="theme_louma.option_pattern_pattern4"/>
+                              </label>
+                          </td>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/patterns/5.png" style="width: 30px;height: 30px" alt="Green" />
+                                  <input name="pattern" type="radio" data-xmlid="theme_louma.option_pattern_pattern5"/>
+                              </label>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/patterns/6.png" style="width: 30px;height: 30px" alt="Dark Blue" />
+                                  <input name="pattern" type="radio" data-xmlid="theme_louma.option_pattern_pattern6"/>
+                              </label>
+                          </td>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/patterns/7.png" style="width: 30px;height: 30px" alt="Blue" />
+                                  <input name="pattern" type="radio" data-xmlid="theme_louma.option_pattern_pattern7"/>
+                              </label>
+                          </td>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/patterns/8.png" style="width: 30px;height: 30px" alt="Brown" />
+                                  <input name="pattern" type="radio" data-xmlid="theme_louma.option_pattern_pattern8"/>
+                              </label>
+                          </td>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/patterns/9.png" style="width: 30px;height: 30px" alt="Light Grey" />
+                                  <input name="pattern" type="radio" data-xmlid="theme_louma.option_pattern_pattern9"/>
+                              </label>
+                          </td>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/patterns/10.png" style="width: 30px;height: 30px" alt="Green" />
+                                  <input name="pattern" type="radio" data-xmlid="theme_louma.option_pattern_pattern10"/>
+                              </label>
+                          </td>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/patterns/11.png" style="width: 30px;height: 30px" alt="Green" />
+                                  <input name="pattern" type="radio" data-xmlid="theme_louma.option_pattern_pattern11"/>
+                              </label>
+                          </td>
+                      </tr>
+
+                  </table>
+                  </center>
+                  <center><h5 >IMAGES FOR BOXED VERSION</h5></center>
+                  <center>
+                  <table name="image_bg" style="background-color:white">
+                      <tr>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/boxed_background/none.jpg" style="width: 30px;height: 30px" alt="Green" />
+                                  <input name="pattern" type="radio" data-xmlid="theme_louma.option_image_none"/>
+                              </label>
+                          </td>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/boxed_background/thumb1.jpg" style="width: 30px;height: 30px" alt="Dark Blue" />
+                                  <input name="pattern" type="radio" data-xmlid="theme_louma.option_image_image1"/>
+                              </label>
+                          </td>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/boxed_background/thumb2.jpg" style="width: 30px;height: 30px" alt="Blue" />
+                                  <input name="pattern" type="radio" data-xmlid="theme_louma.option_image_image2"/>
+                              </label>
+                          </td>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/boxed_background/thumb3.jpg" style="width: 30px;height: 30px" alt="Brown" />
+                                  <input name="pattern" type="radio" data-xmlid="theme_louma.option_image_image3"/>
+                              </label>
+                          </td>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/boxed_background/thumb4.jpg" style="width: 30px;height: 30px" alt="Light Grey" />
+                                  <input name="pattern" type="radio" data-xmlid="theme_louma.option_image_image4"/>
+                              </label>
+                          </td>
+                          <td>
+                              <label >
+                                  <img src="/theme_louma/static/src/images/theme/boxed_background/thumb5.jpg" style="width: 30px;height: 30px" alt="Light Grey" />
+                                  <input name="pattern" type="radio" data-xmlid="theme_louma.option_image_image5"/>
+                              </label>
+                          </td>
+                      </tr>
+                  </table>
+                  </center>
+              </div>
+          </div>
+      </div>
+  </div>
+  </xpath>
+</template>
+<!-- Option layout -->
+<template id="option_layout_boxed" name="option_layout_boxed" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+    <link href="/theme_louma/static/src/css/boxed.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+ <template id="option_layout_wide" name="option_layout_wide" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+    <link href="/theme_louma/static/src/css/wide.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+<!-- Option color -->
+<template id="option_color_blue" name="option_color_blue" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+    <link href="/theme_louma/static/src/css/color_scheme/blue.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+
+<template id="option_color_brown" name="option_color_brown" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+    <link href="/theme_louma/static/src/css/color_scheme/brown.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+
+<template id="option_color_dark_cyan" name="option_color_dark_cyan" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+    <link href="/theme_louma/static/src/css/color_scheme/dark_cyan.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+
+<template id="option_color_dark_gray" name="option_color_dark_gray" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+    <link href="/theme_louma/static/src/css/color_scheme/dark_gray.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+
+<template id="option_color_dark_red" name="option_color_dark_red" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+    <link href="/theme_louma/static/src/css/color_scheme/dark_red.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+
+<template id="option_color_green" name="option_color_green" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+    <link href="/theme_louma/static/src/css/color_scheme/green.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+
+<template id="option_color_light_blue" name="option_color_light_blue" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+    <link href="/theme_louma/static/src/css/color_scheme/light_blue.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+
+<template id="option_color_light_green" name="option_color_light_green" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+    <link href="/theme_louma/static/src/css/color_scheme/light_green.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+
+<template id="option_color_orange" name="option_color_orange" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+    <link href="/theme_louma/static/src/css/color_scheme/orange.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+
+<template id="option_color_pink" name="option_color_pink" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+    <link href="/theme_louma/static/src/css/color_scheme/pink.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+
+<template id="option_color_purple" name="option_color_purple" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+    <link href="/theme_louma/static/src/css/color_scheme/purple.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+
+<template id="option_color_orange" name="option_color_orange" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+    <link href="/theme_louma/static/src/css/color_scheme/orange.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+
+<template id="option_color_red" name="option_color_red" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+    <link href="/theme_louma/static/src/css/color_scheme/red.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+
+<template id="option_color_yellow" name="option_color_yellow" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+    <link href="/theme_louma/static/src/css/color_scheme/yellow.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+
+<!-- Option image -->
+<template id="option_image_none" name="option_pattern_none" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+        <link href="/theme_louma/static/src/css/images/none.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+<template id="option_image_image1" name="option_image_image1" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+        <link href="/theme_louma/static/src/css/images/image1.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+<template id="option_image_image2" name="option_image_image2" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+        <link href="/theme_louma/static/src/css/images/image2.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+<template id="option_image_image3" name="option_image_image3" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+        <link href="/theme_louma/static/src/css/images/image3.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+<template id="option_image_image4" name="option_image_image4" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+        <link href="/theme_louma/static/src/css/images/image4.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+
+<template id="option_image_image5" name="option_image_image5" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+        <link href="/theme_louma/static/src/css/images/image5.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+
+<!-- Option pattern -->
+<template id="option_pattern_none" name="option_pattern_none" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+        <link href="/theme_louma/static/src/css/patterns/none.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+<template id="option_pattern_pattern1" name="option_pattern_pattern1" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+        <link href="/theme_louma/static/src/css/patterns/pattern1.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+<template id="option_pattern_pattern2" name="option_pattern_pattern2" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+        <link href="/theme_louma/static/src/css/patterns/pattern2.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+<template id="option_pattern_pattern3" name="option_pattern_pattern3" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+        <link href="/theme_louma/static/src/css/patterns/pattern3.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+<template id="option_pattern_pattern4" name="option_pattern_pattern4" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+        <link href="/theme_louma/static/src/css/patterns/pattern4.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+<template id="option_pattern_pattern5" name="option_pattern_pattern5" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+        <link href="/theme_louma/static/src/css/patterns/pattern5.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+<template id="option_pattern_pattern6" name="option_pattern_pattern6" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+        <link href="/theme_louma/static/src/css/patterns/pattern6.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+<template id="option_pattern_pattern7" name="option_pattern_pattern7" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+        <link href="/theme_louma/static/src/css/patterns/pattern7.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+<template id="option_pattern_pattern8" name="option_pattern_pattern8" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+        <link href="/theme_louma/static/src/css/patterns/pattern8.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+<template id="option_pattern_pattern9" name="option_pattern_pattern9" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+        <link href="/theme_louma/static/src/css/patterns/pattern9.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+<template id="option_pattern_pattern10" name="option_pattern_pattern10" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+        <link href="/theme_louma/static/src/css/patterns/pattern10.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+<template id="option_pattern_pattern11" name="option_pattern_pattern11" inherit_id="theme_louma.assets_theme" active="False" customize_show="False">
+  <xpath expr="." position="inside">
+        <link href="/theme_louma/static/src/css/patterns/pattern11.css" rel="stylesheet" type="text/css" />
+  </xpath>
+</template>
+</data>
+</openerp>

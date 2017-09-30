@@ -1,0 +1,129 @@
+.font60
+{font-size: 60px;}
+
+.empty-cart
+{
+    font-size: 500%;
+    line-height: 70px;
+    color: #ddd;
+}
+
+.product-item
+{
+    left: 0!important;
+    background: #ffffff;
+    position: inherit!important;
+
+}
+
+.css_attribute_color input {
+    margin: 8px !important;
+}
+
+.parallax-bg-shop
+{background: url("../images/shop/header2.jpg") 50% 0px no-repeat;}
+
+.parallax-bg-brand
+{background: url("../images/shop/brand_cover.jpg") 50% 0px no-repeat;}
+.js_quantity.form-control
+{
+    padding: 6px 12px!important;
+}
+
+/* ****************************************** checkbox*/
+
+input[type=checkbox].css-checkbox {
+    position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+}
+
+input[type=checkbox].css-checkbox + label.css-label {
+    padding-left:35px;
+    height:30px;
+    display:inline-block;
+    line-height:30px;
+    background-repeat:no-repeat;
+    background-position: 0 0;
+    font-size:18px;
+    vertical-align:middle;
+    cursor:pointer;
+
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {
+    background-position: 0 -30px;
+}
+
+label.css-label {
+    background-image:url('../images/img/csscheckbox.png');
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.overlay1
+{
+    top: 415px!important;
+    bottom: -5px!important;
+    left: 415px!important;
+    right: -10px!important;
+    opacity: 1!important;
+}
+#owl-related-products .owl-controls .owl-pagination, #owl-new-products .owl-controls .owl-pagination
+{
+    bottom: -15px!important;
+
+}
+
+#order_total
+{border:0!important;}
+
+/******** Product Service ***************************/
+
+.product-service .product-service-heading {
+	padding: 10px 0;
+	text-align: center;
+	background: #d3b61c;
+}
+
+.product-service:hover .product-service-heading {
+	background: #b59a17;
+	-webkit-transition: all 0.3s ease-in-out;
+   	-moz-transition: all 0.3s ease-in-out;
+   	-o-transition: all 0.3s ease-in-out;
+   	transition: all 0.3s ease-in-out;
+}
+
+.product-service .product-service-in a {
+	color: #d3b61c;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.product-service .product-service-heading i {
+	color: #fff;
+	font-size: 40px;
+}
+
+.product-service .product-service-in {
+	padding: 15px 30px;
+	text-align: center;
+	border-left: 1px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.product-service .product-service-in h3 {
+	color: #555;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+ .zoom-product
+     {
+         max-height: 400px!important;
+     }

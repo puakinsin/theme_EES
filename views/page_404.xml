@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+	<data>
+		<template id="custom_404" inherit_id="website.404" name="Page 404">
+		   <xpath expr="//div[@id='wrap']" position="replace">
+			   <div id="page-wrapper">
+					<div class="page-intro">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12">
+									<ol class="breadcrumb">
+										<li><i class="fa fa-home pr-10"></i><a href="/">Home</a></li>
+										<li class="active">Error 404</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<section class="main-container">
+						<div class="container" style="padding-top: 40px;">
+							<div class="row">
+								<div class="main col-md-6 col-md-offset-3">
+									<h1 class="title">Ooops! Page Not Found - 404</h1>
+									<br></br>
+									<p>The requested URL was not found on this server. Make sure that the Web site address displayed in the address
+										bar of your browser is spelled and formatted correctly or <a href="#">return to Home page.</a></p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+			   </div>
+		   </xpath>
+		</template>
+	</data>
+</openerp>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+	<data>
+		<template name="Page Invoice" id="website.invoice" page="True">
+		   <t t-call="website.layout">
+			   <div class="page-wrapper oe_structure">
+				   <div class="page-intro">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12">
+									<ol class="breadcrumb">
+										<li><i class="fa fa-home pr-10"></i><a href="/">Home</a></li>
+										<li class="active">Invoice</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+				   </div>
+
+				   <section class="main-container">
+						<div class="container">
+							<div class="row">
+								<div class="main col-md-12">
+									<h1 class="page-title">Invoice</h1>
+									<div id="invoice-container" class="invoice-container">
+										<hr></hr>
+										<div class="row">
+											<div class="col-sm-6">
+                          						<span itemprop="image" t-field="res_company.logo" t-field-options='{"widget": "image","class":"logo_img"}'/>
+												<p class="invoice-slogan">Your Slogan Here</p>
+												<address class="small">
+													<strong>Louma, Inc.</strong><br></br>
+													795 Folsom Ave, Suite 600<br></br>
+													San Francisco, CA 94107<br></br>
+													<abbr title="Phone">P:</abbr> (123) 456-7890<br></br>
+													E-mail: <a href="mailto:louma@info.com">Louma@info.com</a>
+												</address>
+											</div>
+											<div class="col-sm-offset-3 col-sm-3">
+												<p class="text-right small"><strong>Invoice #001</strong> <br></br> December 30, 2014</p>
+												<h5 class="text-right">Client</h5>
+												<p class="text-right small">
+													<strong>Name:</strong> <span>John Doe</span> <br></br>
+													<strong>Company:</strong> John Doe <br></br>
+													<strong>Address:</strong> 795 Folsom Ave, Suite 600 <br></br>
+													<strong>Tel:</strong> +12 123 123 1234 <br></br>
+													<strong>Vat:</strong> 1231231231
+												</p>
+											</div>
+										</div>
+										<p class="small"><strong>Comments/PO:</strong> Lorem ipsum dolor sit amet, consectetur.</p>
+										<table class="table cart table-bordered ">
+											<thead>
+												<tr>
+													<th>Description </th>
+													<th>Price </th>
+													<th>Quantity</th>
+													<th class="amount">Total </th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td class="product"><a href="#">Android 4.4 Smartphone</a> <small>4.7" Dual Core 1GB</small></td>
+													<td class="price">$99.50 </td>
+													<td class="quantity">2 </td>
+													<td class="amount">$199.00 </td>
+												</tr>
+												<tr>
+													<td class="product"><a href="#">Android 4.2 Tablet</a> <small>7.3" Quad Core 2GB</small></td>
+													<td class="price"> $99.66 </td>
+													<td class="quantity">3 </td>
+													<td class="amount">$299.00 </td>
+												</tr>
+												<tr>
+													<td class="product"><a href="#">Desktop PC</a> <small>Quad Core 3.2MHz, 8GB RAM, 1TB Hard Disk</small></td>
+													<td class="price"> $499.66 </td>
+													<td class="quantity">3 </td>
+													<td class="amount">$1499.00 </td>
+												</tr>
+												<tr>
+													<td class="total-quantity" colspan="3">Subtotal</td>
+													<td class="amount">$1997.00</td>
+												</tr>
+												<tr>
+													<td class="total-quantity" colspan="1">Discount Coupon</td>
+													<td class="price">LoumaDiscount25672</td>
+													<td class="price">-20%</td>
+													<td class="amount">-$399.40</td>
+												</tr>
+												<tr>
+													<td class="total-quantity" colspan="2">Sales Tax</td>
+													<td class="price">+10%</td>
+													<td class="amount">$159.76</td>
+												</tr>
+												<tr>
+													<td class="total-quantity" colspan="3">Shipping</td>
+													<td class="amount">$12.00</td>
+												</tr>
+												<tr>
+													<td class="total-quantity" colspan="3">Total 8 Items</td>
+													<td class="total-amount">$1769.36</td>
+												</tr>
+											</tbody>
+										</table>
+										<p class="small">If you have any questions concerning this invoice, contact <strong>Louma Inc.</strong>, tel: <strong>+12 123 123 1234</strong>, email: <strong>Louma@info.com</strong> <br></br> Thank you for your business!</p>
+										<hr></hr>
+									</div>
+									<div class="text-right">
+										<button onclick="print_window();" class="btn btn-print btn-group btn-default btn-sm"><i class="fa fa-print pr-10 pl-5"></i> Print</button>
+									</div>
+								</div>
+							</div>
+						</div>
+				   </section>
+
+			   </div>
+		   </t>
+		</template>
+	</data>
+</openerp>
